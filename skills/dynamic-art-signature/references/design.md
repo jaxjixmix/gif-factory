@@ -2,7 +2,7 @@
 
 ## Inputs
 
-Resolve exact text, object and gradient. Interpret short prompts such as `Levi + 乌鸦 + 白黑渐变` as a visual design brief. If the user says “design it yourself”, choose a cohesive original set instead of asking for all inputs again.
+Resolve exact text, object and gradient. Interpret short prompts such as `Levi + crow + black-white gradient` as a visual design brief. If the user says “design it yourself”, choose a cohesive original set instead of asking for all inputs again.
 
 ## Composition
 
