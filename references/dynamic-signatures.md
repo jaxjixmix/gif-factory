@@ -1,10 +1,10 @@
-# 动态艺术签名
+# Dynamic Art Signature (动态艺术签名)
 
-输入名字、一种物体和渐变色，先把物体形态融入字形，再制作两笔独立书写。阅读[独立模块](../skills/dynamic-art-signature/SKILL.md)及其设计、渲染参考；不要套用贴纸的头像轻动效。
+Input a name, one object and a gradient color; first merge the object's form into the letterforms, then produce two independent writing strokes. Read [the standalone module](../skills/dynamic-art-signature/SKILL.md) and its design and rendering references; do not reuse the sticker avatar light-motion treatment.
 
-默认两笔分开、间隔约1秒；主笔快速，末端渐慢收锋；无底印、无轻震、无回弹。手写质感指提按、粗细与尖锋，不默认金属、粉笔或立体材质。
+By default the two strokes are separate, about 1 second apart; the main stroke is fast and slows at the end as the tip tapers; no base stamp, no shake, no rebound. Handwritten feel means pressure modulation, stroke weight and sharp tips — not metal, chalk or 3D material by default.
 
-[九款样例](../examples/dynamic-signatures/README.md) · [风格入口](../styles/dynamic-signatures/STYLE.md)
+[Nine samples](../examples/dynamic-signatures/README.md) · [Style entry](../styles/dynamic-signatures/STYLE.md)
 
 
-支持中英文名字。中文默认草书，可按要求切换行书；两字与三字都需保留完整名字及可见意象。三字沿用两段书写节奏，重新设计排布与末字收锋。详见[中文规则](../skills/dynamic-art-signature/references/chinese.md)。
+Supports Chinese and English names. Chinese defaults to cursive and can switch to semi-cursive on request; both two- and three-character names must keep the complete name and a visible image motif. Three-character names keep the two-stroke writing rhythm while the layout and the final character's tip are redesigned. See [the Chinese rules](../skills/dynamic-art-signature/references/chinese.md).

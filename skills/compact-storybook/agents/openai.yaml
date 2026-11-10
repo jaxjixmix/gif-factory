@@ -1,4 +1,4 @@
 interface:
-  display_name: "紧凑动态绘本"
-  short_description: "把故事插画做成低帧动态绘本，可用真实书本横屏或白框竖屏呈现"
-  default_prompt: "用 $compact-storybook 把这个故事做成紧凑的低帧动态绘本，先完成一页样片。"
+  display_name: "Compact Storybook (紧凑动态绘本)"
+  short_description: "Turn a story illustration into a low-frame compact storybook, delivered as a real landscape book or a white-border portrait page"
+  default_prompt: "Use $compact-storybook to make this story into a compact low-frame storybook; complete one sample page first."

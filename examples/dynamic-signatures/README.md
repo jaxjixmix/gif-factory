@@ -1,39 +1,41 @@
-# 动态艺术签名 · 中英文样例
+# Dynamic Art Signature (动态艺术签名) · English and Chinese samples
 
-[制作方法](../../skills/dynamic-art-signature/SKILL.md) · [风格入口](../../styles/dynamic-signatures/STYLE.md)
+[Production method](../../skills/dynamic-art-signature/SKILL.md) · [Style entry](../../styles/dynamic-signatures/STYLE.md)
 
-![九宫格](../../skills/dynamic-art-signature/assets/media/nine-grid.gif)
+![Nine-grid](../../skills/dynamic-art-signature/assets/media/nine-grid.gif)
 
-| 名字 | GIF | MP4 | 原图与参数 |
+| Name | GIF | MP4 | Original and parameters |
 | --- | --- | --- | --- |
-| Levi | [播放](../../skills/dynamic-art-signature/assets/media/Levi.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Levi.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Levi.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Levi.json) |
-| Aster | [播放](../../skills/dynamic-art-signature/assets/media/Aster.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Aster.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Aster.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Aster.json) |
-| Luna | [播放](../../skills/dynamic-art-signature/assets/media/Luna.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Luna.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Luna.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Luna.json) |
-| Iris | [播放](../../skills/dynamic-art-signature/assets/media/Iris.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Iris.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Iris.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Iris.json) |
-| Kai | [播放](../../skills/dynamic-art-signature/assets/media/Kai.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Kai.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Kai.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Kai.json) |
-| Rowan | [播放](../../skills/dynamic-art-signature/assets/media/Rowan.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Rowan.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Rowan.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Rowan.json) |
-| Sage | [播放](../../skills/dynamic-art-signature/assets/media/Sage.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Sage.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Sage.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Sage.json) |
-| Nova | [播放](../../skills/dynamic-art-signature/assets/media/Nova.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Nova.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Nova.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Nova.json) |
-| Elio | [播放](../../skills/dynamic-art-signature/assets/media/Elio.gif) | [视频](../../skills/dynamic-art-signature/assets/media/Elio.mp4) | [原图](../../skills/dynamic-art-signature/assets/examples/Elio.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Elio.json) |
+| Levi | [Play](../../skills/dynamic-art-signature/assets/media/Levi.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Levi.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Levi.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Levi.json) |
+| Aster | [Play](../../skills/dynamic-art-signature/assets/media/Aster.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Aster.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Aster.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Aster.json) |
+| Luna | [Play](../../skills/dynamic-art-signature/assets/media/Luna.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Luna.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Luna.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Luna.json) |
+| Iris | [Play](../../skills/dynamic-art-signature/assets/media/Iris.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Iris.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Iris.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Iris.json) |
+| Kai | [Play](../../skills/dynamic-art-signature/assets/media/Kai.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Kai.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Kai.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Kai.json) |
+| Rowan | [Play](../../skills/dynamic-art-signature/assets/media/Rowan.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Rowan.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Rowan.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Rowan.json) |
+| Sage | [Play](../../skills/dynamic-art-signature/assets/media/Sage.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Sage.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Sage.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Sage.json) |
+| Nova | [Play](../../skills/dynamic-art-signature/assets/media/Nova.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Nova.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Nova.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Nova.json) |
+| Elio | [Play](../../skills/dynamic-art-signature/assets/media/Elio.gif) | [Video](../../skills/dynamic-art-signature/assets/media/Elio.mp4) | [Original](../../skills/dynamic-art-signature/assets/examples/Elio.png) · [JSON](../../skills/dynamic-art-signature/assets/examples/Elio.json) |
 
-两笔分离、约一秒停顿、无底印、无轻震、无回弹，末端减速。Levi 与 Aster 是迭代基准；七款扩展已完成技术检查，未据此推断逐款用户认可。原图为原创生成设计，未包含第三方参考截图。参数使用相对路径，需在安装模块内运行随附脚本。
+Two strokes kept separate, a pause of about one second, no under-print, no jitter, no bounce-back, decelerating at the end. Levi and Aster are the iteration baselines; the seven extensions passed technical checks, and user acceptance is not inferred per design from that. The originals are original generated designs and contain no third-party reference screenshots. Parameters use relative paths; run the bundled scripts inside the installed module.
 
 
-## 中文草书
+<a id="中文草书"></a>
 
-![中文九宫格](../../skills/dynamic-art-signature/assets/media/chinese/nine-grid.gif)
+## Chinese cursive
 
-| 名字 | GIF | MP4 | 原图与参数 |
+![Chinese nine-grid](../../skills/dynamic-art-signature/assets/media/chinese/nine-grid.gif)
+
+| Name | GIF | MP4 | Original and parameters |
 | --- | --- | --- | --- |
-| 卧云 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Woyun.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Woyun.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Woyun.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Woyun.json) |
-| 栖月 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Qiyue.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Qiyue.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Qiyue.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Qiyue.json) |
-| 枕星 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Zhenxing.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Zhenxing.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Zhenxing.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Zhenxing.json) |
-| 听澜 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Tinglan.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Tinglan.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Tinglan.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Tinglan.json) |
-| 竹隐 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Zhuyin.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Zhuyin.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Zhuyin.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Zhuyin.json) |
-| 鹿鸣 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Luming.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Luming.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Luming.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Luming.json) |
-| 惊鸿 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Jinghong.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Jinghong.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Jinghong.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Jinghong.json) |
-| 流萤 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Liuying.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Liuying.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Liuying.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Liuying.json) |
-| 松风 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Songfeng.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Songfeng.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Songfeng.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Songfeng.json) |
-| 卧云间 | [播放](../../skills/dynamic-art-signature/assets/media/chinese/Woyunjian.gif) | [视频](../../skills/dynamic-art-signature/assets/media/chinese/Woyunjian.mp4) | [原图](../../skills/dynamic-art-signature/assets/chinese/Woyunjian.png) · [配置](../../skills/dynamic-art-signature/assets/chinese/Woyunjian.json) |
+| Woyun (卧云) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Woyun.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Woyun.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Woyun.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Woyun.json) |
+| Qiyue (栖月) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Qiyue.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Qiyue.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Qiyue.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Qiyue.json) |
+| Zhenxing (枕星) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Zhenxing.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Zhenxing.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Zhenxing.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Zhenxing.json) |
+| Tinglan (听澜) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Tinglan.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Tinglan.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Tinglan.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Tinglan.json) |
+| Zhuyin (竹隐) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Zhuyin.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Zhuyin.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Zhuyin.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Zhuyin.json) |
+| Luming (鹿鸣) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Luming.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Luming.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Luming.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Luming.json) |
+| Jinghong (惊鸿) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Jinghong.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Jinghong.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Jinghong.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Jinghong.json) |
+| Liuying (流萤) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Liuying.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Liuying.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Liuying.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Liuying.json) |
+| Songfeng (松风) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Songfeng.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Songfeng.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Songfeng.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Songfeng.json) |
+| Woyunjian (卧云间) | [Play](../../skills/dynamic-art-signature/assets/media/chinese/Woyunjian.gif) | [Video](../../skills/dynamic-art-signature/assets/media/chinese/Woyunjian.mp4) | [Original](../../skills/dynamic-art-signature/assets/chinese/Woyunjian.png) · [Config](../../skills/dynamic-art-signature/assets/chinese/Woyunjian.json) |
 
-用户选择中文草书方向，并接受三字「卧云间」；扩展九宫格用于展示设计范围，不据此推断每款逐项认可。[中文设计与渲染规则](../../skills/dynamic-art-signature/references/chinese.md)。
+The user chose the Chinese cursive direction and accepted the three-character Woyunjian (卧云间) design; the extended nine-grid shows the design range, and per-design acceptance is not inferred from it. [Chinese design and rendering rules](../../skills/dynamic-art-signature/references/chinese.md).

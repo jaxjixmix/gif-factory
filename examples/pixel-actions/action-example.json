@@ -2,7 +2,7 @@
   "entries": [
     {
       "name": "boy-thumbs-up",
-      "text": "点赞",
+      "text": "Thumbs up",
       "atlas": "boy-thumbs-up-atlas.png",
       "grid": [
         4,

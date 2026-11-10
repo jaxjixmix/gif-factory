@@ -1,48 +1,48 @@
-# 电子光栅卡：先看图片能不能配成一对
+# Lenticular Card (电子光栅卡): first check whether the images can be paired
 
-这是独立的输出分类：同一画面在 A、B 两个状态之间按细条切换，模拟实体光栅卡的变画感。可用照片、动漫、插画、像素画或产品图；画风与变画方式分别选择。GIF 是自动循环演示，不会读取观看角度，也不是实体裸眼 3D 或互动卡片。
+This is a separate output category: one image switches between two states, A and B, via fine strips, mimicking the transformation effect of a physical lenticular card. Photos, anime, illustration, pixel art or product shots are all usable; choose the art style and transformation method separately. The GIF is an auto-looping demo; it does not read viewing angle, and it is not a physical glasses-free 3D or interactive card.
 
-当前参考是 [九张半脸光栅卡](../examples/lenticular-cards/)，不是角色完整动作、相片墙或品牌短片。拍立得方向已暂停，不把它混入这个分类。
+The current reference is [nine half-face lenticular cards](../examples/lenticular-cards/), not full character actions, photo walls or brand films. The Polaroid direction is paused; do not mix it into this category.
 
-若用户要标题也变化、演出预告或人物与字形整体设计，转到 [动态海报](dynamic-posters.md)。下面的固定标题默认值属于收藏卡，不覆盖动态海报的文字联动要求。
+If the user wants the title to change too, a show teaser, or integrated figure-and-lettering design, route to [dynamic posters](dynamic-posters.md). The fixed-title default below belongs to collector cards; it does not override the Type-Linked (文字联动) requirement of dynamic posters.
 
-## 什么图适合做
+## What images suit this
 
-| 输入 | 怎么处理 |
+| Input | How to handle it |
 | --- | --- |
-| 两张同角度、同姿势、相近光线的图片 | 优先。真人／面罩、日常／变身、睁眼／眨眼、产品两种配色都可尝试 |
-| 一张已经对齐的左右拼脸图 | 可以分离两侧；需要时镜像，再检查眼睛、鼻尖、嘴和下巴。镜像不能修复不同的拍摄角度；说明最终只展示原图已有的半脸 |
-| 一张完整的人物图 | 可以先设计另一状态，再生成或找匹配图；单张图本身不包含另一状态，不能承诺直接变成另一个角色 |
-| 角色全身图／产品图 | 可先试双状态卡，保持轮廓、位置和光向；不要自动裁成半脸，半脸只是当前系列的选择 |
-| 风景、多人合照、动作差异很大的图片 | 只有明确的两状态设计且静态配对成立时才试；不要把它们默认送入人脸切换流程 |
+| Two images at the same angle and pose, with similar lighting | Preferred. Real face/face-mask, daily/transformed, open eyes/blinking, and two product colorways are all worth trying |
+| One pre-aligned left/right face-split image | Separate the two sides; mirror when needed, then check eyes, nose tip, mouth and chin. Mirroring cannot fix different camera angles; state that the final result only shows the half faces the source already has |
+| One complete figure image | Design the other state first, then generate or find a matching image; a single image does not contain the other state, so do not promise a direct transformation into another character |
+| Full-body character art/product images | Try a two-state card first, keeping silhouette, position and light direction; do not auto-crop to a half face — half-face is just the current series' choice |
+| Landscapes, group photos, images with very different actions | Try only with an explicit two-state design and a valid static pairing; do not default them into the face-switch pipeline |
 
-选择图片看配对条件，不按角色名判断能否制作。热门 IP 可能在生成时被服务拦截，也可能有一次成功、另一次失败。技术适配、生成是否成功、来源授权是三件事，不能把几次结果写成角色白名单或黑名单。
+Judge images by the pairing conditions, not by character name. Popular IP may be blocked by the generation service, and one attempt may succeed while another fails. Technical fit, generation success and source rights are three separate things; do not write a few results up as a character allowlist or blocklist.
 
-## 开始前检查
+## Checks before starting
 
-- **构图一致：** 同一侧脸、相近的俯仰与转头角度。正脸和明显侧脸，即使把眼睛移到一起，下巴、鼻梁和耳朵仍会跳位。
-- **锚点能对上：** 对照 A、B 两张静态稿的眼位／眼线、鼻尖、嘴、下巴、外轮廓和肩线。可以等比例缩放、平移和小幅旋转；不要分别拉宽脸、压扁头或扭曲五官。
-- **画幅够用：** 该系列默认 480×720。参考指定了尺寸就保持尺寸；要露下巴，原素材必须有下巴，或先重新生成／补画再审。把画幅改成 320×720、缩小脸后补大黑栏，都不算完成 480×720 的构图要求。
-- **清晰度够用：** 以最终尺寸看原始面部裁块。尽量让有效裁块不低于显示大小，细节多时留更高分辨率。低清图可以先试一张，但放大和“高清”字样不能恢复不存在的皮肤、眼睛或材质细节。
-- **两状态都完整：** 不缺眼、嘴、下巴或目标道具；没有把另一侧面罩残片留在人脸上。若只剩破碎半幅，换来源或重新做状态图。
-- **背景能衔接：** 完整人物轮廓接自然阴影、统一暗背景，通常比拼城市更稳。需要扩图或重新合成时保留人的真实比例，先审静态；不要用明显的拼贴条、重复建筑、镜像背景或拉长的模糊色条充当自然延展。原图自己的暗部和人为补的一条黑栏要区分。
-- **素材一致性：** 尽量统一画风、光线、锐度与色调。照片和绘画可以按用户选择混用，需说明差别，不把插画说成实拍。保留来源和实际生成模式，另核对商业使用需要的权利。
+- **Matching composition:** same side profile and similar pitch and turn angles. Between a front face and a marked profile, chin, nose bridge and ears still jump position even if the eyes are moved together.
+- **Anchors line up:** compare eye position/eye line, nose tip, mouth, chin, outer contour and shoulder line across the A and B stills. Uniform scaling, translation and slight rotation are fine; do not separately widen the face, squash the head or distort the features.
+- **Enough canvas:** this series defaults to 480×720. If the reference specifies a size, keep that size; to show the chin, the source must have a chin, or regenerate/repaint first and re-check. Changing the canvas to 320×720, or shrinking the face and padding with big black bars, does not fulfill the 480×720 composition requirement.
+- **Enough clarity:** judge the original face crop at the final size. Keep the effective crop no smaller than its display size where possible, and allow higher resolution for detail-heavy material. A low-quality image can be tried as one card first, but upscaling and the word "HD" cannot restore skin, eye or material detail that does not exist.
+- **Both states complete:** no missing eye, mouth, chin or target prop; no leftover fragments of the other side's mask on the face. If only a broken half remains, change the source or redo the state image.
+- **Backgrounds that join up:** a complete figure silhouette against natural shadows on a unified dark background is usually more stable than stitching a city. When outpainting or recompositing, keep the person's true proportions and review the still first; do not pass off obvious collage strips, repeated buildings, mirrored backgrounds or stretched blur bands as natural extension. Distinguish the source's own dark areas from a black bar patched in by hand.
+- **Consistent material:** unify art style, lighting, sharpness and color tone where possible. Photos and drawings can be mixed by user choice with the difference stated; do not describe illustration as live-action footage. Preserve sources and the actual generation modes, and separately check the rights needed for commercial use.
 
-锚点严重冲突、缺失轮廓、扩图失败或细节不足时，先给替代素材／匹配静态稿。不要继续把错配藏在快速切换、强闪光或更多条纹里。用户明确保留某一版时按文件版本保留，不能因为另一版裁得更完整就偷偷替换。
+When anchors conflict badly, the silhouette is missing, outpainting fails or detail is insufficient, provide substitute material/a matching still first. Do not keep hiding a mismatched pair behind fast switching, strong flashes or more strips. When the user explicitly keeps a version, keep it by file version; do not silently replace it just because another version crops more completely.
 
-## 素材与制作流程
+## Material and workflow
 
-1. 沿用用户最新选定的尺寸、构图和版本。新构图或新来源先看 A、B 静态对照；已有合格的配对可直接继续。
-2. 新生成时可在一张双联画中请求同姿态两状态，或先确认 A，再参考 A 编辑 B。指定实际眼位、下巴、轮廓和光线；生成后核实面板数量、实际尺寸和配准，不能把提示词当作已经达到的证据。记录是否用了参考图。
-3. 若生成被拦截，说明失败，不把空结果记为素材，也不循环换词／换服务试图规避拦截。可在用户授权范围内使用已有、可用的合法来源；没有合适素材时明确剩余阻碍。记录现成素材、生成素材与拼接／扩图分别用了什么。
-4. 标题在合成时统一排版并保持固定。先完成每一张，再从**最终解码 GIF 按播放时间**取帧做总览；不能按帧号拼接，因为停留帧可能已合并。
+1. Carry forward the user's latest chosen dimensions, composition and version. For a new composition or source, compare the A and B stills first; an existing qualified pair can proceed directly.
+2. For new generations, request both states in the same pose in one diptych, or confirm A first and then edit B with A as reference. Specify the actual eye position, chin, contour and lighting; after generating, verify panel count, actual dimensions and alignment — a prompt is not evidence that they were achieved. Record whether a reference image was used.
+3. If generation is blocked, state the failure; do not record an empty result as material, and do not cycle through reworded prompts or alternate services to evade the block. Use existing, usable and lawful sources within the user's authorization; when no suitable material exists, state the remaining blockers. Record what was used for ready-made material, generated material and stitching/outpainting separately.
+4. Typeset the title once at composition time and keep it fixed. Finish each card first, then build the overview by taking frames from the **final decoded GIF by playback time**; do not stitch by frame number, because held frames may already be merged.
 
-## 动态与导出
+## Motion and export
 
-- 当前系列参考：全幅画面固定、无镜头推进、无片头片尾；A 停留 → 纵向细条换到 B → B 停留 → 回到 A。用相同位置的两状态切换，不强制给人物添加肢体动作。
-- 默认 6 秒、20fps 时间采样、无限循环；这些是当前系列默认值，可按用户要求改。不要用“总共 8 帧”冒充 20fps；相同停留帧合并成较少编码帧正常，要报告实际帧数和**累计播放时长**。
-- 光栅条纹用于变画过渡，不只做普通淡入淡出。静态端点尽量清晰。若用户要求实体卡倾斜感可另做小幅透视，但当前半脸海报默认不动整个画幅。闪膜虹彩是可选材质处理，不等于已实现光栅变画。
-- 使用 [export_lenticular.py](../scripts/export_lenticular.py) 导出**已配准、已排好构图**的两张图。它不生成第二状态，不做抠图、补下巴、背景重构或自动对脸；宽高比不符会拒绝，避免悄悄裁切。
+- Current series reference: the full frame stays fixed with no camera push, no intro or outro; A holds → vertical strips switch to B → B holds → back to A. Switch between the two states at the same position; do not force limb motion onto the figure.
+- Defaults: 6 seconds, 20fps temporal sampling, infinite loop; these are current-series defaults and can change by user request. Do not pass off "8 frames total" as 20fps; identical held frames merging into fewer encoded frames is normal — report the actual frame count and **cumulative playback duration**.
+- The lenticular strips carry the transformation transition; they are not just an ordinary crossfade. Keep the static endpoints as sharp as possible. A physical-card tilt feel can be added as a small perspective move on request, but the current half-face posters do not move the whole frame by default. Iridescent film is an optional material treatment; it does not mean lenticular transformation has been implemented.
+- Use [export_lenticular.py](../scripts/export_lenticular.py) to export two images that are **already aligned and composed**. It does not generate the second state, cut out, add a chin, rebuild backgrounds or auto-align faces; a mismatched aspect ratio is rejected, avoiding silent cropping.
 
 ```sh
 python3 scripts/export_lenticular.py state-a.png state-b.png out/card.gif \
@@ -51,15 +51,17 @@ python3 scripts/export_lenticular.py state-a.png state-b.png out/card.gif \
   --font /path/to/title-font.ttf --subtitle-font /path/to/body-font.ttf
 ```
 
-无标题图可省略 footer、title、font 参数。脚本要求 Python 3 和 Pillow。使用其他合成器也需满足下面的解码检查。
+For untitled images, the footer, title and font arguments can be omitted. The script requires Python 3 and Pillow. Other compositors must still pass the decode checks below.
 
-## 解码检查与交付
+<a id="解码检查与交付"></a>
 
-- 逐张确认尺寸、GIF 格式、非零帧延时、累计时长、无限循环和可见变画；不是用 MP4 或静态封面代替 GIF。
-- 固定标题和边框不能随调色闪烁，首尾不能跳帧；静态端点、过渡中间帧都要看。技术指标不代替正常播放与审美检查。
-- **共享调色板，谨慎保留透明索引：** 黑底不能变白，脸不能出现黑洞。若索引 255 留给透明差分帧，不能把所有 255 粗暴映射到索引 0；应映射到调色板中最接近原颜色的有效颜色。先检查最终 GIF 的黑底、人脸和字幕，不能只检查 RGB 中间图。
-- 本分类为不透明、可全幅到边的海报。旧的 `review_gif.py` 默认检查透明贴纸与留边，不适合直接用其贴纸判定条件验收光栅卡。
-- 对多个 GIF 做总览时按各帧实际 duration 采样。核对总览里每一格确实在动，不能重复一个角色凑数。ZIP 要能解压，数量、文件与独立 GIF 匹配。
-- 交付独立 GIF、可选总览／ZIP、来源与实际模式说明，以及未解决的清晰度／配准限制。已知 IP 和网络素材作为效果案例，不因软件开源而自动具备商业授权。
+## Decode checks and deliverables
 
-九张样例的风格与来源差异见 [案例说明](../examples/lenticular-cards/README.md)。用户请求本批发布，不代表每个角色、所有照片或任何未来生成都保证成功。
+- Confirm size, GIF format, non-zero frame delay, cumulative duration, infinite loop and visible transformation on each file; do not substitute an MP4 or a static cover for the GIF.
+- Fixed titles and borders must not flicker with the palette, and the loop must not drop frames at its seam; inspect the static endpoints and the transition's in-between frames. Technical metrics do not replace normal playback and aesthetic review.
+- **Shared palette, careful with the transparent index:** the black background must not turn white and faces must not develop black holes. If index 255 is reserved for transparent delta frames, do not crudely map every 255 to index 0; map to the closest valid color in the palette instead. Check the final GIF's black background, faces and captions, not just the RGB intermediate frames.
+- This category is opaque, full-bleed-to-edge posters. The older `review_gif.py` checks transparent stickers and safe margins by default; do not use its sticker criteria directly to accept lenticular cards.
+- When building an overview of multiple GIFs, sample by each frame's actual duration. Verify that every cell in the overview actually moves; do not repeat one character to pad the count. The ZIP must extract, with its count and files matching the standalone GIFs.
+- Deliver standalone GIFs, an optional overview/ZIP, a note of sources and the actual modes used, and any unresolved clarity/alignment limits. Known IP and web material serve as effect demos; the software being open source does not grant commercial rights.
+
+See [the case notes](../examples/lenticular-cards/README.md) for the style and source differences among the nine samples. The user requesting this batch's publication does not guarantee that every character, all photos or any future generation will succeed.

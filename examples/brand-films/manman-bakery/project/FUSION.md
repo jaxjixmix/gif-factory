@@ -1,33 +1,33 @@
-# 两套方法怎么配合
+# How the two methods fit together
 
-这是用户认可后发布的融合案例；通用制作规则见仓库 references/brand-film.md。
+This is the fusion case published after user acceptance; general production rules are in the repository's references/brand-film.md.
 
-## 分工
+## Division of labor
 
-- 你的表情包方法：锁定角色长相，生成连续全身姿态，共享裁切/缩放，检查抽帧、肢体和脸部稳定性。已有角色资产能重复用于 GIF 和广告。
-- gbro-collage-broll：一句话压成一个视觉命题，选择3–6组物件，先决定完成画面，再安排空场逐件组装。动作必须有结果。
-- 分层时间线：把两者接起来，控制触发时刻、接触点、遮挡、品牌文字与音效。角色、道具和文案可以分别修改。
+- Your sticker-pack method: lock the character's look, generate consecutive full-body poses, share crop/scale, and check dropped frames, limb and face stability. Existing character assets can be reused for GIFs and ads.
+- gbro-collage-broll: compress one sentence into one visual proposition, choose 3–6 object groups, decide the finished frame first, then stage the empty scene assembling piece by piece. Actions must have a result.
+- Layered timeline: connects the two, controlling trigger timing, contact points, occlusion, brand copy and sound effects. Characters, props and copy can each be edited separately.
 
-## 这版试验
+## This version's pilot
 
-1. **把今天打开**：新做可颂拉纸条的16姿态；拉到受力点，三折纸店铺才展开。
-2. **把热乎递过去**：炉门打开，面包走弧线落盘；盘子有承重反应，托盘把面包抛向下一镜。
-3. **把心情带走**：面包落入外带袋，吐司和咖啡从袋口露头，袋身成为品牌落点。
+1. **Open today**: a newly made 16-pose croissant pull on the paper strip; the three-fold paper shop unfolds only once the pull reaches its tension point.
+2. **Hand the warmth over**: the oven door opens and the bread arcs onto the saucer; the saucer dips under the weight, and the tray tosses the bread into the next shot.
+3. **Take the mood with you**: the bread drops into the takeaway bag, toast and coffee peek out of the bag mouth, and the bag itself becomes the brand placement.
 
-## 后续可写入 Skill 的通用规则
+## General rules to write into the Skill later
 
-先选角色外观，再选动作，再选用途；“广告宣传”是输出用途，不应混成第四种角色画风。
+Choose the character appearance first, then the action, then the purpose; “advertising” is an output purpose, not a fourth character art style.
 
-每个镜头先写五件事：**谁动手 → 碰到什么 → 发生什么变化 → 角色怎么反应 → 给品牌留下什么。** 如果角色拿掉以后故事完全一样，就重做动作设计。
+For every shot, write five things first: **who acts → what they touch → what changes → how the character reacts → what is left for the brand.** If the story is exactly the same once the character is removed, redo the action design.
 
-每段只安排一个主要机关。先定2–4个动作锚点和道具归属，再补中间姿态；确认的角色造型与完成构图锁定后不整镜重生成。
+Stage only one main contraption per segment. Set 2–4 action anchors and prop ownership first, then fill in the in-between poses; once the confirmed character design and finished composition are locked, do not regenerate a whole shot.
 
-每个物件每个时刻只有一个归属：握在谁手里、放在哪、是否带有盘子、是否在前景或后景。检查抓握、受力、落点、转场前后连续性以及最后一秒。
+Every object has exactly one owner at every moment: whose hand it is in, where it sits, whether it carries a saucer, and whether it is in the foreground or background. Check grips, load, landing points, continuity before and after transitions, and the last second.
 
-可用的角色动作可另导出透明GIF，用于聊天、社媒和门店运营；本次先验证广告，不将重复动作或新字幕算作新增表情包。
+Usable character actions can also be exported as transparent GIFs for chat, social media and shop operations; this run validates the ad first, and repeated actions or new captions do not count as sticker-pack additions.
 
-## 使用边界
+## Usage boundaries
 
-借鉴并引用：[gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll)。查看其工作流后重新编排本片；没有调用它的 Gemini 视频脚本，没有把参考视频当作本片素材，也没有声称采用同一视频模型。采用本地可编辑合成，以便精确修正盘子、手和纸袋等遮挡问题。
+Borrowed and credited: [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll). This film was re-staged after reviewing its workflow; its Gemini video scripts were not invoked, the reference videos were not treated as footage, and no claim is made of using the same video model. Local editable compositing is used so occlusion issues with the saucer, hands and paper bag can be fixed precisely.
 
-用户认可了这版两套方法融合的效果，并要求同步到仓库。角色是生成姿态序列呈现的黏土定格观感，非真实三维骨骼连续动画。首镜拉条属于拟人机关叙事；接触精度不等同于实体绑定。
+The user accepted the fusion of the two methods in this version and requested it be synced into the repository. The characters are a clay stop-motion look presented through generated pose sequences, not continuous true-3D skeletal animation. The first shot's pull is anthropomorphic contraption storytelling; contact precision is not the same as a physical rig.

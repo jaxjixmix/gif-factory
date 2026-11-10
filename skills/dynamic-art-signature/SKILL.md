@@ -1,9 +1,9 @@
 ---
 name: dynamic-art-signature
-description: Design original handwritten artistic signatures from a name, one object and a gradient palette, then render stroke-writing MP4/GIF animations and nine-grid collections. Use for 动态签名、艺术签名、名字＋物体＋渐变、两笔快写、书法收锋 or signature-grid requests. Supports Latin names, 中文两字/三字草书与行书, new designs and timing repairs; does not replace ordinary document signing or character-sticker workflows.
+description: Design original handwritten artistic signatures from a name, one object and a gradient palette, then render stroke-writing MP4/GIF animations and nine-grid collections. Use for dynamic signature (动态签名), artistic signature (艺术签名), name + object + gradient (名字＋物体＋渐变), two-stroke quick writing (两笔快写), calligraphic terminal (书法收锋) or signature-grid requests. Supports Latin names, Chinese two- and three-character cursive and semi-cursive, new designs and timing repairs; does not replace ordinary document signing or character-sticker workflows.
 ---
 
-# 动态艺术签名
+# Dynamic Art Signature (动态艺术签名)
 
 ## Preserve the brief
 
@@ -11,7 +11,7 @@ Carry forward the exact name, object, palette and latest accepted design. Ask on
 
 ## Design the shared letter/object silhouette
 
-Read [design guidance](references/design.md). Use the available image-generation tool for new raster artwork and visual edits. Make the object part of the letter anatomy and negative space. Preserve legibility and original composition; borrow a reference's integration principle rather than its exact lettering. Use flat handwritten ink with natural pressure, thick/thin contrast and tapered terminals. “质感” defaults to handwriting, not metal, bevels, glow, extrusion or rough chalk.
+Read [design guidance](references/design.md). Use the available image-generation tool for new raster artwork and visual edits. Make the object part of the letter anatomy and negative space. Preserve legibility and original composition; borrow a reference's integration principle rather than its exact lettering. Use flat handwritten ink with natural pressure, thick/thin contrast and tapered terminals. “Material feel” (质感) defaults to handwriting, not metal, bevels, glow, extrusion or rough chalk.
 
 Design two physically independent gesture groups: an upper blade/wing/flourish and lower lettering/tail. Leave a small intentional gap where they approach. If strokes touch, repair the artwork or supply explicit independent layer masks before animation. Do not divide a completed connected logo with a horizontal wipe and call it two independent strokes.
 
@@ -19,7 +19,7 @@ Use [the nine examples](references/examples.md) for range, not as mandatory temp
 
 ## Chinese handwriting
 
-Use 草书 as the default for Chinese names in this workflow; honor explicit 行书 or other script requests. Read [Chinese lettering and examples](references/chinese.md) for two- and three-character composition, motif treatment and portable demo configurations. Preserve all requested characters, keep the motif visible, and retain the accepted two-gesture timing when changing script.
+Use cursive as the default for Chinese names in this workflow; honor explicit semi-cursive or other script requests. Read [Chinese lettering and examples](references/chinese.md) for two- and three-character composition, motif treatment and portable demo configurations. Preserve all requested characters, keep the motif visible, and retain the accepted two-gesture timing when changing script.
 
 ## Animate the accepted two-gesture rhythm
 

@@ -1,58 +1,58 @@
 ---
 name: compact-storybook
-description: 将故事或插画做成固定画面、单次动作、短停留的低帧动态绘本，可输出独立页面动画或翻书合集。用于动态绘本、低帧治愈故事、书页内插画动画；不用于循环聊天表情包、镜头组宣传片或实拍照片动态化。
+description: Turn a story or illustration into a low-frame Compact Storybook (紧凑动态绘本) with fixed framing, a once-only action and a short hold; deliver standalone page animations or a page-turning collection. Use for compact storybooks, low-frame healing stories and in-page illustration animation; not for looping chat stickers, montage-shot promos or animating real photographs.
 ---
 
-# 紧凑动态绘本
+# Compact Storybook (紧凑动态绘本)
 
-稳定版 v1.3。已认可的《风送来的茶会》样片包含固定构图、真实6fps、单次动作、手写字、正俯拍真实材质书本和轻柔配乐。风格与技术分层复用；新角色、画风或材质先做代表页，不把一个案例的外观当成通用要求。
+Stable v1.3. The accepted Tea Party Brought by the Wind sample combines fixed framing, real 6fps, once-only actions, handwritten text, a straight top-down real-material book and gentle music. Style and technique are reused as separate layers; pilot a representative page first for a new character, art style or material, and do not treat one case's appearance as a universal requirement.
 
-## 效果与边界
+## Effect and boundaries
 
-一页一个清楚的动作：拿起、递出、折好、放飞、接住、放下、合书。动作完成后短暂停留，再进入下一页。角色和道具要改变状态，不能只挤压整张图、晃动手臂或移动镜头代替剧情。
+One clear action per page: pick up, hand over, fold, set free, catch, put down, close the book. After the action completes, hold briefly, then move to the next page. Characters and props must change state; do not substitute plot with squashing the whole image, waving an arm or moving the camera.
 
-保留用户指定的画风。低帧是运动节奏，不等于像素风或降低清晰度，不自动将真人、插画改成Q版。
+Preserve the user-specified art style. A low frame rate is a movement tempo, not pixel art or reduced clarity; do not automatically turn real people or illustration into chibi.
 
-默认值允许用户覆盖：
+Defaults may be overridden by the user:
 
-| 项目 | 起步值 |
+| Item | Starting value |
 | --- | --- |
-| 页内构图 | 固定，不切镜头、不推拉 |
-| 输出帧率 | 实际6fps，不补帧 |
-| 单页时长 | 约3秒，通常2.5–4秒 |
-| 结果停留 | 约0.5–1秒，包含在单页时长内 |
-| 翻页 | 约0.5秒，仅在动作结束后发生 |
-| 输出 | MP4；用户需要时另做GIF |
+| In-page framing | Fixed; no cuts, no push-in/pull-out |
+| Output frame rate | Real 6fps, no interpolation |
+| Page duration | About 3s, usually 2.5–4s |
+| Result hold | About 0.5–1s, included in the page duration |
+| Page turn | About 0.5s, only after the action ends |
+| Output | MP4; make a GIF separately when the user needs one |
 
-不强制12页或41.5秒。按动作确定时长，不靠延长静止等待凑“两分钟”；用户明确需要长故事时，增加有意义的情节和页面。
+Do not force 12 pages or 41.5 seconds. Let the action set the duration; do not pad with extended static waits to reach “two minutes”. When the user explicitly needs a long story, add meaningful plot and pages.
 
-## 成片形式
+## Deliverable formats
 
-- **横屏翻书**：适合完整故事与共读，左页文字、右页动画，正俯拍可读；优先保留真实纸页、书脊、薄页边、布面封皮与桌面接触。
-- **竖屏书页**：适合手机发布，图上字下、手写字两行居中、四周白框；默认以手机阅读优化版排版，放大正文与插画并预留右侧、底部界面空间；沿用同一材质风格另做单页底板，按竖屏重排，不把横屏整本直接缩小。
-- **独立页动画**：用户只要动作时不强加书框。
+- **Landscape page-turning book:** suits a complete story and reading together; text on the left page, animation on the right, legible straight top-down; prefer retaining real paper leaves, the spine, thin page edges, cloth cover and tabletop contact.
+- **Portrait book page:** suits phone publishing; image above, text below, two centered lines of handwriting, white border all round; default to the mobile-reading-optimized layout, enlarging the body text and illustration and reserving space for the right-side and bottom interface; make a separate single-page base plate in the same material style and re-lay it out for portrait; do not shrink the whole landscape book down.
+- **Standalone page animation:** do not force a book frame when the user only wants the action.
 
-同一故事共享动作素材和文案，版式各自设计。横屏1920×1080、竖屏1080×1920为起步规格，可覆盖。已认可字体优先保留；换字库后检查全部文字，不分发没有授权的字体。
+One story shares action assets and copy; design each layout separately. 1920×1080 landscape and 1080×1920 portrait are starting specs and may be overridden. Keep the accepted font where possible; after switching fonts, check all text, and do not distribute fonts you are not licensed to.
 
-默认正文采用“落页后快速写出—轻微书写声—停留阅读”，标题和页码静态；无声、字幕立即显示等明确要求优先。书写方向和音效同步见 [正文书写效果](references/handwriting.md)。
+By default the body text is written quickly after the page settles — faint writing sound — hold for reading; titles and page numbers stay static. Explicit requirements such as silence or captions shown immediately take priority. For writing direction and sound sync, read [Body-text writing](references/handwriting.md).
 
-外层美术、书本材质、双版式和音乐制作时读 [书本与声音](references/book-and-sound.md)。这一页区分已验证方法与可调整参数。
+For outer artwork, book material, both layouts and music, read [Book and sound](references/book-and-sound.md). That page separates verified method from adjustable parameters.
 
-配乐可由用户使用 **Suno、Gemini 等工具单独制作后导入**，也可使用用户已有音乐。本 Skill 负责选段、剪辑、淡入淡出及混音，不自带这些服务，也不把旁白或书写音效当作配乐。
+Music may be **made separately by the user in Suno, Gemini or similar tools and imported**, or may be music the user already has. This Skill handles segment selection, cutting, fades and mixing; it does not bundle those services, and does not treat narration or writing sound as music.
 
-## 工作顺序
+## Work order
 
-1. 接续已有角色、故事和用户认可的样片。新项目把故事拆成“起始状态 → 单个动作 → 结束状态”，先做一页代表样片；用户已授权整套时继续批量，不重复询问。
-2. 建立角色与道具连续性表：外观、相对大小、持有者、数量、位置。下一页起始状态要接上上一页结果。细节见 [制作与检查](references/production.md)。
-3. 做静态背景与透明角色关键姿态，再按时间表组合。编辑原图时先查看实际图像，按可用图像工具及其说明调用。使用 [生成模板](references/prompts.md)，如实记录哪些参考图参与生成。
-4. 以真实6帧检查一页，再扩展剩余页。不稳定时修姿态和锚点，不靠降帧、模糊、快速切镜遮掩。
-5. 选择翻书或白框成片时，先确认静态书本与背景材质，再制作无字、无插画的干净底板，叠回已认可的原动画和文字；不要把生成样稿里变形的角色当成最终动画。翻书外框与页内动画独立；翻页时冻结旧页末态，下一页从首态开始。使用HyperFrames时读取当前可用的HyperFrames技能，遵守其资源加载、预览、渲染与检查契约。
-6. 检查实际导出文件后交付。用户未要求时，不自动上传仓库、修改其他Skill或发布。
+1. Continue existing characters, stories and user-accepted samples. For a new project, break the story into “start state → single action → end state” and pilot one representative page; when the user has already authorized the whole set, continue in batch without asking again.
+2. Build a continuity table for characters and props: appearance, relative size, holder, count, position. The next page's start state must continue from the previous page's result. See [Production and review](references/production.md) for details.
+3. Make the static background and transparent character key poses, then composite them on a timeline. When editing source art, view the actual image first and call the available image tools per their instructions. Use the [generation templates](references/prompts.md) and record truthfully which references took part in generation.
+4. Check one page at the real 6 frames, then expand the remaining pages. When unstable, fix poses and anchors; do not hide it with a lower frame rate, blur or fast cuts.
+5. When choosing the page-turning book or white-border deliverable, confirm the static book and background material first, then make a clean base plate with no text or illustration and composite the accepted original animation and text back on; do not treat a deformed character from a generated draft as the final animation. The book frame and the in-page animation are independent; during a page turn, freeze the old page at its end state and start the next page from its first state. When using HyperFrames, read the currently available HyperFrames skill and follow its asset-loading, preview, rendering and review contracts.
+6. Inspect the actual exported files, then deliver. Unless the user asks, do not automatically upload to the repository, modify other Skills or publish.
 
-## 交付检查
+## Deliverable checks
 
-- 每页看实际视频首、中、末帧；交接动作另看接触前后。不能有悬空、重复道具、突然消失或遮挡裁断。
-- 主要动作只做一次，末态保留，不自动倒放恢复起点。走路可有必要的步态周期，不能变成无目的原地循环。
-- 检查画面稳定、脸和服装一致、手足接触、文字在实际观看尺寸下可读。
-- 检查脚本需要Python 3、ffprobe和ffmpeg。用 `scripts/inspect_clip.py` 检查实际尺寸、帧率、时长和帧数，可抽取检查帧：`python3 scripts/inspect_clip.py page.mp4 --fps 6 --duration 3 --frames-dir review/page`。文件检查不代替视觉判断。
-- 交付用户需要的整本、分章或独立页面；注明实际时长、帧率、有无声音及未完成项。按需保留素材、提示词、可编辑工程，不把本机绝对路径或私人原图写成可复用依赖。
+- For every page, view the first, middle and last frames of the actual video; for hand-off actions, also view just before and after contact. No floating or duplicated props, no sudden disappearances, no clipping through occlusion.
+- The main action happens once and the end state holds; do not automatically reverse it back to the start. Walking may use the necessary gait cycle but must not become a purposeless loop in place.
+- Check image stability, face and costume consistency, hand/foot contact, and text legibility at the actual viewing size.
+- The inspection script needs Python 3, ffprobe and ffmpeg. Use `scripts/inspect_clip.py` to check actual size, frame rate, duration and frame count, and to extract review frames: `python3 scripts/inspect_clip.py page.mp4 --fps 6 --duration 3 --frames-dir review/page`. File checks do not replace visual judgment.
+- Deliver the whole book, chapters or standalone pages as the user needs them; state actual duration, frame rate, whether there is sound, and anything unfinished. Keep assets, prompts and editable projects as needed; do not write local absolute paths or private source art into a reusable dependency.

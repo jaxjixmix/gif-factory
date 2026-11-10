@@ -22,7 +22,7 @@ Inspect the actual sheet: occupied cells, complete silhouettes, gutters and row 
 {
   "entries": [{
     "name": "boy-thumbs-up",
-    "text": "点赞",
+    "text": "Thumbs up",
     "atlas": "poses.png",
     "grid": [4, 4],
     "column_offsets": [0, 0, 0, 0]
@@ -41,7 +41,7 @@ The sample atlas is included so this route can be reproduced. Original private r
 
 ## Review and expansion
 
-Follow [stability.md](stability.md): inspect decoded frames, native-size face/accessories, normal playback and the loop seam. Missing transitions, uneven holds and repeated row-boundary jumps can create 抽帧感. Fix the poses or extraction; increasing FPS, duplicating images or crossfading does not add missing acting. A shared palette and sixteen distinct frames alone do not prove a good action.
+Follow [stability.md](stability.md): inspect decoded frames, native-size face/accessories, normal playback and the loop seam. Missing transitions, uneven holds and repeated row-boundary jumps can create a frame-skipping feel. Fix the poses or extraction; increasing FPS, duplicating images or crossfading does not add missing acting. A shared palette and sixteen distinct frames alone do not prove a good action.
 
 The exporter reports technical verification with visual/user acceptance pending. Record an assistant review only after doing it; record user acceptance only for the revision actually accepted. When expanding “each character to five,” preserve the existing accepted GIF and add four actions, keeping five total per character unless the user asks for five additional ones.
 

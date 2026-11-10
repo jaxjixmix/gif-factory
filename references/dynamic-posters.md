@@ -1,63 +1,63 @@
-# 动态海报：先让一张完整海报成立，再让它循环
+# Dynamic posters: make one complete poster work, then loop it
 
-用于演出预告、角色宣传、活动主视觉或产品状态展示。与聊天贴纸、半脸光栅收藏卡、带起承转合的品牌短片分开路由。GIF 可以使用光栅切换，但“光栅”是过渡方法，不代表所有海报都属于收藏卡分类。
+Use for show teasers, character promos, event key visuals or product state showcases. Route separately from chat stickers, half-face lenticular collector cards and brand films with a narrative arc. A GIF can use lenticular switching, but "lenticular" is a transition method — it does not mean all posters belong to the collector-card category.
 
-## 两种设计方式
+## Two design modes
 
-| 分类 | 保留什么、改什么 | 适用 |
+| Mode | What stays, what changes | Use when |
 | --- | --- | --- |
-| 保留原画＋文字联动 | 原插画／照片保持其画风；角色状态切换，标题收紧／撑开、轮廓／实心、错位／倾斜 | 已有好看的主视觉、想做换装或活动预告 |
-| 整体融合＋文字联动 | 人物、背景、纹理、字形、配色和前后遮挡一起重绘 | 要明显的设计风格，或原画与指定字体语言不协调 |
+| Preserve artwork + Type-Linked (文字联动) | The original illustration/photo keeps its art style; the character state switches, and the title tightens/expands, outline/solid, offset/tilted | An existing good key visual; wanting an outfit change or event teaser |
+| Integrated fusion + Type-Linked | Figure, background, texture, lettering, palette and front/back occlusion are all redrawn together | A pronounced design style is needed, or the original art clashes with the specified type language |
 
-本次主要认可模板是第二种：[九角色整体融合案例](../examples/dynamic-posters/p5-integrated/README.md)。P5 式漫画印刷是它的一种设计语言，不是所有动态海报的固定画风。首批路飞、鸣人、五条悟、初音已获用户认可；随后扩展的五张作为该系列延伸，不把“请求收录”写成逐张审美认可。
+The main approved template is the second one: [the nine-character integrated case](../examples/dynamic-posters/p5-integrated/README.md). P5-style Comic Fusion (漫画印刷融合) is one of its design languages, not the fixed art style of every dynamic poster. The first batch — Luffy, Naruto, Gojo, Miku — is user-accepted; the five later additions extend that series, and "requested for inclusion" is not written up as per-image aesthetic acceptance.
 
-## 先判断图能不能做
+## First judge whether the image works
 
-- 单人轮廓清楚、脸和标志性配饰够清晰、留有标题空间的图优先。人物占满画面、缺手、头发被裁断时，先重新构图或补生成，不硬贴大字遮住问题。
-- 只有一张静态图，可以参考它生成另一状态；记录原图仅作身份、动作还是画风参考。不要声称原图本身含有动作。
-- 用户要像本人／原画，优先保留原画方式；整体融合会改画风，不能偷偷把真人改成漫画。
-- 两状态锁住身份、脸部尺度、眼线、镜头和画幅，允许表情、手势、发丝及衣服变化。不是所有角色都要拿麦：演出、挥拳、蓄力、抬手、摘镜等按用途设计。
-- 宠物、产品、吉祥物也可使用这些设计原则，但本系列只验证了所展示的角色海报；新输入先做一张，不保证任意照片都适用。
+- Prefer images with a clear single-figure silhouette, a readable face and signature accessories, and space left for the title. When the figure fills the frame, hands are missing or hair is cut off, recompose or regenerate first; do not paste big type over the problem.
+- With only one still, generate the other state with it as reference; record whether the original served as identity, action or art-style reference. Do not claim the still itself contains motion.
+- When the user wants it to look like the real person/original art, prefer the preserve-artwork mode; integrated fusion changes the art style — do not quietly turn a real person into a comic.
+- The two states lock identity, face scale, eye line, camera and canvas while allowing expression, gesture, hair-strand and clothing changes. Not every character needs a microphone: performing, punching, charging up, raising a hand, removing glasses and so on are designed per use.
+- Pets, products and mascots can use these design principles too, but this series only validates the character posters shown; make one card for a new input first, with no guarantee that any photo works.
 
-## 让设计和反差一起成立
+## Make the design and the contrast work together
 
-1. **不止换衣服。** 让日常／登场、安静／爆发等状态在表情、动作、轮廓或光线里有可见变化。用户明确只要换装时仍按其要求。
-2. **每个角色单独设计。** 确定一种主色、一种黑白关系、一组字形和一个运动方向。不是只给同一模板换名字。
-3. **文字成为主视觉。** 可让标题从收紧的轮廓字变成撑开的实心字，或改变字距、大小、角度；保留可读的词形。重要日期、地点、产品信息保持固定。
-4. **整体融合要一起重绘。** 限定色、墨线、平涂阴影、网点、斜切负空间和字形用同一语言。头发／帽子可挡住部分上方标题，前臂与下方字形交错；脸、眼睛、麦克风或招牌道具要清楚，完整文字仍能读出。
-5. **不协调时先改设计。** 彩色海景上贴红黑白纸牌字、所有字母各贴一块、软渲染人物配硬剪贴块，是本轮被否定的方向。不是禁止任何剪贴，而是避免没有共同配色、笔触和运动方向的贴图感。成功版本重新设计了整幅画面。
+1. **More than an outfit change.** States such as everyday/on-stage and quiet/outburst should differ visibly in expression, action, silhouette or lighting. When the user explicitly wants only an outfit change, follow that request.
+2. **Design each character separately.** Fix one dominant color, one black-and-white relationship, one lettering set and one motion direction. Do not just rename the same template.
+3. **Type becomes the key visual.** The title can go from tight outline lettering to expanded solid lettering, or change tracking, size and angle; keep the wordforms readable. Important dates, venues and product information stay fixed.
+4. **Integrated fusion redraws everything together.** Limited palette, ink lines, flat shading, halftone dots, angled negative space and lettering share one language. Hair/a hat may cover part of the title above, and a forearm can interlock with lettering below; the face, eyes, microphone or signature prop must stay clear and the full text still legible.
+5. **When it clashes, change the design first.** Red-black-white card lettering pasted on a colorful seascape, one block per letter, soft-rendered figures with hard sticker blocks — these were rejected this round. It is not a ban on any cutout, but on a pasted-on look with no shared palette, stroke or motion direction. The successful version redesigned the whole image.
 
-## 两条制作路线，明确实际做了哪条
+## Two production routes; state which one was actually used
 
-**完整海报关键状态（本次案例）：** 使用生图工具，一次生成左右两张完整海报；左边人物与字形收紧，右边人物动作和字形展开。身份／动作参考与设计语言参考分别标注。核对面板数、实际尺寸、文字、遮挡、手指和眼线，再分离 A、B，合成为 GIF。文字形态已经画在两幅图里；这是两种关键状态切换，不能描述成逐字独立变形、实时互动或持续演唱／战斗。
+**Complete-poster key states (this round's case):** use the image tool to generate two complete posters, left and right, in one pass; the left has the figure and lettering tight, the right has the figure's action and expanded lettering. Label the identity/action reference and the design-language reference separately. Verify panel count, actual dimensions, text, occlusion, fingers and eye line, then separate A and B and compose the GIF. The lettering forms are already drawn in the two images; this is a two-key-state switch, and must not be described as per-glyph independent warping, live interaction or continuous singing/battling.
 
-**独立文字图层：** 人物素材和文字分层，字距、位置、大小等按时间设置关键姿态。更适合频繁改文案、品牌信息精确或要逐字动作的任务。保持人物原画语言；标题区与人物区域的动态掩码分别处理。实际需要修改字母时走这条，而不是声称已生成的图中文字可独立编辑。
+**Separate type layer:** figure assets and text are layered, and tracking, position, size and so on are keyed over time. Better suited to tasks that change copy often, need exact brand information or want per-glyph motion. Keep the figure's original art language; handle the title zone and figure zone with separate dynamic masks. Use this route when the letters actually need editing, instead of claiming that text already painted into a generated image is independently editable.
 
-整体融合提示词骨架（花括号替换；参考图的真实角色要写清）：
+Integrated-fusion prompt skeleton (replace the braces; name the actual characters in the reference images):
 
-> 参考图 1 仅提供 {角色身份与姿态}，参考图 2 仅提供 {已认可的设计语言}。画左右两幅完整 3:4 海报，合成无间隔 3:2 双联图。人物、背景、网点和定制文字一起设计：{限定色／墨线／阴影／负空间}。左侧 {安静状态}，右侧 {动作、表情、发丝变化}；同一身份、眼线、脸部尺度和镜头。上方准确文字 {名字}，下方准确文字 {标题}；右侧字形 {展开方式}。标题与头发／手臂形成前后关系，眼睛、嘴与 {重要道具} 清晰。底部留空黑区放固定信息。不要单字纸牌、照片背景、无关角色、额外文字或标志。
+> Reference image 1 provides only {character identity and pose}; reference image 2 provides only {the approved design language}. Draw two complete 3:4 posters, left and right, and compose them into a gapless 3:2 diptych. Design the figure, background, halftone and custom lettering together: {limited palette/ink line/shading/negative space}. Left side {quiet state}, right side {action, expression, hair-strand changes}; same identity, eye line, face scale and camera. Accurate text above {name}, accurate text below {title}; right-side lettering {expansion method}. The title relates in front of/behind hair and arms; eyes, mouth and {signature prop} stay clear. Leave an empty black area at the bottom for fixed information. No single-glyph card lettering, photo backgrounds, unrelated characters, extra text or logos.
 
-用户只要求文字提示时，不添加图像参考；记录真实生成模式。完整已用提示词见案例的 `prompts.json`。
+When the user asks only for a text prompt, do not add image references; record the actual generation mode. See the case's `prompts.json` for the complete prompts used.
 
-## 保持 GIF 的感觉
+## Keep the GIF feel
 
-- 完整构图从第一帧出现；同一海报 A 停留 → 切到 B → B 停留 → 回到 A。没有片头、镜头推进、分镜故事或结尾卡。品牌叙事另走品牌短片。
-- 当前系列默认 720×960、6 秒、20fps 时间采样；字体层可用约 5 档关键姿态形成顿挫，不靠把整段降到几张帧。保留实际编码帧数和累计时长；相同停留帧合并正常，本次单张为 26 帧、6000ms。
-- 过渡选光栅或短促切换，沿用用户认可节奏，不自动用强闪烁、镜头动画或整幅持续扭动。两种关键状态切换本身不是完整肢体动画。
-- 固定信息、页边和字幕不能因调色板抖动；共享调色板，谨慎保留透明差分索引，必要时锁定固定区域的索引。细节检查沿用 [光栅导出说明](lenticular.md#解码检查与交付)。
+- The complete composition appears from the first frame; the same poster holds on A → cuts to B → holds on B → returns to A. No intro, camera push, storyboarded narrative or end card. Brand storytelling goes through brand films instead.
+- Current-series defaults: 720×960, 6 seconds, 20fps temporal sampling; the type layer can use about 5 key states for a staccato feel, instead of dropping the whole clip to a few frames. Report the actual encoded frame count and cumulative duration; identical held frames merging is normal — this round's single poster is 26 frames, 6000ms.
+- Choose lenticular or a short cut for the transition, following the user-approved rhythm; do not default to hard flicker, camera animation or constant warping of the whole frame. A two-key-state switch is not itself full limb animation.
+- Fixed information, page margins and captions must not flicker with the palette; share the palette, keep the transparent delta index carefully, and lock the indices of fixed areas when needed. For detail checks, follow [the lenticular export guide](lenticular.md#解码检查与交付).
 
-## 导出与复查
+## Export and re-check
 
-可用 [export_lenticular.py](../scripts/export_lenticular.py) 导出已排好文字且配准的完整 A、B 图：
+Use [export_lenticular.py](../scripts/export_lenticular.py) to export the type-set and aligned complete A and B images:
 
 ```sh
 python3 scripts/export_lenticular.py state-a.png state-b.png out/poster.gif \
   --width 720 --height 960 --seconds 6 --fps 20
 ```
 
-它只负责两幅完整画面切换，不生成图、不做逐字动效。已有底部排版时不要传 `--footer-height`：该参数会另画 footer，不能用它代替“锁住已有底部”。如需独立字层或固定掩码，使用相应图层合成器，并核查最终解码结果。
+It only switches between two complete images; it does not generate images or animate per glyph. When the bottom layout already exists, do not pass `--footer-height`: that argument draws another footer and cannot stand in for "locking the existing bottom". For a separate type layer or fixed masks, use the appropriate layered compositor and check the final decoded result.
 
-- 在最终 GIF 中核对人物、文字与过渡帧，不能只看未编码的 RGB 端点。黑底、皮肤、字形与网点不能出现调色孔洞。
-- 累计 6000ms（或用户指定值）、无限循环、非零延时、首尾接缝；关键状态可辨，固定信息稳定。
-- 总览从最终 GIF **按实际帧 duration**取样，保持每张完整比例。九宫格是九张不同的 GIF；若新增／替换角色，明确人数与位置，不能复制一人凑数。
-- 交付独立 GIF、合集预览、提示词及实际参考模式。可附静态封面和 ZIP。示例活动信息标为虚构，角色与字体权利不随代码的 MIT 许可转授。
+- Check the figures, text and transition frames in the final GIF; do not inspect only the unencoded RGB endpoints. Black backgrounds, skin, lettering and halftone must not show palette holes.
+- Cumulative 6000ms (or the user-specified value), infinite loop, non-zero delay, loop seam; the key states must be distinguishable and fixed information stable.
+- Sample the overview from the final GIFs **by actual frame duration**, keeping each poster's full aspect ratio. The nine-grid is nine different GIFs; when adding/replacing characters, state the count and positions — do not copy one character to pad the grid.
+- Deliver standalone GIFs, a pack preview, the prompts and the actual reference modes. A static cover and ZIP are optional. Sample event information is marked fictional; character and font rights are not transferred with the code's MIT license.

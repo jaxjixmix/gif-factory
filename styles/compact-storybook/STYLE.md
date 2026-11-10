@@ -1,46 +1,46 @@
-# 紧凑动态绘本
+# Compact Storybook (紧凑动态绘本)
 
-[返回风格库](../README.md) · [看完整案例](../../examples/storybooks/tea-party/README.md) · [独立 Skill](../../skills/compact-storybook/SKILL.md)
+[Back to style index](../README.md) · [See the full case](../../examples/storybooks/tea-party/README.md) · [Standalone skill](../../skills/compact-storybook/SKILL.md)
 
-让一张插画把一件事做完：递一封信、放飞纸鸟、接住礼物、合上书。动作之后短暂停留，再翻到下一页。适合绘本故事、角色小剧场、品牌故事和插画叙事。
+One illustration carries a single event to completion: delivering a letter, releasing a paper bird, catching a gift, closing a book. After the action there's a short hold, then the page turns. Good for picture-book stories, character vignettes, brand stories and illustrated narratives.
 
 <table>
 <tr>
-<td align="center" valign="top"><strong>横屏 · 左字右图</strong><br><a href="../../examples/storybooks/tea-party/realbook-writing.mp4"><img src="../../examples/storybooks/tea-party/realbook-writing-preview.gif" alt="横屏真实书本与正文书写预览" width="440"></a></td>
-<td align="center" valign="top"><strong>竖屏 · 图上字下</strong><br><a href="../../examples/storybooks/tea-party/portrait-writing.mp4"><img src="../../examples/storybooks/tea-party/portrait-writing-preview.gif" alt="竖屏白框书页与正文书写预览" width="200"></a></td>
+<td align="center" valign="top"><strong>Landscape · text left, image right</strong><br><a href="../../examples/storybooks/tea-party/realbook-writing.mp4"><img src="../../examples/storybooks/tea-party/realbook-writing-preview.gif" alt="Landscape preview of the real book with body text being written" width="440"></a></td>
+<td align="center" valign="top"><strong>Portrait · image top, text bottom</strong><br><a href="../../examples/storybooks/tea-party/portrait-writing.mp4"><img src="../../examples/storybooks/tea-party/portrait-writing-preview.gif" alt="Portrait preview of the white-framed book page with body text being written" width="200"></a></td>
 </tr>
 </table>
 
-默认固定构图、实际6fps、每页约3秒；可以独立输出，也可以放进翻书外框。这里的网页预览循环播放，正式成片动作只做一遍。低帧不等于像素化，用户指定的画风照样保留。
+Fixed framing by default, effectively 6fps, about 3 seconds per page; output standalone or inside a flip-book frame. The web preview here loops, but the final film plays the action only once. A low frame rate isn't pixelation — the user's chosen art style is kept as-is.
 
-## 什么图适合
+## What Images Fit
 
-- 角色轮廓、脸和服装清楚，动作空间足够的插画。
-- 能拆成“起始 → 一个动作 → 结果”的画面。
-- 背景能与角色、道具分开，手和桌面等接触位置看得清。
+- Illustrations with clear character outline, face and clothing, and enough room for motion.
+- Images that break into "start → one action → result".
+- Backgrounds that separate from the character and props, with contact points like hands and tabletop clearly visible.
 
-拥挤群像、遮挡严重、只剩小脸或需要复杂连续运镜的图，先整理构图或做一页试样。照片转插画需要用户明确选择，不直接套真人美颜路线。
+For crowded group shots, heavy occlusion, only tiny faces, or shots needing complex continuous camera moves: tidy the composition first, or make a one-page test. Photo-to-illustration needs an explicit user choice; don't default to the photographic beauty-filter route.
 
-## 怎么开始
+## How to Start
 
-> 使用 $pixel-gif-sticker-pack，选择“紧凑动态绘本”，把这个故事做成固定画面的小动画。先做一页约3秒、6帧的小样，动作做完就停，不要镜头组。
+> Use $pixel-gif-sticker-pack, choose "Compact Storybook", and turn this story into a fixed-framing mini-animation. First make one sample page: about 3 seconds, 6 frames; the action finishes and stops, no shot sequence.
 
-也可单独安装仓库 `skills/compact-storybook` 文件夹，用 `$compact-storybook` 调用。完整规则、提示词和检查脚本都在里面。HyperFrames用于组合和导出时，还需要当前环境的HyperFrames工具与对应说明；这份Skill不附赠图片生成或渲染服务。
+You can also install the repo's `skills/compact-storybook` folder separately and invoke it as `$compact-storybook`. The full rules, prompts and check scripts are inside. Combining and exporting through HyperFrames also needs the current environment's HyperFrames tools and matching docs; this skill doesn't bundle image generation or rendering services.
 
-## 当前已验证
+## Verified So Far
 
-《风送来的茶会》当前成片为12页、54秒真实书本版，含快速书写、沙沙声和配乐；书本与书写样片已获用户认可。不是所有故事都固定做12页，也不把短动作拉长凑两分钟。画风和故事可以更换，新组合先看一页样片。
+"The Tea Party Brought by the Wind" currently ships as a 12-page, 54-second real-book version with fast writing, a soft rustle and music; the book and writing samples have user approval. Not every story is fixed at 12 pages, and short actions aren't stretched to fill two minutes. Art style and story can change; for a new combination, review one sample page first.
 
-## 现在也能做成真实书本
+## It Can Also Be a Real Book Now
 
-横屏把动画放进摊开的书：左字右图、正俯拍，保留薄纸、书脊和桌面质感。竖屏用图上字下的白框书页，方便手机看。两版共享故事素材，分别排版。
+Landscape puts the animation into an open book: text left, image right, straight top-down shot, keeping the thin paper, spine and tabletop texture. Portrait uses a white-framed page with image on top and text below, easier to read on a phone. Both versions share the story assets and are laid out separately.
 
-先把书和背景的静态质感确认好，再叠回原动画；不是给方框换个颜色、撒点噪点。配乐可用 Suno、Gemini 这类工具单独制作轻柔摇篮曲，导出后再加入视频；也能用自己已有的音乐。旁白按需另外做。
+Confirm the static texture of the book and background first, then composite the animation back in; it isn't recoloring a box and sprinkling noise. For music, tools like Suno and Gemini can separately produce a gentle lullaby, added to the video after export; existing music of your own works too. Narration is made separately as needed.
 
-[稳定版制作规则](../../skills/compact-storybook/SKILL.md) · [书本、排版与音乐](../../skills/compact-storybook/references/book-and-sound.md)
+[Stable production rules](../../skills/compact-storybook/SKILL.md) · [Book, layout and music](../../skills/compact-storybook/references/book-and-sound.md)
 
-正文可以在翻页落稳后快速写上纸面，配轻轻的沙沙声；写完就停，留下阅读时间。标题和页码保持静态。[书写效果规则](../../skills/compact-storybook/references/handwriting.md)。
+Body text can be written onto the page quickly once the turn settles, with a soft rustle; it stops once written, leaving reading time. Titles and page numbers stay static. [Writing-effect rules](../../skills/compact-storybook/references/handwriting.md).
 
-[观看54秒真实书本书写完整版](../../examples/storybooks/tea-party/realbook-writing.mp4)。12页、6fps，含配乐与15组正文书写。
+[Watch the full 54-second real-book writing version](../../examples/storybooks/tea-party/realbook-writing.mp4). 12 pages at 6fps, with music and 15 body-text writing passes.
 
-[观看54秒竖屏书写完整版](../../examples/storybooks/tea-party/portrait-writing.mp4)。1080×1920，与横屏共用动作、书写节拍、配乐和沙沙声；按手机阅读重排，正文和插画放大，预留右侧与底部界面空间，保留四周白框。
+[Watch the full 54-second portrait writing version](../../examples/storybooks/tea-party/portrait-writing.mp4). 1080×1920, sharing motion, writing rhythm, music and rustle with the landscape version; re-laid out for phone reading, with body text and illustrations enlarged, space reserved for the right-side and bottom UI, and the white frame kept on all sides.

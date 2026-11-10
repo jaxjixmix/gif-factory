@@ -1,35 +1,35 @@
-# 人物、背景和文字整体融合 · 九角色动态海报
+# Figure, background and type fused as one · Nine-character dynamic posters
 
-用 P5 式漫画印刷语言，把整幅海报一起设计：黑色与暖白打底，每个角色保留一种识别色，人物、网点阴影、斜切负空间和定制字形在同一画面中形成前后关系。不是把纸牌字贴在原来的彩色图上。
+Using a P5-style screen-print comic language, the whole poster is designed as one piece: black and warm white as the base, each character keeping one identifying colour, with figure, halftone shadows, angled negative space and custom letterforms forming front-to-back relationships in one frame. Not paper-card lettering pasted onto the original colour art.
 
-<img src="preview.gif" alt="九角色整体融合动态海报" width="720">
+<img src="preview.gif" alt="Nine-character fully fused dynamic posters" width="720">
 
-## 九张独立 GIF
+## Nine standalone GIFs
 
-| 角色 | 标题 | 文件 |
+| Character | Title | File |
 | --- | --- | --- |
-| 镜音铃 | TURN IT UP | [查看 GIF](01-rin.gif) |
-| 流歌 | NIGHT ECHOES | [查看 GIF](02-luka.gif) |
-| Teto | BREAK THE LOOP | [查看 GIF](03-teto.gif) |
-| 结城理 | BLUE HOUR | [查看 GIF](04-yuki.gif) |
-| 初音 | LIVE LOUD | [查看 GIF](05-miku.gif) |
-| 鸣人 | CHARGE UP | [查看 GIF](06-naruto.gif) |
-| 路飞 | SET SAIL | [查看 GIF](07-luffy.gif) |
-| 五条悟 | LIMIT LESS | [查看 GIF](08-gojo.gif) |
-| 悟空 | GO BEYOND | [查看 GIF](09-goku.gif) |
+| Kagamine Rin (镜音铃) | TURN IT UP | [View GIF](01-rin.gif) |
+| Megurine Luka (流歌) | NIGHT ECHOES | [View GIF](02-luka.gif) |
+| Teto | BREAK THE LOOP | [View GIF](03-teto.gif) |
+| Makoto Yuki (结城理) | BLUE HOUR | [View GIF](04-yuki.gif) |
+| Miku (初音) | LIVE LOUD | [View GIF](05-miku.gif) |
+| Naruto (鸣人) | CHARGE UP | [View GIF](06-naruto.gif) |
+| Luffy (路飞) | SET SAIL | [View GIF](07-luffy.gif) |
+| Gojo (五条悟) | LIMIT LESS | [View GIF](08-gojo.gif) |
+| Goku (悟空) | GO BEYOND | [View GIF](09-goku.gif) |
 
-每张 720×960、6 秒无限循环，实际编码为 26 帧（重复停留帧已合并），时间采样为 20fps。九宫格为缩略预览，完整尺寸看单张。
+Each is 720×960, a 6-second infinite loop, actually encoded as 26 frames (repeated hold frames merged), time-sampled at 20fps. The nine-grid is a thumbnail preview — open the single cards for full size.
 
-[静态合集封面](cover.jpg) · [解码检查](review.json) · [实际提示词](prompts.json) · [制作方法](../../../references/dynamic-posters.md)
+[Static overview cover](cover.jpg) · [Decode check](review.json) · [Actual prompts](prompts.json) · [Production method](../../../references/dynamic-posters.md)
 
-## 怎样做的
+## How it was made
 
-使用内置生图工具重新生成左右两张完整海报，以前的角色姿态图作身份和动作参考，以已认可的路飞版作设计语言参考；结城理没有肖像参考图，身份来自文字描述，路飞图只提供设计语言。左右关键状态一起包含人物和字形变化，再做光栅循环，底部信息固定。
+The built-in image tool regenerated the two complete left/right posters; earlier character pose images served as identity and action references, and the accepted Luffy version served as the design-language reference. Makoto Yuki has no portrait reference image — his identity comes from the text description — and the Luffy image only supplies the design language. The left and right key states carry both figure and letterform changes, then a lenticular loop is made with the bottom information fixed.
 
-字体已画在完整关键状态里，不能把它称为逐字独立动效或把成品说成可点击的游戏界面。需要经常修改精确品牌文字时，另外使用分层排版路线。
+The lettering is already drawn into the complete key states, so this cannot be called per-letter independent animation, and the finished piece should not be described as a clickable game interface. When exact brand text needs frequent changes, use the separate layered-typography route.
 
-首批路飞、鸣人、五条悟、初音整体融合版已获用户认可；镜音铃、流歌、Teto、结城理、悟空为随后扩展版本，技术检查通过，未声称使用者已逐张审美确认。结城理按当前九宫格编排替换镜音连，旧版镜音连不覆盖。
+The first batch of fully-fused versions — Luffy, Naruto, Gojo and Miku — has been accepted by the user; Kagamine Rin, Luka, Teto, Makoto Yuki and Goku are later expansions that passed technical checks, with no claim that the user has aesthetically confirmed each one. Makoto Yuki replaces Kagamine Len (镜音连) in the current nine-grid arrangement; the older Kagamine Len version is left in place.
 
-活动日期、场地和演出信息均为虚构概念、非官方活动。角色 IP、参考设计语言和字体的商业权利不能由软件的 MIT 许可推定。未打包字体文件或私有原始照片。
+The event date, venue and show information are all fictional concepts, not an official event. Commercial rights to the character IP, referenced design language and fonts cannot be inferred from the software's MIT license. No font files or private source photos are bundled.
 
-下载整个仓库即可取得这九张及预览；仓库不重复保存相同内容的大 ZIP。
+Downloading the whole repository gets you these nine cards and the preview; no large ZIP duplicating the same content is kept in the repository.

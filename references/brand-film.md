@@ -1,67 +1,67 @@
-# 品牌宣传片：角色动作 × 拼贴叙事
+# Brand films: character actions × collage storytelling
 
-当用户希望把角色、吉祥物或表情包用于门店、产品或独立品牌宣传时使用本流程。沿用已经接受的角色外观和动作方式；用途不改变角色画风。黏土是角色的材质表现，纸片拼贴是场景和叙事手法，均不意味着所有角色都要转成这种样子。
+Use this workflow when the user wants a character, mascot or sticker pack used for a shop, product or independent brand promo. Carry forward the accepted character appearance and movement method; purpose does not change the character's art style. Clay is a character material treatment, and paper cutout is a scene and narrative technique — neither means every character must be converted to that look.
 
-## 让角色推动故事
+## Let the character drive the story
 
-每个镜头先确定：
+For each shot, decide first:
 
-**谁动手 → 碰到什么 → 发生什么变化 → 角色怎么反应 → 品牌在哪里出现。**
+**Who acts → what they touch → what changes → how the character reacts → where the brand appears.**
 
-角色动作应当触发画面变化。例如，可颂店长拉动纸条，店铺展开；面包落到托盘，再进入印有店名的外带袋。如果拿掉角色以后故事仍然完全一样，需要重新设计角色的作用。产品镜头不必强行增加角色，但角色参与的镜头应有明确作用。
+Character actions should trigger on-screen changes. For example, the croissant shopkeeper pulls a paper strip and the shop unfolds; bread lands on a tray, then into a takeaway bag printed with the shop name. If the story is exactly the same with the character removed, redesign the character's role. Product shots do not need a forced character, but shots the character appears in must give it a clear purpose.
 
-每段只安排一个主要机关，通常用3～6组大物件表达一个意思。先确定完成构图、2～4个关键姿态和道具归属，再制作中间过程。不要用整体淡入、慢慢放大或无目的漂移代替逐件进入、卡位、触发和结果。物件数量是便于阅读的经验值，不是所有广告的硬性限制。
+Give each segment one main mechanism, usually 3–6 groups of large objects to convey one idea. Fix the finished composition, 2–4 key poses and prop ownership first, then build the in-between process. Do not replace item-by-item entry, lock-in, trigger and result with a whole-frame fade, slow zoom or aimless drift. Object counts are readability guidance, not a hard limit for every ad.
 
-## 两套方法的分工
+## Division of labor between the two methods
 
-- **角色制作**：复用身份参考，固定轮廓、服装构造、材质和光线；动作由脸、头、躯干及相关四肢共同完成，保留准备、发力、反应和收势。连续姿态共用裁切和缩放，沿用[动作稳定性检查](stability.md)与[清晰度处理](clarity.md)。
-- **拼贴叙事**：将一句话变成能看懂的动作关系，先定尾态，再安排纸片从哪里进入、怎么连接、怎样完成变化。颜色、纸边和阴影统一，避免碎片堆满画面。
-- **画面合成**：把角色动作的触发点、道具变化、接触点、文案和声音对齐。角色、产品、包装和文字分别保留可修改的图层。
+- **Character production:** reuse the identity reference and fix silhouette, costume construction, material and lighting; the face, head, torso and relevant limbs act together, retaining anticipation, exertion, reaction and settling. Consecutive poses share one crop and scale — follow [the action stability checks](stability.md) and [clarity handling](clarity.md).
+- **Collage storytelling:** turn one sentence into a readable action relationship; set the end state first, then plan where paper pieces enter from, how they connect and how they complete the change. Unify color, paper edges and shadows; do not pack the frame with fragments.
+- **Scene composition:** align the character action's trigger point, prop changes, contact points, copy and sound. Keep characters, products, packaging and text on separately editable layers.
 
-一个可用的镜头记录：
+A usable shot record:
 
-| 要记什么 | 面包店例子 |
+| What to record | Bakery example |
 | --- | --- |
-| 一句话意思 | 把今天慢慢打开 |
-| 谁动手、碰到什么 | 可颂伸手抓纸条，后仰拉动 |
-| 关键时刻 | 抓住 → 发力 → 三折店铺展开 → 展示结果 |
-| 道具归属与遮挡 | 纸条连接手与店铺；角色在前，店铺在后 |
-| 品牌落点 | 展开后的招牌上出现店名 |
+| One-sentence idea | Slowly open today |
+| Who acts, what they touch | The croissant reaches for the paper strip and pulls back |
+| Key moments | Grab → pull → three-fold shop unfolds → show the result |
+| Prop ownership and occlusion | The paper strip links the hand and the shop; character in front, shop behind |
+| Brand placement | The shop name appears on the signboard after unfolding |
 
-先定故事和画面，再制作成本更高的动画。对于未经验证的新角色动作，先做小样；用户已经接受方向、要求继续或直接索要成片时，沿用该授权，不重复要求同一轮确认。
+Fix the story and visuals first, then produce the more expensive animation. For unproven new character actions, make a sample first; when the user has accepted the direction, asked to continue or directly requested the film, carry that authorization forward instead of repeating the same round of confirmation.
 
-## 选择实现方式
+## Choosing the implementation
 
-需要精确控制品牌文字、物件数量、抓握、遮挡和后续修改时，优先使用可编辑的分层合成。现有姿态导出脚本负责角色资产，不直接承担广告时间线；选择目标环境实际可用的视频合成工具。若使用 HyperFrames，遵守其当前制作说明与检查流程，不在这里复制某个易过期的固定版本安装步骤。
+When brand text, object counts, grips, occlusion and later edits need precise control, prefer an editable layered composite. The existing pose exporter scripts produce character assets; they do not run the ad timeline themselves — choose a video compositor that actually works in the target environment. If HyperFrames is used, follow its current production notes and check flow; do not copy any specific, easily outdated version's install steps here.
 
-使用视频生成时，明确已确认的起始状态、完成状态和动作顺序，检查中段有没有新增、丢失或替换物件。保留用户选定的工具和模型，不因借鉴拼贴方法就自动绑定模型或要求新增服务。分层合成同样可以实现纸片组装叙事。
+When using video generation, pin down the confirmed start state, end state and action order, and check whether the middle adds, loses or replaces objects. Keep the user's chosen tools and models; borrowing a collage method does not automatically bind a model or require a new service. A layered composite can also achieve paper-assembly storytelling.
 
-不要为广告重画全部已接受角色；只有确实缺少的动作或道具才新增。可以用同一角色资产另做聊天GIF、社媒或门店素材，但这属于额外交付，按用户要求安排；不能把同一个动作换几句文案算成多个新动作。
+Do not redraw every accepted character for an ad; add only genuinely missing actions or props. The same character assets can be reused for separate chat GIFs, social media or shop material, but that is extra delivery, arranged at the user's request; the same action with a few different captions does not count as multiple new actions.
 
-## 品牌落点
+## Brand placement
 
-将品牌放进故事中的物件：包装袋、杯套、菜单、招牌、标签或产品本身。默认只使用用户提供或明确设为虚构的品牌信息。片尾为店名和邀请语留出足够阅读时间；按实际字数、画幅和手机尺寸检查，不把面包店样片的秒数当成所有项目的默认值。
+Place the brand into story objects: packaging bags, cup sleeves, menus, signboards, labels or the product itself. By default use only brand information the user provides or explicitly marks as fictional. Leave enough reading time at the end for the shop name and invitation line; check against the actual character count, canvas and phone size, and do not treat the bakery sample's seconds as the default for all projects.
 
-保留用户指定的比例、时长、配乐和文案要求。没有明确规格时做一个范围适当的小样，再根据用途决定尺寸；GIF的512px画布与约两秒循环不自动适用于宣传片。
+Respect the user's specified aspect ratio, duration, music and copy requirements. Without explicit specs, make a reasonably scoped sample, then decide dimensions by use; the GIF's 512px canvas and roughly two-second loop do not automatically apply to a brand film.
 
-## 防穿帮与实际成片检查
+## Continuity checks and the actual-film review
 
-每个物件每个时刻都记清楚：在谁手里、放在哪、是否自带容器、位于前景还是后景。
+Track every object at every moment: whose hand it is in, where it sits, whether it brings its own container, and whether it is in the foreground or background.
 
-- **动作与结果**：触发发生在结果之前，人物有准备和反应，接触位置跟随动作。
-- **物件归属**：手是否抓住道具，脚是否落地，食物是否落在正确位置。同一盘面包不要自带一个盘子又叠到另一个盘子上。
-- **遮挡与边缘**：检查包装前后片、人物露头、袋口、移动中的裁切边界和出入画过程。不要只检查静止尾帧。
-- **镜头衔接**：转场前后的数量、位置、大小和移动方向是否接得上；刻意的跳接应当能读懂。
-- **输出与声音**：检查实际导出的视频、关键动作前后及最后一秒，确认无明显抽帧、变脸、文字裁切或音画错位。核对时长、尺寸、帧率、音轨与文件可打开；声音只做测量时不要声称已经听审。
+- **Action and result:** the trigger precedes the result, the character anticipates and reacts, and contact points follow the action.
+- **Object ownership:** whether the hand grips the prop, the foot lands on the ground, the food lands in the right place. The same tray of bread must not bring a plate of its own and then stack onto another.
+- **Occlusion and edges:** check front/back packaging layers, the character peeking out, the bag opening, moving crop boundaries and enter/exit moves. Do not inspect only the static final frame.
+- **Shot continuity:** whether counts, positions, sizes and movement directions line up across a transition; intentional jump cuts must read clearly.
+- **Output and sound:** check the actual exported video, around the key actions and the last second, confirming no obvious frame skipping, face morphing, text clipping or audio-video desync. Verify duration, dimensions, frame rate, audio track and that the file opens; when sound was only measured, do not claim it was auditioned.
 
-保留原版，针对有问题的道具、姿态或图层修补，然后重新检查受影响过程。不要为了一个盘子整镜重新生成，也不要靠增帧率掩盖缺少的动作过渡。
+Keep the original version; patch the specific faulty prop, pose or layer, then re-check the affected process. Do not regenerate a whole shot over one plate, and do not mask missing action transitions by adding frame rate.
 
-## 交付与已验证案例
+## Deliverables and verified cases
 
-交付成片、可编辑工程和必要的素材来源/署名；检查工程压缩包能解压、引用的素材齐全、路径可移植。角色独立GIF仅在约定范围内额外交付。区分生成姿态动画、分层合成和真实三维动画，不承诺未经验证的稳定性。
+Deliver the film, the editable project and necessary source credits/attribution; check that the project archive extracts, referenced assets are complete and paths are portable. Standalone character GIFs are extra delivery only within the agreed scope. Distinguish generated pose animation, layered compositing and true 3D animation; do not promise unverified stability.
 
-本仓库的[慢慢面包店案例](../examples/brand-films/manman-bakery/README.md)包含15秒成片、动态预览、可编辑工程和动作GIF。用户认可了这一版融合试片，并要求发布；这是对具体样片的确认，不代表新品牌、新角色和每次生成都会稳定。该片是黏土质感姿态序列加分层合成，未调用Gemini视频脚本。拉条接触为近似对齐，面包进入下一镜使用拟人化抛接。
+This repo's [Manman Bakery case](../examples/brand-films/manman-bakery/README.md) includes a 15-second film, an animated preview, an editable project and action GIFs. The user accepted this fusion test film and asked for publication; that is confirmation of this specific sample, not a guarantee that new brands, new characters and every generation will be stable. The film is a clay-look pose sequence plus layered compositing, without Gemini video scripting. The strip contact is approximate alignment, and the bread entering the next shot uses an anthropomorphic toss.
 
-## 方法来源
+## Method provenance
 
-视觉命题、少量物件组装和首尾状态设计参考 [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll)。本流程与本仓库已有角色动作、清晰度及稳定性检查结合，重新编排，不复制其审批协议或固定模型要求。若实际调用对方Skill，再读取其当前说明并遵守用户在本次任务中的授权与工具选择。
+The visual proposition, small-object assembly and start/end-state design reference [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll). This workflow rearranges them in combination with this repo's existing character-action, clarity and stability checks; it does not copy that project's approval protocol or fixed-model requirements. If that Skill is actually invoked, read its current instructions and honor the user's authorization and tool choices for the task at hand.

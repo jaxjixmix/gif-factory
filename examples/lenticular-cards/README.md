@@ -1,32 +1,32 @@
-# 九张电子光栅卡：案例与来源
+# Nine Lenticular Cards (电子光栅卡): examples and sources
 
-已补齐九个角色：蜘蛛侠、恶灵骑士、毒液、钢铁侠、蝙蝠侠、黑豹、金刚狼、美国队长、死侍。
+All nine characters are now in place: Spider-Man (蜘蛛侠), Ghost Rider (恶灵骑士), Venom (毒液), Iron Man (钢铁侠), Batman (蝙蝠侠), Black Panther (黑豹), Wolverine (金刚狼), Captain America (美国队长) and Deadpool (死侍).
 
-每张独立 GIF 为 480×720、6秒、无限循环。按20fps采样制作，重复停留画面编码时合并；解码后通常为32帧，停留时间计入6秒。九宫格总览按时间取帧，确保每张卡的实际播放节奏一致。原四张直接复制确认版本，蜘蛛侠采用用户指定的首版，没有换成后续窄幅或拼接版。
+Each standalone GIF is 480×720, 6 seconds, looping forever. Made by sampling at 20fps, with repeated hold frames merged at encode time; after decoding there are usually 32 frames, and hold time counts inside the 6 seconds. The nine-grid overview pulls frames by time so that every card plays at a consistent pace. The original four are direct copies of the confirmed versions; Spider-Man uses the first version the user specified, not swapped for a later narrow-format or stitched version.
 
-新增五个角色的生图均被服务拦截，最终全部采用网上现成素材；未把失败请求记为成功。黑豹为数字绘画，金刚狼为矢量插画，其余素材也含合成图，因此本套并非全部为电影实拍或同一种绘画风格。
+Image generation for the five added characters was blocked by the service, so all five ended up using ready-made assets found online; failed requests were not recorded as successes. Black Panther is a digital painting and Wolverine a vector illustration; other assets include composites too, so this set is not all live-action film stills or a single drawing style.
 
-## 来源与制作方式
+## Sources and production methods
 
-|角色|来源|制作方式|
+|Character|Source|Production method|
 |---|---|---|
-|蜘蛛侠|[TMDB 背景图](https://www.themoviedb.org/movie/558-spider-man-2/images/backdrops)|原确认版：拼脸图分侧裁切，面罩侧镜像|
-|恶灵骑士|用户提供构图参考，内置生图工具生成|已完成的半脸近景版|
-|毒液|用户选择的蜘蛛侠图作构图参考，内置生图工具生成|已完成版|
-|钢铁侠|[素材发现页](https://in.pinterest.com/pin/53972895529068863/)|已完成版，现成拼脸素材|
-|蝙蝠侠|[IMDb 图文页面](https://www.imdb.com/news/ni65026701/)|现成两张照片配对，人脸与面罩裁切、镜像、按眼位和下巴对齐|
-|黑豹|[数字绘画发现页](https://www.pinterest.com/pin/129548926768266538/)|作者尚未核实，使用现成数字绘画左右半幅；来源原图保存在制作目录|
-|金刚狼|[Daniel Vásquez：Wolverine/Hugh Jackman Vector](https://www.behance.net/gallery/120626151/WolverineHugh-Jackman-Vector)|使用其矢量插画，半幅裁切镜像，保留绘画质感|
-|美国队长|[素材发现页](https://pantip.com/topic/35110484/desktop)|现成人脸/面罩合成图，灰度面罩与彩色人脸|
-|死侍|[素材发现页](https://www.pinterest.com/pin/45106433746532302/)|现成演员/角色拼脸合成，灰度演员与红色面罩|
+|Spider-Man|[TMDB backdrop](https://www.themoviedb.org/movie/558-spider-man-2/images/backdrops)|Original confirmed version: face-splice image cropped per side, mask side mirrored|
+|Ghost Rider|User-provided composition reference, generated with the built-in image tool|Completed half-face close-up version|
+|Venom|User-chosen Spider-Man image as composition reference, generated with the built-in image tool|Completed version|
+|Iron Man|[Asset discovery page](https://in.pinterest.com/pin/53972895529068863/)|Completed version; ready-made face-splice asset|
+|Batman|[IMDb article page](https://www.imdb.com/news/ni65026701/)|Two ready-made photos paired; face and mask cropped, mirrored and aligned by eye position and chin|
+|Black Panther|[Digital painting discovery page](https://www.pinterest.com/pin/129548926768266538/)|Author not yet verified; the left/right halves of a ready-made digital painting are used; the source original is kept in the production directory|
+|Wolverine|[Daniel Vásquez: Wolverine/Hugh Jackman Vector](https://www.behance.net/gallery/120626151/WolverineHugh-Jackman-Vector)|Uses his vector illustration; one half cropped and mirrored, keeping the painterly texture|
+|Captain America|[Asset discovery page](https://pantip.com/topic/35110484/desktop)|Ready-made face/mask composite; greyscale mask with a colour face|
+|Deadpool|[Asset discovery page](https://www.pinterest.com/pin/45106433746532302/)|Ready-made actor/character face-splice composite; greyscale actor with a red mask|
 
-这些是动态效果试样；网络素材和角色 IP 未核实商业使用授权。来源页用于追溯，不代表获得授权。金刚狼原作归 Daniel Vásquez 所有，其他现成原作归其各自作者/权利人所有。
+These are dynamic-effect samples; commercial-use authorization for the web assets and character IP has not been verified. Source pages are for tracing, not evidence of licensing. The Wolverine original belongs to Daniel Vásquez; the other ready-made originals belong to their respective authors/rights holders.
 
-输出包含九张独立GIF、九宫格动态总览、静态总览与验证结果。保留每张不同的材质和背景，不给画面人为拼接侧边。
+The output includes nine standalone GIFs, the nine-grid animated overview, a static overview and verification results. Each card keeps its own material and background; no side strips are artificially spliced onto the frames.
 
 
-## 查看与下载
+## View and download
 
-[动态总览](preview.gif) · [九张独立 GIF 压缩包](cards.zip) · [A 状态](state-a.jpg) · [B 状态](state-b.jpg) · [实际解码检查](review.json)
+[Animated overview](preview.gif) · [Nine standalone GIFs (zip)](cards.zip) · [State A](state-a.jpg) · [State B](state-b.jpg) · [Actual decode check](review.json)
 
-使用条件、失败处理和重做标准见[电子光栅卡流程](../../references/lenticular.md)。这里不收录被放弃的窄幅版、右侧大黑栏版、城市硬拼版或拍立得相片墙。
+Usage conditions, failure handling and redo criteria are in [the Lenticular Card process](../../references/lenticular.md). Abandoned versions — the narrow format, the large black right-hand bar, the hard-spliced city shot and the Polaroid photo wall — are not included here.

@@ -1,63 +1,63 @@
-# 书本与声音：已验证成片方法
+# Book and sound: verified deliverable method
 
-## 先决定材质，再制作动画外壳
+## Decide the material first, then build the animation shell
 
-平面矩形加纸纹、改成暖色不能等同于真实书本。先做静态材质样稿：书页应有自然轻微弯曲、凹陷书脊、薄且不完全整齐的页边、封皮和桌面的接触阴影。背景选材质清楚但安静的木面或织物；不要把复杂木纹、颗粒和黄滤镜当质感。
+A flat rectangle with paper texture, warmed up in tone, is not a real book. Make a static material draft first: pages with a natural slight curl, a recessed spine, thin and not perfectly even page edges, and contact shadow between cover and table. Choose a clear but quiet wood or fabric background; do not pass off busy wood grain, noise and a yellow filter as material quality.
 
-《风送来的茶会》最终认可方向：正俯拍、薄纸哑光、微弱纸纤维、浅木桌面、细窄布封皮，书占横屏宽约86%。这是案例起点；用户指定其他材质时覆盖。纸纹浮雕、厚实棕色页块、橡胶圆角、连续镜面高光、全画面同等锐利容易产生塑料感。先修镜位、光源和材质响应，不靠加噪点遮盖。
+Accepted final direction for Tea Party Brought by the Wind: straight top-down, matte thin paper, faint paper fibre, light wood tabletop, narrow cloth cover, the book about 86% of the landscape width. This is the case's starting point; override it when the user specifies other materials. Embossed paper texture, thick brown page blocks, rubber-rounded corners, continuous specular highlights and uniform sharpness across the frame tend to read as plastic. Fix the camera angle, light source and material response first; do not cover them with added noise.
 
-使用参考图时实际查看并传入图像编辑工具。保留用户认可的角度、构图、书封、页边、木纹和光向，移除两页全部文字与插画形成干净底板。检查无残字或角色残影后，恢复原动画与正式排版；底板与生成样稿保留出处和引用关系。
+When using a reference image, view it and pass it to the image-editing tool. Keep the user-accepted angle, composition, cover, page edges, wood grain and light direction, and remove all text and illustration from both pages to form a clean base plate. After checking there is no leftover lettering or character ghosting, restore the original animation and final layout; keep provenance and reference links between the base plate and the generated draft.
 
-## 页内与翻页分开
+## Keep in-page animation separate from page turns
 
-- 书桌、封皮、纸叠层固定，页片绕真实书脊翻；禁止把桌面或整幅视频随页翻走。
-- 可裁取底板中的对应空白页作页片。静止页的源裁切与屏幕坐标要一一对应，不能出现矩形接缝、重复书脊或移动木纹。
-- 插画以透明边缘或合适混合方式融入纸面。multiply可保留纸色和细纹，但会压暗画面；实际检查黑位、脸、服装和白色道具，不默认适用全部插画。
-- 三角网格/条带可制作短翻页，但不是物理纸张模拟。检查前、中、后帧；0.5秒在6fps下只有3帧。用户要求更细腻时先调页片曲率和阴影，不静默补成30fps。
-- 翻页冻结旧页最后状态，底下的新页从第一状态开始；动作只在页内进行，不能在翻页时倒放。
+- Desk, cover and paper stack stay fixed; the leaf turns around the real spine; never let the tabletop or the whole frame turn with the page.
+- The leaf may be cut from the corresponding blank page in the base plate. Source crops and screen coordinates of static pages must correspond one-to-one; no rectangular seams, repeated spines or moving wood grain.
+- Blend the illustration into the paper with transparent edges or a suitable composite mode. multiply can keep the paper colour and fine grain but darkens the image; actually check blacks, faces, costumes and white props, and do not apply it to every illustration by default.
+- A triangular mesh/strip can produce a short page turn, but it is not a physical paper simulation. Check the before, middle and after frames; 0.5s at 6fps is only 3 frames. When the user wants it finer, adjust the leaf curvature and shadow first; do not silently interpolate to 30fps.
+- A page turn freezes the old page at its last state, and the new page underneath starts from its first state; the action runs only inside the page and must not play in reverse during the turn.
 
-## 字体与版式
+## Fonts and layout
 
-已认可案例使用克制的深绿手写字；横屏左字右图，竖屏图上字下且白框完整可见。正文优先，页眉与页码退后。给每页按实际文案分行，必要时分为多个阅读节拍；不要挤压字宽、裁字或用快速换字缩短时长。
+The accepted case uses restrained dark-green handwriting; landscape has text left, image right, and portrait has image above, text below with the white border fully visible. Body text comes first; headers and page numbers recede. Break each page into lines from the actual copy, splitting into several reading beats when needed; do not compress letter width, clip glyphs or shorten the duration with fast text swaps.
 
-字体子集要包含完整故事、标点、页码、片尾，不能只覆盖18秒试样。替换字体需检查字形、缺字和实际手机尺寸可读性；渲染用字体不等于具备分发字库授权。
+The font subset must cover the complete story, punctuation, page numbers and end card, not just the 18-second sample. A replacement font needs glyph, missing-character and real phone-size legibility checks; a font used for rendering does not equal a licence to distribute it.
 
-## 竖屏从横屏怎么扩展
+## Extending landscape to portrait
 
-已导出检查的《风送来的茶会》竖版：1080×1920、54秒、6fps、324帧、12页、15组正文。图上字下，两行居中，标题和页码静态；书写cue与横屏相同，直接复用原配乐和书写音效stem，不重新剪音频导致漂移。
+Exported and checked portrait edition of Tea Party Brought by the Wind: 1080×1920, 54s, 6fps, 324 frames, 12 pages, 15 body-text groups. Image above, text below, two lines centered, titles and page numbers static; writing cues match the landscape version, reusing the original music and writing-sound stems directly rather than re-cutting audio and causing drift.
 
-- 以横屏认可底板为材质参考，单独生成完全空白的竖向单页与背景；不把左右双页整本塞进手机画面。纸面无中缝，细窄封皮、薄页边与桌面接触自然。
-- 生成后实际查看纸页边界，再设插画、正文和翻页范围，不假设生成器精确遵守坐标。已认可手机优化版纸页约x30/y167/1021×1284，插画x48/y242/912×912，正文78px、中心x504、基线1216与1306；这些只供该底板复现，不硬套新图。
-- 每行按实际字形宽度居中，字符单独写出时仍用整行最终宽度定起点，避免文字随着增加而左右游移。
-- 只翻纸页区域，不把桌面带进翻页。纸页背面裁取同一底板的空白纸纹，检查生成的封皮、阴影和桌面是否被误裁入背面。
-- 保留完整插画比例与动作空间；不为竖屏裁断头脚或手持道具。手机尺寸核对四周白框、字行、平台遮挡区域；实际导出再看15组正文写完后的帧，确认无截字、残笔与边缘漂移。
+- Use the accepted landscape base plate as the material reference and generate a separate, completely blank portrait single page and background; do not squeeze the two-page spread into the phone frame. The paper has no centre gutter, with a narrow cover, thin page edges and natural tabletop contact.
+- After generation, actually view the paper edges before setting the illustration, body-text and page-turn ranges; do not assume the generator followed coordinates exactly. The accepted mobile-optimized page is about x30/y167/1021×1284, illustration x48/y242/912×912, body text 78px, centre x504, baselines 1216 and 1306; these reproduce that base plate only, do not force them onto new art.
+- Centre each line by actual glyph width; when characters are written one by one, still set the start from the line's final width so the text does not drift left and right as it fills in.
+- Turn only the paper area; do not bring the tabletop into the turn. Cut the page back from the blank paper grain of the same base plate, and check that the generated cover, shadows and tabletop were not mistakenly cut into the back.
+- Preserve the full illustration proportion and action space; do not crop heads, feet or held props for portrait. At phone size, check the surrounding white border, text lines and platform occlusion zones; then view the frames of the actual export after all 15 body-text groups finish writing, confirming no clipped glyphs, leftover strokes or edge drift.
 
-## 手机阅读优化
+## Mobile-reading optimization
 
-手机端不只检查9:16尺寸。优先让角色与正文在手机全屏下清楚，再安排外围桌面留白；保留白框，但不要为了整张纸的展示把故事缩小。已认可案例相对首版书页宽约增加12%，插画840→912px，正文68→78px，标题与页码上移；同一书写时长、动作、配乐和音效不变。
+On mobile, do not stop at checking the 9:16 size. Make characters and body text clear on a full phone screen first, then arrange the surrounding tabletop negative space; keep the white border, but do not shrink the story to show the whole sheet. The accepted case widens the page about 12% over the first edition, illustration 840→912px, body text 68→78px, titles and page numbers moved up; the same writing duration, actions, music and sound are unchanged.
 
-- 正文居中轴可略向左，给右侧互动栏留空间；最后一行不要压到下方账号、标题、字幕区域。已验证构图把关键文字安排在约168–1330px的纵向区域，右侧约120px作为保守预留示意；这是版式检查范围，不是任何平台的固定规范或保证。
-- 按目标平台当前实际界面判断遮挡。没有实机截图时可加半透明遮罩模拟顶部、右侧、底部占位，标明“示意”，不能当成真实平台截图或声称所有手机已验证。
-- 调整底板取景和书页大小时保持照片铺满全画布，核对底部没有透明/纯色条；纸页裁切范围与新底板坐标一起更新，避免把木面带入翻页背面。
-- 字号变大要同步扩大单字离屏画布、墨迹扫描尺寸、蒙版和基线，避免字的上沿下沿被裁。每行仍按完成状态总字宽定居中起点，保留快速书写效果。
-- 用同一时间点做优化前后对照，检查360px宽预览及实际导出15组正文完成状态。只放大外框、不增大正文或关键角色，不能当作阅读优化。
+- The body-text centre axis may shift slightly left to leave room for the right-hand interaction rail; the last line must not press into the account, title or caption area below. The verified composition places key text in a vertical band of about 168–1330px, with about 120px on the right as a conservative reservation guide; this is a layout review range, not a fixed rule or guarantee for any platform.
+- Judge occlusion by the target platform's current real interface. Without a device screenshot, a semi-transparent overlay may simulate top, right and bottom occupancy, labelled “illustrative”; do not pass it off as a real platform screenshot or claim every phone has been verified.
+- When adjusting the base plate's framing and page size, keep the photo full-bleed to the whole canvas and check there is no transparent or solid-colour strip at the bottom; update the page crop range together with the new base-plate coordinates so the wood surface does not enter the page back.
+- A larger font size needs the per-character offscreen canvas, ink scan size, mask and baselines enlarged in step, so glyph tops and bottoms are not clipped. Each line still centres from its completed width, preserving the fast-writing effect.
+- Compare before and after at the same timestamp, checking a 360px-wide preview and the completed state of all 15 body-text groups in the actual export. Enlarging only the outside frame without enlarging the body text or key characters is not reading optimization.
 
-## 配乐
+## Music
 
-配乐可由用户在 **Suno、Gemini 等 AI 音乐工具中单独制作**，满意后导出音频，再交给本流程剪辑、合成。也可导入用户已有音乐；不要求必须使用某个平台，不把本 Skill 描述成自带音乐生成或已接通这些工具的接口。
+Music may be **made separately by the user in AI music tools such as Suno or Gemini**, exported once satisfied, then handed to this workflow for cutting and mixing. Music the user already has may also be imported; no particular platform is required, and do not describe this Skill as bundling music generation or as wired into these tools' interfaces.
 
-《风送来的茶会》使用用户通过 Gemini 一侧制作并提供的《Candle at Dusk》音频。本案例不声称用了 Suno；Suno 是可选制作工具示例。发布案例时如实记录用户提供的来源，未知底层模型不猜测。
+Tea Party Brought by the Wind uses the “Candle at Dusk” audio made by the user on the Gemini side and supplied by them. This case does not claim Suno was used; Suno is an example of an optional production tool. When publishing a case, record the user-supplied source truthfully and do not guess an unknown underlying model.
 
-可给音乐工具的方向：根据故事视频制作轻松、温暖、亲密的摇篮曲，少配器、简单旋律、柔软中音、无人声，不做庄重或宏大的配乐；声音自然连续，按实际片长收尾。音效和旁白另行决定。发布时保留音乐来源说明，具体使用范围以音源实际授权为准，不能把生成音乐自动标成仓库代码的 MIT 许可。
+Direction to give a music tool: from the story video, make an easy, warm, intimate lullaby — sparse instrumentation, simple melody, soft midrange, no vocals; no solemn or grand scoring; sound that flows naturally and finishes at the actual runtime. Sound effects and narration are decided separately. Keep the music's source note when publishing; the exact scope of use follows the audio's own licence, and generated music is not automatically MIT like the repository code.
 
-旁白、配乐和音效分别决定。用户未要求旁白就不自动加；本案例旁白明确延后。已认可方向是温暖、轻松、亲密的摇篮曲，无人声、少配器，声音连续，不随低帧卡顿。
+Narration, music and sound effects are decided separately. Do not add narration unless the user requests it; in this case narration is explicitly deferred. The accepted direction is a warm, easy, intimate lullaby, no vocals, sparse instrumentation, continuous sound that does not stutter with the low frame rate.
 
-用户提供音乐时先测时长与电平，再选适合故事的片段。不要只按曲名推断听感；未听到时不声称已试听。已认可案例使用原曲开头、降低5dB、0.6秒淡入、最后2秒淡出；这是针对该音源的选择，不作通用响度标准。
+When the user supplies music, measure duration and level first, then choose the segment that suits the story. Do not infer how it sounds from the title alone; do not claim to have auditioned what you have not heard. The accepted case uses the track's opening, lowered 5dB, 0.6s fade-in and a 2s fade-out at the end; this is a choice for that source, not a universal loudness standard.
 
-从短样片扩成长片，应使用完整原曲重新截取，并将淡出移到新片尾，不能循环已做淡出的18秒音轨或中段突然安静。核对实际文件有音轨、时长一致、无削波；保留用户对听感的验收。
+When expanding a short sample into a full piece, re-cut from the complete original track and move the fade-out to the new ending; do not loop the already-faded 18-second audio or let the middle fall abruptly quiet. Verify the actual file has an audio track, matching duration and no clipping; the user still accepts the result by ear.
 
-## 扩展与交付
+## Expansion and delivery
 
-扩展已经认可的样片时保留镜位、角色、字体、材质与声音选择。复杂送礼页可7秒、结尾可6秒；普通页可以约3–4秒，不凑目标时长。核对所有页和翻页，样片通过不能替代完整故事检查。
+Expanding an accepted sample keeps the camera angle, characters, font, material and sound choices. A complex gift page may run 7s and the ending 6s; ordinary pages may run about 3–4s, without padding to a target duration. Check every page and page turn; a passed sample does not replace checking the complete story.
 
-交付区分：用户已认可的样片、已导出并检查的完整版、尚未确认的新材质或新风格。Skill与仓库目录可同步文档；发布或推送远端按当前用户授权执行，不把调用Skill当成发布授权。
+Separate delivery status: user-accepted samples, a full version exported and checked, and unconfirmed new materials or styles. The Skill and repository directory may sync documentation; publishing or pushing to a remote follows the user's current authorization, and invoking the Skill is not publication authorization.

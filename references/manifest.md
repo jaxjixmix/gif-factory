@@ -4,18 +4,18 @@ Supply a JSON file with a title, the exact sticker count, and an ordered list of
 
 ```json
 {
-  "title": "雨天搭档",
+  "title": "Rainy Day Duo",
   "count": 2,
   "groups": [{
-    "name": "日常",
+    "name": "Everyday",
     "atlas": "sample-atlas.png",
     "grid": [2, 1],
     "ink": "#5E4493",
     "tint": "#C8B2F4",
     "background": "#EBE3FA",
     "entries": [
-      {"text":"醒醒","cell":[0,0],"motion":"startle","icon":"alert"},
-      {"text":"晚安","cell":[1,0],"motion":"breathe","icon":"sleep"}
+      {"text":"Wake up","cell":[0,0],"motion":"startle","icon":"alert"},
+      {"text":"Good night","cell":[1,0],"motion":"breathe","icon":"sleep"}
     ]
   }]
 }

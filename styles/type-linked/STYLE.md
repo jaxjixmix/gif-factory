@@ -1,42 +1,42 @@
-# 人物与字体联动
+# Type-Linked (文字联动)
 
-[返回风格库](../README.md) · [查看原尺寸案例](../../examples/dynamic-posters/type-linked/01-rin.gif)
+[Back to style index](../README.md) · [View full-size case](../../examples/dynamic-posters/type-linked/01-rin.gif)
 
-## 动态案例 · 4 张
+## Animated Cases · 4
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/01-rin.gif"><img src="../../docs/previews/type-linked.gif" alt="镜音铃" height="180"></a><br>镜音铃</td>
-<td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/02-luka.gif"><img src="../../docs/previews/type-linked-02.gif" alt="流歌" height="180"></a><br>流歌</td>
+<td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/01-rin.gif"><img src="../../docs/previews/type-linked.gif" alt="Kagamine Rin" height="180"></a><br>Kagamine Rin</td>
+<td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/02-luka.gif"><img src="../../docs/previews/type-linked-02.gif" alt="Luka" height="180"></a><br>Luka</td>
 <td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/03-teto.gif"><img src="../../docs/previews/type-linked-03.gif" alt="Teto" height="180"></a><br>Teto</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/04-len.gif"><img src="../../docs/previews/type-linked-04.gif" alt="镜音连" height="180"></a><br>镜音连</td>
+<td width="33%" valign="top"><a href="../../examples/dynamic-posters/type-linked/04-len.gif"><img src="../../docs/previews/type-linked-04.gif" alt="Kagamine Len" height="180"></a><br>Kagamine Len</td>
 </tr>
 </table>
 
-## 长什么样
+## What It Looks Like
 
-保留原插画，字的大小、字距、倾斜和虚实与人物一起变化。
+The original illustration is kept; the text's size, spacing, slant and solid/outline treatment shift together with the character.
 
-## 怎么动
+## How It Moves
 
-人物两状态切换，独立文字图层分档展开，日期场地固定。
+The character switches between two states while a separate text layer unfolds in stages; date and venue stay fixed.
 
-适合：演出预告、人物宣传、换装展示。当前参考尺寸与节奏：720×960，6 秒循环。这些是该系列默认值，用户指定尺寸或时长时按请求处理。
+Best for: show teasers, character promotion, outfit showcases. Current reference size and pacing: 720×960, 6-second loop. These are the series defaults; when the user specifies a size or duration, follow the request.
 
-## 制作入口
+## How to Produce
 
-先沿用已认可的角色、画风与动作。阅读[外观与素材要求](../../references/dynamic-posters.md)和[实际制作流程](../../references/dynamic-posters.md)；不要套用另一种画风或用途的导出默认值。
+Reuse the approved character, art style and motion. Read [appearance and asset requirements](../../references/dynamic-posters.md) and [the production workflow](../../references/dynamic-posters.md); don't carry over export defaults from another art style or use.
 
-字不要挡眼睛和招牌道具；不要只换衣服。此案例有独立文字图层，完整融合图中文字则未必可拆开。
+Text must not cover the eyes or signature props; don't change only the outfit. This case has a separate text layer; in fully fused images the text can't necessarily be taken apart.
 
-新角色、新动作先做小样；技术检查和用户认可分开记录。高清不等于动作完整，关键状态切换也不等于持续表演。
+Make a sample first for new characters and new motions; record technical checks and user approval separately. HD isn't full action, and a key-state switch isn't sustained performance.
 
-## 可以直接这样说
+## Say It Like This
 
-> 保留这张插画，做人物和字体联动海报：日常切到开唱，标题从收紧轮廓字撑成大实心字，日期场地固定，6 秒循环。
+> Keep this illustration and make a type-linked poster: everyday switches to singing, the title expands from a tight outline font into a large solid one, date and venue fixed, 6-second loop.
 
-## 案例与交付
+## Cases & Deliverables
 
-[现有案例与版本记录](../../examples/dynamic-posters/type-linked/README.md)。独立 GIF 是最终交付，缩小预览不替代原尺寸文件。检查解码后的实际时长、循环接缝、人物与文字；批量总览按 GIF 的真实帧延时采样。
+[Existing cases and version records](../../examples/dynamic-posters/type-linked/README.md). The standalone GIF is the final deliverable; a scaled-down preview doesn't replace the full-size file. Check decoded duration, loop seams, characters and text; batch overviews sample each GIF's real frame delays.

@@ -1,48 +1,48 @@
-# 像素完整动作
+# Pixel Full Actions (像素完整动作)
 
-[返回风格库](../README.md) · [查看原尺寸案例](../../examples/pixel-actions/boy/01.gif)
+[Back to style index](../README.md) · [View full-size case](../../examples/pixel-actions/boy/01.gif)
 
-## 动态案例 · 8 张
+## Animated Cases · 8
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/boy/01.gif"><img src="../../docs/previews/pixel-actions.gif" alt="眼镜男孩·冲鸭" height="180"></a><br>眼镜男孩·冲鸭</td>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/boy/02.gif"><img src="../../docs/previews/pixel-actions-02.gif" alt="眼镜男孩·点赞" height="180"></a><br>眼镜男孩·点赞</td>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/hood/01.gif"><img src="../../docs/previews/pixel-actions-03.gif" alt="红帽女孩·你好呀" height="180"></a><br>红帽女孩·你好呀</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/boy/01.gif"><img src="../../docs/previews/pixel-actions.gif" alt="Glasses Boy · Let's Go" height="180"></a><br>Glasses Boy · Let's Go</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/boy/02.gif"><img src="../../docs/previews/pixel-actions-02.gif" alt="Glasses Boy · Thumbs Up" height="180"></a><br>Glasses Boy · Thumbs Up</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/hood/01.gif"><img src="../../docs/previews/pixel-actions-03.gif" alt="Red-Hood Girl · Hello There" height="180"></a><br>Red-Hood Girl · Hello There</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/hood/02.gif"><img src="../../docs/previews/pixel-actions-04.gif" alt="红帽女孩·谢谢你" height="180"></a><br>红帽女孩·谢谢你</td>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/cat/01.gif"><img src="../../docs/previews/pixel-actions-05.gif" alt="太空猫·起飞啦" height="180"></a><br>太空猫·起飞啦</td>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/cat/02.gif"><img src="../../docs/previews/pixel-actions-06.gif" alt="太空猫·收到" height="180"></a><br>太空猫·收到</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/hood/02.gif"><img src="../../docs/previews/pixel-actions-04.gif" alt="Red-Hood Girl · Thank You" height="180"></a><br>Red-Hood Girl · Thank You</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/cat/01.gif"><img src="../../docs/previews/pixel-actions-05.gif" alt="Space Cat · Blast Off" height="180"></a><br>Space Cat · Blast Off</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/cat/02.gif"><img src="../../docs/previews/pixel-actions-06.gif" alt="Space Cat · Got It" height="180"></a><br>Space Cat · Got It</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/penguin/01.gif"><img src="../../docs/previews/pixel-actions-07.gif" alt="小企鹅·开心扭扭" height="180"></a><br>小企鹅·开心扭扭</td>
-<td width="33%" valign="top"><a href="../../examples/pixel-actions/penguin/02.gif"><img src="../../docs/previews/pixel-actions-08.gif" alt="小企鹅·谢谢你" height="180"></a><br>小企鹅·谢谢你</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/penguin/01.gif"><img src="../../docs/previews/pixel-actions-07.gif" alt="Penguin · Happy Wiggle" height="180"></a><br>Penguin · Happy Wiggle</td>
+<td width="33%" valign="top"><a href="../../examples/pixel-actions/penguin/02.gif"><img src="../../docs/previews/pixel-actions-08.gif" alt="Penguin · Thank You" height="180"></a><br>Penguin · Thank You</td>
 </tr>
 </table>
 
-## 长什么样
+## What It Looks Like
 
-像素边缘清楚，人物有动作前后的姿态变化。
+Crisp pixel edges, with pose changes before and after the action.
 
-## 怎么动
+## How It Moves
 
-头、身体、手一起完成挥手、点赞、欢呼等动作。
+Head, body and hands complete actions like waving, thumbs-up and cheering together.
 
-适合：游戏感角色、动作表情包。当前参考尺寸与节奏：320×320，时长随动作。这些是该系列默认值，用户指定尺寸或时长时按请求处理。
+Best for: game-style characters, action sticker packs. Current reference size and pacing: 320×320, duration follows the action. These are the series defaults; when the user specifies a size or duration, follow the request.
 
-## 制作入口
+## How to Produce
 
-先沿用已认可的角色、画风与动作。阅读[外观与素材要求](../../references/appearance.md#pixel)和[实际制作流程](../../references/pixel-actions.md)；不要套用另一种画风或用途的导出默认值。
+Reuse the approved character, art style and motion. Read [appearance and asset requirements](../../references/appearance.md#pixel) and [the production workflow](../../references/pixel-actions.md); don't carry over export defaults from another art style or use.
 
-保留最近邻采样，不能拿只转动手臂的静止身体冒充完整动作。
+Keep nearest-neighbor sampling; don't pass off a static body with only a rotating arm as full action.
 
-新角色、新动作先做小样；技术检查和用户认可分开记录。高清不等于动作完整，关键状态切换也不等于持续表演。
+Make a sample first for new characters and new motions; record technical checks and user approval separately. HD isn't full action, and a key-state switch isn't sustained performance.
 
-## 可以直接这样说
+## Say It Like This
 
-> 做一张像素完整动作 GIF，让角色先蓄力再举拳欢呼，头、身体和手一起配合，保留像素边缘。
+> Make one pixel full-action GIF: the character winds up, then raises a fist and cheers, head, body and hands working together, pixel edges kept.
 
-## 案例与交付
+## Cases & Deliverables
 
-[现有案例与版本记录](../../GALLERY.md#表情包展厅)。独立 GIF 是最终交付，缩小预览不替代原尺寸文件。检查解码后的实际时长、循环接缝、人物与文字；批量总览按 GIF 的真实帧延时采样。
+[Existing cases and version records](../../GALLERY.md#表情包展厅). The standalone GIF is the final deliverable; a scaled-down preview doesn't replace the full-size file. Check decoded duration, loop seams, characters and text; batch overviews sample each GIF's real frame delays.

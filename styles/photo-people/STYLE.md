@@ -1,42 +1,42 @@
-# 真人轻动效
+# Photographic People (真人风)
 
-[返回风格库](../README.md) · [查看原尺寸案例](../../examples/public-figures-hd/001.gif)
+[Back to style index](../README.md) · [View full-size case](../../examples/public-figures-hd/001.gif)
 
-## 动态案例 · 4 张
+## Animated Cases · 4
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/public-figures-hd/001.gif"><img src="../../docs/previews/photo-people.gif" alt="马斯克" height="180"></a><br>马斯克</td>
+<td width="33%" valign="top"><a href="../../examples/public-figures-hd/001.gif"><img src="../../docs/previews/photo-people.gif" alt="Musk" height="180"></a><br>Musk</td>
 <td width="33%" valign="top"><a href="../../examples/public-figures-hd/002.gif"><img src="../../docs/previews/photo-people-02.gif" alt="Tibo" height="180"></a><br>Tibo</td>
 <td width="33%" valign="top"><a href="../../examples/public-figures-hd/003.gif"><img src="../../docs/previews/photo-people-03.gif" alt="Dario Amodei" height="180"></a><br>Dario Amodei</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/public-figures-hd/004.gif"><img src="../../docs/previews/photo-people-04.gif" alt="黄仁勋" height="180"></a><br>黄仁勋</td>
+<td width="33%" valign="top"><a href="../../examples/public-figures-hd/004.gif"><img src="../../docs/previews/photo-people-04.gif" alt="Jensen Huang" height="180"></a><br>Jensen Huang</td>
 </tr>
 </table>
 
-## 长什么样
+## What It Looks Like
 
-人物长相和照片质感保留，优先清楚的半身形象。
+The person's likeness and photographic texture are kept, favoring a clear half-body shot.
 
-## 怎么动
+## How It Moves
 
-单个表情或手势配小幅点头、回弹、摇摆，文案固定。
+A single expression or gesture with a small nod, bounce-back or sway; the caption stays fixed.
 
-适合：人物反应、个人聊天表情。当前参考尺寸与节奏：512×512，通常约 2 秒。这些是该系列默认值，用户指定尺寸或时长时按请求处理。
+Best for: people reactions, personal chat stickers. Current reference size and pacing: 512×512, usually about 2 seconds. These are the series defaults; when the user specifies a size or duration, follow the request.
 
-## 制作入口
+## How to Produce
 
-先沿用已认可的角色、画风与动作。阅读[外观与素材要求](../../references/appearance.md#photographic)和[实际制作流程](../../references/light-motion.md)；不要套用另一种画风或用途的导出默认值。
+Reuse the approved character, art style and motion. Read [appearance and asset requirements](../../references/appearance.md#photographic) and [the production workflow](../../references/light-motion.md); don't carry over export defaults from another art style or use.
 
-不要自动加美颜；已弃用的比耶自拍方案不是默认模板。轻动效不等于连续演技。
+Don't auto-apply beauty filters; the retired peace-sign selfie approach isn't a default template. Light motion isn't continuous acting.
 
-新角色、新动作先做小样；技术检查和用户认可分开记录。高清不等于动作完整，关键状态切换也不等于持续表演。
+Make a sample first for new characters and new motions; record technical checks and user approval separately. HD isn't full action, and a key-state switch isn't sustained performance.
 
-## 可以直接这样说
+## Say It Like This
 
-> 用这张人物照片做一张真人轻动效 GIF，保留长相和衣服，不加美颜，轻轻点头，文字是“收到”。
+> Use this photo to make a photographic-people light-motion GIF: keep the likeness and clothing, no beauty filter, a slight nod, text reads "Got it".
 
-## 案例与交付
+## Cases & Deliverables
 
-[现有案例与版本记录](../../GALLERY.md#表情包展厅)。独立 GIF 是最终交付，缩小预览不替代原尺寸文件。检查解码后的实际时长、循环接缝、人物与文字；批量总览按 GIF 的真实帧延时采样。
+[Existing cases and version records](../../GALLERY.md#表情包展厅). The standalone GIF is the final deliverable; a scaled-down preview doesn't replace the full-size file. Check decoded duration, loop seams, characters and text; batch overviews sample each GIF's real frame delays.

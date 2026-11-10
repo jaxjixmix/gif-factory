@@ -1,48 +1,48 @@
-# 宠物拟人
+# Photographic Pets (宠物写实)
 
-[返回风格库](../README.md) · [查看原尺寸案例](../../examples/pet-corgi/01-fun-and-work/001.gif)
+[Back to style index](../README.md) · [View full-size case](../../examples/pet-corgi/01-fun-and-work/001.gif)
 
-## 动态案例 · 8 张
+## Animated Cases · 8
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/001.gif"><img src="../../docs/previews/photo-pets.gif" alt="柯基·整活1" height="180"></a><br>柯基·整活1</td>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/002.gif"><img src="../../docs/previews/photo-pets-02.gif" alt="柯基·整活2" height="180"></a><br>柯基·整活2</td>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/003.gif"><img src="../../docs/previews/photo-pets-03.gif" alt="柯基·整活3" height="180"></a><br>柯基·整活3</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/001.gif"><img src="../../docs/previews/photo-pets.gif" alt="Corgi · Antics 1" height="180"></a><br>Corgi · Antics 1</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/002.gif"><img src="../../docs/previews/photo-pets-02.gif" alt="Corgi · Antics 2" height="180"></a><br>Corgi · Antics 2</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/003.gif"><img src="../../docs/previews/photo-pets-03.gif" alt="Corgi · Antics 3" height="180"></a><br>Corgi · Antics 3</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/004.gif"><img src="../../docs/previews/photo-pets-04.gif" alt="柯基·整活4" height="180"></a><br>柯基·整活4</td>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/001.gif"><img src="../../docs/previews/photo-pets-05.gif" alt="柯基·生活1" height="180"></a><br>柯基·生活1</td>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/002.gif"><img src="../../docs/previews/photo-pets-06.gif" alt="柯基·生活2" height="180"></a><br>柯基·生活2</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/01-fun-and-work/004.gif"><img src="../../docs/previews/photo-pets-04.gif" alt="Corgi · Antics 4" height="180"></a><br>Corgi · Antics 4</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/001.gif"><img src="../../docs/previews/photo-pets-05.gif" alt="Corgi · Life 1" height="180"></a><br>Corgi · Life 1</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/002.gif"><img src="../../docs/previews/photo-pets-06.gif" alt="Corgi · Life 2" height="180"></a><br>Corgi · Life 2</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/003.gif"><img src="../../docs/previews/photo-pets-07.gif" alt="柯基·生活3" height="180"></a><br>柯基·生活3</td>
-<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/004.gif"><img src="../../docs/previews/photo-pets-08.gif" alt="柯基·生活4" height="180"></a><br>柯基·生活4</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/003.gif"><img src="../../docs/previews/photo-pets-07.gif" alt="Corgi · Life 3" height="180"></a><br>Corgi · Life 3</td>
+<td width="33%" valign="top"><a href="../../examples/pet-corgi/02-food-and-life/004.gif"><img src="../../docs/previews/photo-pets-08.gif" alt="Corgi · Life 4" height="180"></a><br>Corgi · Life 4</td>
 </tr>
 </table>
 
-## 长什么样
+## What It Looks Like
 
-写实毛发与宠物面部特征，搭配服装、道具或拟人姿态。
+Realistic fur and pet facial features, paired with clothing, props or anthropomorphic poses.
 
-## 怎么动
+## How It Moves
 
-不同姿势各做轻动效，可加小符号和固定文案。
+A light motion for each pose, optionally with small symbols and fixed captions.
 
-适合：宠物聊天表情、趣味反应。当前参考尺寸与节奏：512×512，通常约 2 秒。这些是该系列默认值，用户指定尺寸或时长时按请求处理。
+Best for: pet chat stickers, playful reactions. Current reference size and pacing: 512×512, usually about 2 seconds. These are the series defaults; when the user specifies a size or duration, follow the request.
 
-## 制作入口
+## How to Produce
 
-先沿用已认可的角色、画风与动作。阅读[外观与素材要求](../../references/appearance.md#photographic)和[实际制作流程](../../references/light-motion.md)；不要套用另一种画风或用途的导出默认值。
+Reuse the approved character, art style and motion. Read [appearance and asset requirements](../../references/appearance.md#photographic) and [the production workflow](../../references/light-motion.md); don't carry over export defaults from another art style or use.
 
-这套是写实拟人小样，不承诺任意宠物照片或所有大动作都稳定。
+This is a realistic anthropomorphic sample; no promise of stable results for arbitrary pet photos or all large motions.
 
-新角色、新动作先做小样；技术检查和用户认可分开记录。高清不等于动作完整，关键状态切换也不等于持续表演。
+Make a sample first for new characters and new motions; record technical checks and user approval separately. HD isn't full action, and a key-state switch isn't sustained performance.
 
-## 可以直接这样说
+## Say It Like This
 
-> 保留这只宠物的花纹和长相，做一张上班摸鱼的拟人 GIF，配道具和轻动效，先给一张小样。
+> Keep this pet's markings and look, make an anthropomorphic "slacking off at work" GIF with props and light motion; show one sample first.
 
-## 案例与交付
+## Cases & Deliverables
 
-[现有案例与版本记录](../../GALLERY.md#表情包展厅)。独立 GIF 是最终交付，缩小预览不替代原尺寸文件。检查解码后的实际时长、循环接缝、人物与文字；批量总览按 GIF 的真实帧延时采样。
+[Existing cases and version records](../../GALLERY.md#表情包展厅). The standalone GIF is the final deliverable; a scaled-down preview doesn't replace the full-size file. Check decoded duration, loop seams, characters and text; batch overviews sample each GIF's real frame delays.

@@ -18,15 +18,15 @@ Use a separate keyframe manifest with the familiar `title`, `count` and `groups`
 
 ```json
 {
-  "title": "点赞小样",
+  "title": "Thumbs-up sample",
   "count": 1,
   "groups": [{
-    "name": "点赞",
+    "name": "Thumbs up",
     "atlas": "thumbs-up.png",
     "grid": [4, 1],
     "entries": [{
-      "name": "人物-稳了",
-      "text": "稳了",
+      "name": "person-nailed-it",
+      "text": "Nailed it",
       "frames": [
         {"cell": [0, 0], "duration": 320},
         {"cell": [1, 0], "duration": 120},

@@ -1,9 +1,9 @@
-# 紧凑动态绘本制作入口
+# Compact Storybook (紧凑动态绘本): production entry
 
-这是独立的叙事路线，使用 [compact-storybook/SKILL.md](../skills/compact-storybook/SKILL.md) 及其链接的制作说明和生成模板。
+This is a separate narrative route; use [compact-storybook/SKILL.md](../skills/compact-storybook/SKILL.md) and its linked production notes and generation templates.
 
-不要套聊天表情包的方形透明画布、两秒循环、回到起点或默认高清动作插帧。用户想要翻书时才加书框；MP4是默认成片格式，GIF按需要另做。
+Do not reuse the chat sticker pack's square transparent canvas, two-second loop, return to start or default HD action interpolation. Add a book frame only when the user wants page-turning; MP4 is the default finished format, with GIFs made separately as needed.
 
-[风格与适用素材](../styles/compact-storybook/STYLE.md) · [已认可的完整案例](../examples/storybooks/tea-party/README.md)
+[Style and suitable material](../styles/compact-storybook/STYLE.md) · [Accepted complete case](../examples/storybooks/tea-party/README.md)
 
-成片可选真实书本横屏或白框竖屏，正文落页后快速写出，沙沙声随写随停。配乐可由用户用 Suno、Gemini 等工具制作后导入；具体外壳与声音见[书本与声音](../skills/compact-storybook/references/book-and-sound.md)、[书写效果](../skills/compact-storybook/references/handwriting.md)。
+The finished film can use a real book in landscape or a white-framed portrait; body text is written out quickly after it lands on the page, and the scratching sound starts and stops with the writing. Music can be made by the user with tools such as Suno or Gemini and imported; for the frame and sound details see [Book and sound](../skills/compact-storybook/references/book-and-sound.md) and [Handwriting effect](../skills/compact-storybook/references/handwriting.md).

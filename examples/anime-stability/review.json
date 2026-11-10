@@ -24,7 +24,7 @@
   "reviews": {
     "anya": {
       "audit": {
-        "gif": "阿尼亚-喜欢你.gif",
+        "gif": "anya.gif",
         "sha256": "d1dde1b174103f23d2cfd84b49dae2a7b4968ecb2f712bf3c6e334f2046c0a45",
         "size": [
           512,
@@ -189,7 +189,7 @@
     },
     "doraemon": {
       "audit": {
-        "gif": "哆啦A梦-交给我.gif",
+        "gif": "doraemon.gif",
         "sha256": "5af5fb9521d4c14a5c479152b43cdd78f000b92f2a46dda30f0179450253930f",
         "size": [
           512,

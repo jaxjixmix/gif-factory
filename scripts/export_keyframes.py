@@ -142,7 +142,7 @@ def preview(files, path):
 
 def export(args):
     manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
-    folder = args.output/'GIF合集'
+    folder = args.output/'gif-collection'
     folder.mkdir(parents=True)
     groups, paths, texts, unique_counts = [], [], set(), []
     for group_index, group in enumerate(manifest['groups'],1):
@@ -167,19 +167,19 @@ def export(args):
     if len({hashlib.sha256(p.read_bytes()).digest() for p in paths}) != len(paths):
         raise ValueError('Duplicate animations')
     gallery(manifest['title'],groups,folder,'hd')
-    bundle = args.output/f'{clean_filename(manifest["title"])}-{len(paths)}张GIF.zip'
+    bundle = args.output/f'{clean_filename(manifest["title"])}-{len(paths)}-gifs.zip'
     with ZipFile(bundle,'w',ZIP_DEFLATED) as z:
-        for p in [*paths,folder/'动图浏览.html']:
+        for p in [*paths,folder/'gallery.html']:
             z.write(p,p.relative_to(folder).as_posix())
         if manifest.get('credits'):
-            z.writestr('来源与制作说明.json',json.dumps(manifest['credits'],ensure_ascii=False,indent=2))
+            z.writestr('sources-and-credits.json',json.dumps(manifest['credits'],ensure_ascii=False,indent=2))
     with ZipFile(bundle) as z:
         assert z.testzip() is None
         assert len([n for n in z.namelist() if n.endswith('.gif')]) == len(paths)
         for p in paths:
             assert z.read(p.relative_to(folder).as_posix()) == p.read_bytes()
     if args.preview:
-        preview(paths,args.output/'动态预览.mp4')
+        preview(paths,args.output/'preview.mp4')
     print(json.dumps({'gif_count':len(paths),'size':SIZE,'unique_frame_min':min(unique_counts),
                       'zip':str(bundle),'preview':args.preview},ensure_ascii=False))
 

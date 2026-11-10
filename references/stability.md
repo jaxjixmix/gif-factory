@@ -17,14 +17,14 @@ Natural expression changes are allowed. Do not stabilize by pasting one frozen f
 
 ## Temporal continuity first
 
-When the user reports “抽帧”, interpret it as choppy motion or apparently missing transitions, not automatically as an unattractive still. Inspect pose-to-pose increments, uneven holds, camera/grid jumps and the loop seam. Fill missing action stages using the neighboring poses; correct layout errors before redrawing. Increasing playback FPS, repeating identical frames or crossfading alone does not supply missing physical motion.
+When the user reports "frame skipping", interpret it as choppy motion or apparently missing transitions, not automatically as an unattractive still. Inspect pose-to-pose increments, uneven holds, camera/grid jumps and the loop seam. Fill missing action stages using the neighboring poses; correct layout errors before redrawing. Increasing playback FPS, repeating identical frames or crossfading alone does not supply missing physical motion.
 
 Removing a malformed isolated pose may be a separate visual repair, but it is not a fix for choppiness by itself. Do not remove valid in-betweens or add long holds to claim a smoother action; review the resulting cadence and disclose any remaining gap.
 
 ## Inspect the delivered GIF, not just the source sheet
 
 ```sh
-python3 scripts/review_gif.py extract build/GIF合集/action.gif build/review/action --focus 150 80 360 280
+python3 scripts/review_gif.py extract build/gif-collection/action.gif build/review/action --focus 150 80 360 280
 ```
 
 The optional focus box is in final GIF pixel coordinates `(left top right bottom)`. Choose it for that character; do not blindly reuse the example. The tool saves every decoded frame, a native-size numbered sheet, optional face detail sheet, a browser player with the actual GIF and frame stepping, a technical audit and a pending `review.json`.
@@ -49,7 +49,7 @@ A useful diagnostic is a repeated left/right shift at every row break: measure a
 After re-export, rerun extraction; a changed GIF hash invalidates previous sign-off. Fill `review.json` only after actual inspection: set each frame's `decision` to `pass` or `repair`, record issues, identify the reviewer, and explicitly review `playback` and `loop_seam`. Leave `user_acceptance` pending unless the user actually approved that revision.
 
 ```sh
-python3 scripts/review_gif.py check build/review/action/audit.json build/review/action/review.json --gif build/GIF合集/action.gif
+python3 scripts/review_gif.py check build/review/action/audit.json build/review/action/review.json --gif build/gif-collection/action.gif
 ```
 
 This validates completeness and revision binding of the recorded review; it does not itself judge beauty or guarantee anatomical correctness. On a repair or pending visual check, do not call the pack fully reviewed. Existing rejected Anya/Doraemon full-action versions and the rejected selfie-beauty experiment must not be promoted as stable templates. User-approved Naruto/Miku and the accepted sparse photographic gesture examples remain valid references for their respective methods.

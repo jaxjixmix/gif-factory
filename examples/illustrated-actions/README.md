@@ -1,8 +1,8 @@
-# 更多插画动作
+# More Illustrated Character Actions (插画角色动作)
 
-[插画动作风格与全部预览](../../styles/illustrated-actions/STYLE.md)
+[Illustrated Character Actions style and all previews](../../styles/illustrated-actions/STYLE.md)
 
-- [初音·嗨呀](01-miku.gif)：此前二次元完整动作试样中获使用者认可的初音版本。采用生成的连续姿态，不是单幅图旋转手臂。
-- [公主裙·提裙行礼](02-princess-curtsy.gif)：以用户提供的人物与服装参考生成的插画动作版本，随后曾扩展制作；此处只发布生成的 GIF，不含用户原始照片。
+- [Miku · Hi-ya](01-miku.gif): the Miku (初音) version accepted by the user from the earlier anime full-action samples. It uses generated consecutive poses, not a single image with a rotated arm.
+- [Princess Dress · Curtsy](02-princess-curtsy.gif): an illustrated-action version generated from user-provided figure and outfit references, later expanded on; only the generated GIF is published here, and the user's original photos are not included.
 
-这些是此前已完成的成品，此次补入作品库。旧版阿尼亚／哆啦 A 梦的抽帧版本没有作为推荐预览。
+These are previously completed pieces, added to the gallery this time. The older Anya (阿尼亚) and Doraemon (哆啦A梦) versions with dropped frames were not used as recommended previews.

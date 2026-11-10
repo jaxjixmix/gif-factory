@@ -1,9 +1,9 @@
-# 打开和修改
+# Opening and editing
 
-这是一版15秒、1920×1080的可编辑短片。运行 `npm run dev` 打开预览，`npm run check` 检查，`npm run render` 导出。使用固定版本 HyperFrames 0.9.18。
+This is an editable 15-second, 1920×1080 film. Run `npm run dev` to open the preview, `npm run check` to check, `npm run render` to export. Pinned to HyperFrames 0.9.18.
 
-三个镜头对应 compositions/open.html、bread.html、close.html；effects.html只负责第一处纸面转场。角色姿态和道具在 assets/ 下。品牌文字在 index.html 的变量中。Hanzi.woff2为本片用字子集；新增汉字时可用 assets/fonts/MaShanZheng.ttf 重新制作子集或改为使用完整字体。新文案需要重新检查排版。
+The three shots are compositions/open.html, bread.html and close.html; effects.html only handles the first paper transition. Character poses and props are under assets/. Brand copy lives in index.html's variables. Hanzi.woff2 is this film's glyph subset; when adding characters, rebuild the subset from assets/fonts/MaShanZheng.ttf or switch to the full font. New copy needs a fresh typography check.
 
-FUSION.md 是这次两套方法的融合规则，PROMPTS.json 保留新增素材的准确生成提示词。角色生成姿态的停格观感不是实时三维动画。此工程是用户已认可、随仓库发布的融合样片。
+FUSION.md holds the fusion rules for the two methods in this run; PROMPTS.json keeps the exact generation prompts for the new assets. The generated-pose stop-motion look is not real-time 3D animation. This project is the fusion pilot the user accepted and published with the repository.
 
-配乐署名见 CREDITS.md，发布时一起保留。
+The music attribution is in CREDITS.md; keep it when publishing.

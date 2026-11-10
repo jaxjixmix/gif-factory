@@ -1,68 +1,68 @@
-# 生成模板
+# Generation templates
 
-先查看参考图，记录实际引用。按工具能力设置参考图、尺寸和透明背景参数，文字写透明不能代替真实alpha输出。替换以下方括号内容后使用。
+View the reference images first and record what was actually used. Set reference images, size and transparent-background parameters according to the tool's capabilities; writing “transparent” in the prompt cannot substitute for a real alpha output. Replace the bracketed content below before use.
 
-## 动作姿态表
-
-```text
-根据提供的角色参考，制作单次动作的关键姿态表。
-保持[画风、脸型、发型、服装、配色、材质、人物比例]。
-固定[全身/半身]视角和光线；等大画格，[列数]列×[行数]行，从左到右、从上到下排列。
-角色比例不变，脚底基线稳定，头发、裙摆、手脚完整留在格内。
-动作：[具体动作]。起始是[上一页末态]，最后是[可保留的结果]。
-关键变化：[准备、接触、重心变化、收势的逐个姿态]。
-头、身体与手协调变化，不仅摆一只手，不为增加变化而夸张变形。
-道具：[数量、颜色、形态、持有者；是否包含在姿态表内]。
-仅角色和指定持有物，原生透明背景，无网格、文字、编号、环境及额外道具。
-不换衣、不改脸、不多画肢体，不将末态自动恢复成起点。
-```
-
-一次画不稳定时减少格数，用已确认的角色参考、上一批末态续画。先修一页，不无上限重试整套。
-
-## 静态背景
+## Action pose sheet
 
 ```text
-同一故事的固定背景：[空间、时间、光线、材质、画风]。
-参考已提供的[上一页/场景图]保持环境、色彩和透视。
-机位：[具体机位]。角色区域：[位置]，预留[动作空间]。
-固定家具、静物及位置：[列表]。接触平面：[桌面/地面区域]。
-不画[后续叠加的角色与动态道具]，无文字、标志或镜头运动。
+From the provided character reference, make a key-pose sheet for one single action.
+Keep [art style, face shape, hairstyle, costume, palette, material, character proportions].
+Fix the [full-body / half-body] view and lighting; equal cells, [columns] columns × [rows] rows, ordered left to right, top to bottom.
+Keep character proportions constant and the foot baseline stable; hair, hem, hands and feet stay complete inside their cells.
+Action: [specific action]. Start from [previous page's end state], finish at [result that can be held].
+Key changes: [individual poses for preparation, contact, weight shift, settling].
+Head, body and hands change together; do not move only one hand, and do not exaggerate deformation just to add change.
+Props: [count, colour, form, holder; whether included in the pose sheet].
+Only the character and specified held items, native transparent background, no grid, text, numbering, environment or extra props.
+Do not change clothes, do not change the face, do not draw extra limbs, and do not automatically reset the end state to the start.
 ```
 
-## 同场景状态修改
+When one pass is unstable, reduce the cell count and draw on from the confirmed character reference and the previous batch's end state. Fix one page first; do not retry the whole set without limit.
+
+## Static background
 
 ```text
-编辑提供的背景，仅将[门关闭→打开/桌面增加一片叶子等单一状态]。
-保持尺寸、构图、透视、纹理、光照及其他物品位置。
-只出现[数量]个[目标物]，不增加角色、餐具、家具或文字。
+Fixed background for the same story: [space, time, lighting, material, art style].
+Keep environment, colour and perspective from the provided [previous page / scene image].
+Camera: [specific camera position]. Character area: [position], reserving [action space].
+Fixed furniture, still life and their positions: [list]. Contact plane: [tabletop / floor area].
+Do not draw [characters and moving props composited later]; no text, logos or camera movement.
 ```
 
-修改后实际对照原图，不能只凭提示词写了“保持”就认为一致。
-
-## 接住纸鸟：18帧示例
-
-0–3帧看见纸鸟、转头抬手；4–8帧沿弧线靠近、身体微前倾；9–11帧落在手心，位置衔接手心锚点；12–17帧收势、保留接住结果，不再次飞走。锚点按实际姿态检查，示例帧数不能覆盖用户调整后的节奏。
-
-## 真实书本与干净底板
-
-材质样稿提示词：
+## Same-scene state edit
 
 ```text
-以提供的排版图为内容参考，制作真实书本静态样稿。[画幅]，正俯拍，书脊居中，整本完整可见，占画面宽约86%。薄哑光非涂布纸，细微纸纹，书脊自然凹陷，薄页边略有不规则，细窄布面封皮。书自然贴在[真实木面或织物]上，单一窗光从[方向]进入，接触阴影一致。保留已认可文字、插画布局与留白。不要厚棕色页块、浮雕纸纹、塑料圆角、镜面纸张、全局锐化、脏旧滤镜或额外摆件。
+Edit the provided background, changing only [a single state, e.g. door closed → open / add one leaf on the table].
+Keep size, composition, perspective, texture, lighting and the positions of other objects.
+Show only [count] [target object(s)]; do not add characters, tableware, furniture or text.
 ```
 
-底板编辑提示词：
+After the edit, compare directly against the original image; do not assume consistency just because the prompt says “keep”.
+
+## Catching the paper bird: 18-frame example
+
+Frames 0–3 see the paper bird, turn the head and raise a hand; frames 4–8 approach along an arc with the body leaning slightly forward; frames 9–11 it lands in the palm, aligning with the palm anchor; frames 12–17 settle and hold the caught result, without flying off again. Check anchors against the actual poses; the example frame counts cannot override a user-adjusted tempo.
+
+## Real book and clean base plate
+
+Material draft prompt:
 
 ```text
-精确编辑已认可书本图：移除两页全部文字、页码、装饰线与插画，补成与周围一致的空白哑光纸面。保留机位、书本边界、位置、大小、书脊、布面封皮、薄页边、木纹、光照和阴影。不能移动或重设计书本，不留字或角色残影，不新增物件。后续叠回原动画与正式文字。
+Using the provided layout image as content reference, make a static real-book draft. [Aspect], straight top-down, spine centered, the whole book fully visible, about 86% of the frame width. Thin matte uncoated paper, faint paper grain, natural recessed spine, thin slightly irregular page edges, narrow cloth cover. The book rests naturally on [real wood or fabric]; single window light from [direction]; consistent contact shadows. Keep the accepted text, illustration layout and negative space. No thick brown page blocks, embossed paper texture, plastic rounded corners, specular paper, global sharpening, grungy filter or extra ornaments.
 ```
 
-生成样稿只确认外层质感；最终角色和正文使用原素材重建，不依赖生成样稿的重绘字符和角色细节。
-
-## 横屏材质转竖屏单页底板
+Base-plate edit prompt:
 
 ```text
-以已认可横屏空白书本图仅作为纸张、木面、布封和光照参考，制作9:16竖版空白背景。正俯拍，只展示一张竖向空白书页及下方薄页层，不要左右双页或中央中缝。单页占大部分画宽，上下保留安静桌面；四边完整可见，纸纹微弱、薄纸哑光、细窄布封和自然接触阴影。保留参考的材质风格，不沿用横屏双页构图。不画文字、页码、插画、装饰或摆件。此图用于后续叠加原动画与正式文字。
+Precisely edit the accepted book image: remove all text, page numbers, rules and illustration from both pages, restoring blank matte paper consistent with its surroundings. Keep the camera, book boundaries, position, size, spine, cloth cover, thin page edges, wood grain, lighting and shadows. Do not move or redesign the book, leave no lettering or character ghosts, and add no objects. The original animation and final text are composited back afterwards.
 ```
 
-生成后按实际纸页边界重新标注可用区域，不只根据提示词坐标放置动画。
+A generated draft only confirms the outer material quality; the final characters and body text are rebuilt from the original assets, not from the draft's redrawn glyphs and character details.
+
+## Landscape material to portrait single-page base plate
+
+```text
+Using the accepted blank landscape book image only as reference for paper, wood surface, cloth cover and lighting, make a 9:16 portrait blank background. Straight top-down, showing only one blank portrait page with a thin page layer below it, no left/right spread or centre gutter. The single page takes most of the frame width with quiet tabletop above and below; all four edges fully visible, faint paper grain, matte thin paper, narrow cloth cover and natural contact shadows. Keep the reference's material style without carrying over the landscape two-page composition. Do not draw text, page numbers, illustration, decoration or ornaments. This image is for compositing the original animation and final text later.
+```
+
+After generation, re-mark the usable area from the actual paper edges instead of placing the animation from prompt coordinates alone.

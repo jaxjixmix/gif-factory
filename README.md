@@ -1,222 +1,224 @@
-# GIF 工厂
+# GIF Factory
 
-[像素与游戏](#pixel-games) · [插画与二次元](#illustration-anime) · [真人与宠物](#people-pets) · [材质与吉祥物](#materials-mascots) · [卡片与变画](#cards-transforms) · [海报与文字](#posters-type) · [品牌短片](#brand-films) · [动态绘本](#storybooks)
+> English translation of [WoYun520/gif-factory](https://github.com/WoYun520/gif-factory) — see [TRANSLATION.md](TRANSLATION.md) for scope and the English/Chinese style-name table. Media assets are the originals and may still show Chinese lettering.
 
-**挑一种风格，给一张参考图，把角色、相片和想法做成 GIF，也能延伸成动态绘本。**
+[Pixel & Games](#pixel-games) · [Illustration & Anime](#illustration-anime) · [People & Pets](#people-pets) · [Materials & Mascots](#materials-mascots) · [Cards & Transformations](#cards-transforms) · [Posters & Type](#posters-type) · [Brand Films](#brand-films) · [Storybooks](#storybooks)
 
-像素小人、人物与宠物、粘土吉祥物、光栅变画、漫画动态海报。
-先看效果，再换成你自己的角色和主题；拿不准就先做一张。
+**Pick a style, hand over one reference image, and turn characters, photos and ideas into GIFs — extendable into storybooks.**
 
-**6 个 GIF 分类 · 10 个 GIF 风格入口 · 75 个动态案例，另有动态绘本和品牌短片**
+Pixel characters, people and pets, clay mascots, lenticular transformations, comic dynamic posters.
+See the effect first, then swap in your own character and theme; not sure? Pilot one.
 
-[浏览风格](styles/README.md) · [完整作品库](GALLERY.md) · [怎么使用](GUIDE.md) · [Skill](SKILL.md) · [下载项目](https://github.com/WoYun520/gif-factory/archive/refs/heads/main.zip)
+**6 GIF categories · 10 GIF style entries · 75 animated examples, plus storybooks and brand films**
 
-## 精选：漫画印刷动态海报
+[Browse styles](styles/README.md) · [Full gallery](GALLERY.md) · [How to use](GUIDE.md) · [Skill](SKILL.md) · [Download the project](https://github.com/jaxjixmix/gif-factory/archive/refs/heads/main.zip)
 
-人物、背景和大字一起设计。黑白打底，每个角色保留一种主色；从平静切到登场，字体也跟着展开，6 秒循环。
+## Featured: Comic-Print Dynamic Poster
 
-<a href="examples/dynamic-posters/p5-integrated/preview.gif"><img src="examples/dynamic-posters/p5-integrated/cover.jpg" alt="九角色漫画印刷动态海报，点击播放合集 GIF" width="720"></a>
+Character, background and display type designed as one. Black-and-white base with one signature color per character; a calm state cuts to the entrance and the lettering opens up with it, 6-second loop.
 
-[▶ 播放九宫格 GIF](examples/dynamic-posters/p5-integrated/preview.gif) · [使用这个风格](styles/comic-fusion/STYLE.md) · [九张独立 GIF](examples/dynamic-posters/p5-integrated/README.md)
+<a href="examples/dynamic-posters/p5-integrated/preview.gif"><img src="examples/dynamic-posters/p5-integrated/cover.jpg" alt="Nine-character comic-print dynamic poster, click to play the compilation GIF" width="720"></a>
 
-## 挑一种风格
+[▶ Play the nine-grid GIF](examples/dynamic-posters/p5-integrated/preview.gif) · [Use this style](styles/comic-fusion/STYLE.md) · [Nine standalone GIFs](examples/dynamic-posters/p5-integrated/README.md)
 
-每个分类都放了多个角色、动作或场景。点击动图看原尺寸，点击风格名看制作方法；各风格详情页共有 **75 个动态案例**。100 张完整系列继续放在作品库，默认收起。
+## Pick a style
+
+Each category holds several characters, actions or scenes. Click a GIF to see it full size, click a style name for the production method; the style pages hold **75 animated examples** in total. The complete 100-sticker series stay in the gallery, collapsed by default.
 
 <a id="pixel-games"></a>
 
-### 像素与游戏
+### Pixel & Games
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="examples/whale-maid/01-greetings/001.gif"><img src="docs/previews/pixel-light.gif" alt="鲸鱼娘·问候" height="180"></a><br>鲸鱼娘·问候<br><a href="styles/pixel-light/STYLE.md">像素轻动效</a></td>
-<td width="33%" valign="top"><a href="examples/01-replies/001.gif"><img src="docs/previews/pixel-light-04.gif" alt="小秘书·回消息" height="180"></a><br>小秘书·回消息<br><a href="styles/pixel-light/STYLE.md">像素轻动效</a></td>
-<td width="33%" valign="top"><a href="examples/06-daily-life/081.gif"><img src="docs/previews/pixel-light-06.gif" alt="小秘书·生活" height="180"></a><br>小秘书·生活<br><a href="styles/pixel-light/STYLE.md">像素轻动效</a></td>
+<td width="33%" valign="top"><a href="examples/whale-maid/01-greetings/001.gif"><img src="docs/previews/pixel-light.gif" alt="Whale Maid · Greeting" height="180"></a><br>Whale Maid (鲸鱼娘) · Greeting<br><a href="styles/pixel-light/STYLE.md">Pixel Light Motion (像素轻动效)</a></td>
+<td width="33%" valign="top"><a href="examples/01-replies/001.gif"><img src="docs/previews/pixel-light-04.gif" alt="Little Secretary · Reply" height="180"></a><br>Little Secretary (小秘书) · Reply<br><a href="styles/pixel-light/STYLE.md">Pixel Light Motion</a></td>
+<td width="33%" valign="top"><a href="examples/06-daily-life/081.gif"><img src="docs/previews/pixel-light-06.gif" alt="Little Secretary · Daily life" height="180"></a><br>Little Secretary · Daily life<br><a href="styles/pixel-light/STYLE.md">Pixel Light Motion</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="examples/pixel-actions/boy/01.gif"><img src="docs/previews/pixel-actions.gif" alt="眼镜男孩·冲鸭" height="180"></a><br>眼镜男孩·冲鸭<br><a href="styles/pixel-actions/STYLE.md">像素完整动作</a></td>
-<td width="33%" valign="top"><a href="examples/pixel-actions/hood/01.gif"><img src="docs/previews/pixel-actions-03.gif" alt="红帽女孩·你好呀" height="180"></a><br>红帽女孩·你好呀<br><a href="styles/pixel-actions/STYLE.md">像素完整动作</a></td>
-<td width="33%" valign="top"><a href="examples/pixel-actions/cat/01.gif"><img src="docs/previews/pixel-actions-05.gif" alt="太空猫·起飞啦" height="180"></a><br>太空猫·起飞啦<br><a href="styles/pixel-actions/STYLE.md">像素完整动作</a></td>
+<td width="33%" valign="top"><a href="examples/pixel-actions/boy/01.gif"><img src="docs/previews/pixel-actions.gif" alt="Glasses Boy · Charge!" height="180"></a><br>Glasses Boy · Charge!<br><a href="styles/pixel-actions/STYLE.md">Pixel Full Actions (像素完整动作)</a></td>
+<td width="33%" valign="top"><a href="examples/pixel-actions/hood/01.gif"><img src="docs/previews/pixel-actions-03.gif" alt="Hooded girl · Hello" height="180"></a><br>Hooded girl · Hello<br><a href="styles/pixel-actions/STYLE.md">Pixel Full Actions</a></td>
+<td width="33%" valign="top"><a href="examples/pixel-actions/cat/01.gif"><img src="docs/previews/pixel-actions-05.gif" alt="Space Cat · Blast off" height="180"></a><br>Space Cat · Blast off<br><a href="styles/pixel-actions/STYLE.md">Pixel Full Actions</a></td>
 </tr>
 </table>
 
-[像素轻动效 · 全部 6 张](styles/pixel-light/STYLE.md) · [像素完整动作 · 全部 8 张](styles/pixel-actions/STYLE.md)
+[Pixel Light Motion · all 6](styles/pixel-light/STYLE.md) · [Pixel Full Actions · all 8](styles/pixel-actions/STYLE.md)
 
 <a id="illustration-anime"></a>
 
-### 插画与二次元
+### Illustration & Anime
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="examples/mixed-actions/02-二次元/005.gif"><img src="docs/previews/illustrated-actions.gif" alt="鸣人·加油" height="180"></a><br>鸣人·加油<br><a href="styles/illustrated-actions/STYLE.md">插画角色动作</a></td>
-<td width="33%" valign="top"><a href="examples/mixed-actions/02-二次元/004.gif"><img src="docs/previews/illustrated-actions-02.gif" alt="路飞·冲鸭" height="180"></a><br>路飞·冲鸭<br><a href="styles/illustrated-actions/STYLE.md">插画角色动作</a></td>
-<td width="33%" valign="top"><a href="examples/illustrated-actions/01-miku.gif"><img src="docs/previews/illustrated-actions-03.gif" alt="初音·嗨呀" height="180"></a><br>初音·嗨呀<br><a href="styles/illustrated-actions/STYLE.md">插画角色动作</a></td>
+<td width="33%" valign="top"><a href="examples/mixed-actions/02-anime/005.gif"><img src="docs/previews/illustrated-actions.gif" alt="Naruto · Go for it" height="180"></a><br>Naruto · Go for it<br><a href="styles/illustrated-actions/STYLE.md">Illustrated Character Actions (插画角色动作)</a></td>
+<td width="33%" valign="top"><a href="examples/mixed-actions/02-anime/004.gif"><img src="docs/previews/illustrated-actions-02.gif" alt="Luffy · Charge!" height="180"></a><br>Luffy · Charge!<br><a href="styles/illustrated-actions/STYLE.md">Illustrated Character Actions</a></td>
+<td width="33%" valign="top"><a href="examples/illustrated-actions/01-miku.gif"><img src="docs/previews/illustrated-actions-03.gif" alt="Miku · Heave-ho" height="180"></a><br>Miku · Heave-ho<br><a href="styles/illustrated-actions/STYLE.md">Illustrated Character Actions</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="examples/illustrated-actions/02-princess-curtsy.gif"><img src="docs/previews/illustrated-actions-04.gif" alt="公主裙·提裙行礼" height="180"></a><br>公主裙·提裙行礼<br><a href="styles/illustrated-actions/STYLE.md">插画角色动作</a></td>
+<td width="33%" valign="top"><a href="examples/illustrated-actions/02-princess-curtsy.gif"><img src="docs/previews/illustrated-actions-04.gif" alt="Princess · Curtsy" height="180"></a><br>Princess · Curtsy<br><a href="styles/illustrated-actions/STYLE.md">Illustrated Character Actions</a></td>
 </tr>
 </table>
 
-[插画角色动作 · 全部 4 张](styles/illustrated-actions/STYLE.md)
+[Illustrated Character Actions · all 4](styles/illustrated-actions/STYLE.md)
 
 <a id="people-pets"></a>
 
-### 真人与宠物
+### People & Pets
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="examples/public-figures-hd/001.gif"><img src="docs/previews/photo-people.gif" alt="马斯克" height="180"></a><br>马斯克<br><a href="styles/photo-people/STYLE.md">真人轻动效</a></td>
-<td width="33%" valign="top"><a href="examples/public-figures-hd/002.gif"><img src="docs/previews/photo-people-02.gif" alt="Tibo" height="180"></a><br>Tibo<br><a href="styles/photo-people/STYLE.md">真人轻动效</a></td>
-<td width="33%" valign="top"><a href="examples/public-figures-hd/004.gif"><img src="docs/previews/photo-people-04.gif" alt="黄仁勋" height="180"></a><br>黄仁勋<br><a href="styles/photo-people/STYLE.md">真人轻动效</a></td>
+<td width="33%" valign="top"><a href="examples/public-figures-hd/001.gif"><img src="docs/previews/photo-people.gif" alt="Musk" height="180"></a><br>Musk<br><a href="styles/photo-people/STYLE.md">Photographic People (真人风)</a></td>
+<td width="33%" valign="top"><a href="examples/public-figures-hd/002.gif"><img src="docs/previews/photo-people-02.gif" alt="Tibo" height="180"></a><br>Tibo<br><a href="styles/photo-people/STYLE.md">Photographic People</a></td>
+<td width="33%" valign="top"><a href="examples/public-figures-hd/004.gif"><img src="docs/previews/photo-people-04.gif" alt="Jensen Huang" height="180"></a><br>Jensen Huang<br><a href="styles/photo-people/STYLE.md">Photographic People</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="examples/pet-corgi/01-fun-and-work/001.gif"><img src="docs/previews/photo-pets.gif" alt="柯基·整活1" height="180"></a><br>柯基·整活1<br><a href="styles/photo-pets/STYLE.md">宠物拟人</a></td>
-<td width="33%" valign="top"><a href="examples/pet-corgi/01-fun-and-work/004.gif"><img src="docs/previews/photo-pets-04.gif" alt="柯基·整活4" height="180"></a><br>柯基·整活4<br><a href="styles/photo-pets/STYLE.md">宠物拟人</a></td>
-<td width="33%" valign="top"><a href="examples/pet-corgi/02-food-and-life/003.gif"><img src="docs/previews/photo-pets-07.gif" alt="柯基·生活3" height="180"></a><br>柯基·生活3<br><a href="styles/photo-pets/STYLE.md">宠物拟人</a></td>
+<td width="33%" valign="top"><a href="examples/pet-corgi/01-fun-and-work/001.gif"><img src="docs/previews/photo-pets.gif" alt="Corgi · Antics 1" height="180"></a><br>Corgi · Antics 1<br><a href="styles/photo-pets/STYLE.md">Photographic Pets (宠物写实)</a></td>
+<td width="33%" valign="top"><a href="examples/pet-corgi/01-fun-and-work/004.gif"><img src="docs/previews/photo-pets-04.gif" alt="Corgi · Antics 4" height="180"></a><br>Corgi · Antics 4<br><a href="styles/photo-pets/STYLE.md">Photographic Pets</a></td>
+<td width="33%" valign="top"><a href="examples/pet-corgi/02-food-and-life/003.gif"><img src="docs/previews/photo-pets-07.gif" alt="Corgi · Daily life 3" height="180"></a><br>Corgi · Daily life 3<br><a href="styles/photo-pets/STYLE.md">Photographic Pets</a></td>
 </tr>
 </table>
 
-[真人轻动效 · 全部 4 张](styles/photo-people/STYLE.md) · [宠物拟人 · 全部 8 张](styles/photo-pets/STYLE.md)
+[Photographic People · all 4](styles/photo-people/STYLE.md) · [Photographic Pets · all 8](styles/photo-pets/STYLE.md)
 
 <a id="materials-mascots"></a>
 
-### 材质与吉祥物
+### Materials & Mascots
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="examples/clay-bakery/01-croissant.gif"><img src="docs/previews/clay-mascot.gif" alt="牛角包" height="180"></a><br>牛角包<br><a href="styles/clay-mascot/STYLE.md">粘土吉祥物</a></td>
-<td width="33%" valign="top"><a href="examples/clay-bakery/02-toast.gif"><img src="docs/previews/clay-mascot-02.gif" alt="吐司" height="180"></a><br>吐司<br><a href="styles/clay-mascot/STYLE.md">粘土吉祥物</a></td>
-<td width="33%" valign="top"><a href="examples/clay-bakery/03-coffee.gif"><img src="docs/previews/clay-mascot-03.gif" alt="咖啡" height="180"></a><br>咖啡<br><a href="styles/clay-mascot/STYLE.md">粘土吉祥物</a></td>
+<td width="33%" valign="top"><a href="examples/clay-bakery/01-croissant.gif"><img src="docs/previews/clay-mascot.gif" alt="Croissant" height="180"></a><br>Croissant<br><a href="styles/clay-mascot/STYLE.md">Clay Mascot (黏土吉祥物)</a></td>
+<td width="33%" valign="top"><a href="examples/clay-bakery/02-toast.gif"><img src="docs/previews/clay-mascot-02.gif" alt="Toast" height="180"></a><br>Toast<br><a href="styles/clay-mascot/STYLE.md">Clay Mascot</a></td>
+<td width="33%" valign="top"><a href="examples/clay-bakery/03-coffee.gif"><img src="docs/previews/clay-mascot-03.gif" alt="Coffee" height="180"></a><br>Coffee<br><a href="styles/clay-mascot/STYLE.md">Clay Mascot</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="examples/clay-bakery/04-pull.gif"><img src="docs/previews/clay-mascot-04.gif" alt="拉开纸片" height="180"></a><br>拉开纸片<br><a href="styles/clay-mascot/STYLE.md">粘土吉祥物</a></td>
+<td width="33%" valign="top"><a href="examples/clay-bakery/04-pull.gif"><img src="docs/previews/clay-mascot-04.gif" alt="Paper pull" height="180"></a><br>Paper pull<br><a href="styles/clay-mascot/STYLE.md">Clay Mascot</a></td>
 </tr>
 </table>
 
-[粘土吉祥物 · 全部 4 张](styles/clay-mascot/STYLE.md)
+[Clay Mascot · all 4](styles/clay-mascot/STYLE.md)
 
 <a id="cards-transforms"></a>
 
-### 卡片与变画
+### Cards & Transformations
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="examples/lenticular-cards/01-spider-man.gif"><img src="docs/previews/lenticular.gif" alt="蜘蛛侠" height="180"></a><br>蜘蛛侠<br><a href="styles/lenticular/STYLE.md">双状态光栅卡</a></td>
-<td width="33%" valign="top"><a href="examples/lenticular-cards/02-ghost-rider.gif"><img src="docs/previews/lenticular-02.gif" alt="恶灵骑士" height="180"></a><br>恶灵骑士<br><a href="styles/lenticular/STYLE.md">双状态光栅卡</a></td>
-<td width="33%" valign="top"><a href="examples/lenticular-cards/03-venom.gif"><img src="docs/previews/lenticular-03.gif" alt="毒液" height="180"></a><br>毒液<br><a href="styles/lenticular/STYLE.md">双状态光栅卡</a></td>
+<td width="33%" valign="top"><a href="examples/lenticular-cards/01-spider-man.gif"><img src="docs/previews/lenticular.gif" alt="Spider-Man" height="180"></a><br>Spider-Man<br><a href="styles/lenticular/STYLE.md">Lenticular Card (电子光栅卡)</a></td>
+<td width="33%" valign="top"><a href="examples/lenticular-cards/02-ghost-rider.gif"><img src="docs/previews/lenticular-02.gif" alt="Ghost Rider" height="180"></a><br>Ghost Rider<br><a href="styles/lenticular/STYLE.md">Lenticular Card</a></td>
+<td width="33%" valign="top"><a href="examples/lenticular-cards/03-venom.gif"><img src="docs/previews/lenticular-03.gif" alt="Venom" height="180"></a><br>Venom<br><a href="styles/lenticular/STYLE.md">Lenticular Card</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="examples/lenticular-cards/04-iron-man.gif"><img src="docs/previews/lenticular-04.gif" alt="钢铁侠" height="180"></a><br>钢铁侠<br><a href="styles/lenticular/STYLE.md">双状态光栅卡</a></td>
-<td width="33%" valign="top"><a href="examples/lenticular-cards/06-black-panther.gif"><img src="docs/previews/lenticular-06.gif" alt="黑豹" height="180"></a><br>黑豹<br><a href="styles/lenticular/STYLE.md">双状态光栅卡</a></td>
-<td width="33%" valign="top"><a href="examples/lenticular-cards/09-deadpool.gif"><img src="docs/previews/lenticular-09.gif" alt="死侍" height="180"></a><br>死侍<br><a href="styles/lenticular/STYLE.md">双状态光栅卡</a></td>
+<td width="33%" valign="top"><a href="examples/lenticular-cards/04-iron-man.gif"><img src="docs/previews/lenticular-04.gif" alt="Iron Man" height="180"></a><br>Iron Man<br><a href="styles/lenticular/STYLE.md">Lenticular Card</a></td>
+<td width="33%" valign="top"><a href="examples/lenticular-cards/06-black-panther.gif"><img src="docs/previews/lenticular-06.gif" alt="Black Panther" height="180"></a><br>Black Panther<br><a href="styles/lenticular/STYLE.md">Lenticular Card</a></td>
+<td width="33%" valign="top"><a href="examples/lenticular-cards/09-deadpool.gif"><img src="docs/previews/lenticular-09.gif" alt="Deadpool" height="180"></a><br>Deadpool<br><a href="styles/lenticular/STYLE.md">Lenticular Card</a></td>
 </tr>
 </table>
 
-[双状态光栅卡 · 全部 9 张](styles/lenticular/STYLE.md)
+[Lenticular Card · all 9](styles/lenticular/STYLE.md)
 
 <a id="posters-type"></a>
 
-### 海报与文字
+### Posters & Type
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="examples/dynamic-posters/type-linked/01-rin.gif"><img src="docs/previews/type-linked.gif" alt="镜音铃" height="180"></a><br>镜音铃<br><a href="styles/type-linked/STYLE.md">人物与字体联动</a></td>
-<td width="33%" valign="top"><a href="examples/dynamic-posters/type-linked/02-luka.gif"><img src="docs/previews/type-linked-02.gif" alt="流歌" height="180"></a><br>流歌<br><a href="styles/type-linked/STYLE.md">人物与字体联动</a></td>
-<td width="33%" valign="top"><a href="examples/dynamic-posters/type-linked/03-teto.gif"><img src="docs/previews/type-linked-03.gif" alt="Teto" height="180"></a><br>Teto<br><a href="styles/type-linked/STYLE.md">人物与字体联动</a></td>
+<td width="33%" valign="top"><a href="examples/dynamic-posters/type-linked/01-rin.gif"><img src="docs/previews/type-linked.gif" alt="Rin" height="180"></a><br>Rin<br><a href="styles/type-linked/STYLE.md">Type-Linked (文字联动)</a></td>
+<td width="33%" valign="top"><a href="examples/dynamic-posters/type-linked/02-luka.gif"><img src="docs/previews/type-linked-02.gif" alt="Luka" height="180"></a><br>Luka<br><a href="styles/type-linked/STYLE.md">Type-Linked</a></td>
+<td width="33%" valign="top"><a href="examples/dynamic-posters/type-linked/03-teto.gif"><img src="docs/previews/type-linked-03.gif" alt="Teto" height="180"></a><br>Teto<br><a href="styles/type-linked/STYLE.md">Type-Linked</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="examples/dynamic-posters/p5-integrated/04-yuki.gif"><img src="docs/previews/comic-fusion.gif" alt="结城理" height="180"></a><br>结城理<br><a href="styles/comic-fusion/STYLE.md">漫画印刷整体融合</a></td>
-<td width="33%" valign="top"><a href="examples/dynamic-posters/p5-integrated/05-miku.gif"><img src="docs/previews/comic-fusion-05.gif" alt="初音" height="180"></a><br>初音<br><a href="styles/comic-fusion/STYLE.md">漫画印刷整体融合</a></td>
-<td width="33%" valign="top"><a href="examples/dynamic-posters/p5-integrated/09-goku.gif"><img src="docs/previews/comic-fusion-09.gif" alt="悟空" height="180"></a><br>悟空<br><a href="styles/comic-fusion/STYLE.md">漫画印刷整体融合</a></td>
+<td width="33%" valign="top"><a href="examples/dynamic-posters/p5-integrated/04-yuki.gif"><img src="docs/previews/comic-fusion.gif" alt="Makoto Yuki" height="180"></a><br>Makoto Yuki<br><a href="styles/comic-fusion/STYLE.md">Comic Fusion (漫画印刷融合)</a></td>
+<td width="33%" valign="top"><a href="examples/dynamic-posters/p5-integrated/05-miku.gif"><img src="docs/previews/comic-fusion-05.gif" alt="Miku" height="180"></a><br>Miku<br><a href="styles/comic-fusion/STYLE.md">Comic Fusion</a></td>
+<td width="33%" valign="top"><a href="examples/dynamic-posters/p5-integrated/09-goku.gif"><img src="docs/previews/comic-fusion-09.gif" alt="Goku" height="180"></a><br>Goku<br><a href="styles/comic-fusion/STYLE.md">Comic Fusion</a></td>
 </tr>
 </table>
 
-[人物与字体联动 · 全部 4 张](styles/type-linked/STYLE.md) · [漫画印刷整体融合 · 全部 9 张](styles/comic-fusion/STYLE.md)
+[Type-Linked · all 4](styles/type-linked/STYLE.md) · [Comic Fusion · all 9](styles/comic-fusion/STYLE.md)
 
-### 动态艺术签名
+### Dynamic Art Signature (动态艺术签名)
 
-名字、物体和渐变色融进同一套手写笔势。上方快划、停约一秒，下方快写，末端缓慢收锋；无底印、无轻震、无回弹。
+Name, object and gradient blended into one handwritten set of strokes. Fast stroke up top, a pause of about one second, fast stroke below, decelerating finish; no backing imprint, no shake, no recoil.
 
-<a href="skills/dynamic-art-signature/assets/media/nine-grid.gif"><img src="skills/dynamic-art-signature/assets/media/nine-grid.png" alt="九款原创动态艺术签名，点击播放" width="720"></a>
+<a href="skills/dynamic-art-signature/assets/media/nine-grid.gif"><img src="skills/dynamic-art-signature/assets/media/nine-grid.png" alt="Nine original dynamic art signatures, click to play" width="720"></a>
 
-[▶ 播放九宫格](skills/dynamic-art-signature/assets/media/nine-grid.gif) · [风格与单款案例](styles/dynamic-signatures/STYLE.md) · [动态签名 Skill](skills/dynamic-art-signature/SKILL.md)
+[▶ Play the nine-grid](skills/dynamic-art-signature/assets/media/nine-grid.gif) · [Style and single-signature examples](styles/dynamic-signatures/STYLE.md) · [Dynamic Art Signature Skill](skills/dynamic-art-signature/SKILL.md)
 
-**中文草书：九款两字签名＋三字「卧云间」**
+**Chinese cursive: nine two-character signatures + three-character Woyunjian (卧云间)**
 
-<a href="skills/dynamic-art-signature/assets/media/chinese/nine-grid.gif"><img src="skills/dynamic-art-signature/assets/media/chinese/nine-grid.png" alt="中文草书动态签名九宫格" width="720"></a>
+<a href="skills/dynamic-art-signature/assets/media/chinese/nine-grid.gif"><img src="skills/dynamic-art-signature/assets/media/chinese/nine-grid.png" alt="Nine-grid of Chinese-cursive dynamic signatures" width="720"></a>
 
-[▶ 中文九宫格](skills/dynamic-art-signature/assets/media/chinese/nine-grid.gif) · [三字卧云间](skills/dynamic-art-signature/assets/media/chinese/Woyunjian.gif) · [中文制作规则与案例](skills/dynamic-art-signature/references/chinese.md)
+[▶ Chinese nine-grid](skills/dynamic-art-signature/assets/media/chinese/nine-grid.gif) · [Three-character Woyunjian](skills/dynamic-art-signature/assets/media/chinese/Woyunjian.gif) · [Chinese production rules and examples](skills/dynamic-art-signature/references/chinese.md)
 
-## 怎么用
+## How to use
 
-在能生成图片、运行脚本的 Codex 里安装：
+Install it in a Codex that can generate images and run scripts:
 
-> 帮我安装 GIF 工厂：https://github.com/WoYun520/gif-factory
+> Install GIF Factory for me: https://github.com/jaxjixmix/gif-factory
 
-然后给参考图、选风格，说想做什么：
+Then give a reference image, pick a style and say what you want:
 
-> 使用 $pixel-gif-sticker-pack，按“漫画印刷整体融合”风格，做一张我这个角色的动态宣传海报。人物和字一起变化，6 秒循环，先给一张看看。
+> Use $pixel-gif-sticker-pack, in the “Comic Fusion” style, to make a dynamic promo poster of this character. Character and type change together, 6-second loop, give me one to look at first.
 
-也可以说“像素完整动作，每个角色 5 张”或“保留这张照片，做轻动效”。已经认可的小样会继续沿用。GIF 工厂的调用名暂时保留 `$pixel-gif-sticker-pack`，已有用法不变。
+You can also say “Pixel Full Actions, 5 per character” or “keep this photo, light motion”. Accepted samples carry forward. The GIF Factory invocation name still stays `$pixel-gif-sticker-pack` for now; existing usage is unchanged.
 
-[详细使用指南](GUIDE.md) · [不知道选哪种？看风格索引](styles/README.md)
+[Detailed usage guide](GUIDE.md) · [Not sure which to pick? See the style index](styles/README.md)
 
 <a id="表情包展厅"></a>
 <a id="动态海报展厅"></a>
 <a id="电子光栅卡展厅"></a>
 
-## 完整作品库
+## Full gallery
 
-这里是制作方法的入口，完整系列另放作品库：**244 张已有聊天示例＋2 张重做待确认试样、9 张光栅卡、13 张动态海报**，以及动态绘本和品牌短片案例。每个系列默认折叠，100 张鲸鱼娘和像素小秘书也保留，点击对应窗口展开。
+This page is the entry point for production methods; the complete series live in the gallery: **244 existing chat examples + 2 reworked samples awaiting confirmation, 9 lenticular cards, 13 dynamic posters**, plus storybook and brand-film cases. Every series is collapsed by default — the 100 Whale Maid and pixel Little Secretary stickers are kept too; click the matching panel to expand.
 
-[打开完整作品库](GALLERY.md) · [鲸鱼娘与聊天表情包](GALLERY.md#表情包展厅) · [光栅卡](GALLERY.md#电子光栅卡展厅) · [动态海报](GALLERY.md#动态海报展厅)
+[Open the full gallery](GALLERY.md) · [Whale Maid & chat stickers](GALLERY.md#表情包展厅) · [Lenticular cards](GALLERY.md#电子光栅卡展厅) · [Dynamic posters](GALLERY.md#动态海报展厅)
 
 <a id="品牌宣传片展厅"></a>
 
 <a id="brand-films"></a>
 
-## 扩展应用：吉祥物品牌短片
+## Extension: Mascot Brand Films
 
-让吉祥物动手、递出产品、触发纸片机关，再把产品送进包装。这是从 GIF 角色素材延伸出来的视频方向，交付成片和能继续修改的工程，单独分类。
+Have the mascot act: pass over the product, trigger the paper mechanism, then send the product into its packaging. A video direction extended from GIF character assets; it delivers a finished film and an editable project, in its own category.
 
-<a href="examples/brand-films/manman-bakery/film.mp4"><img src="examples/brand-films/manman-bakery/preview.gif" alt="慢慢面包店品牌短片预览" width="480"></a>
+<a href="examples/brand-films/manman-bakery/film.mp4"><img src="examples/brand-films/manman-bakery/preview.gif" alt="Manman Bakery brand film preview" width="480"></a>
 
-[看面包店短片与工程](examples/brand-films/manman-bakery/README.md) · [品牌短片制作流程](references/brand-film.md)
+[See the bakery film and project](examples/brand-films/manman-bakery/README.md) · [Brand-film workflow](references/brand-film.md)
 
 <a id="storybooks"></a>
 
-## 扩展应用：紧凑动态绘本
+## Extension: Compact Storybook (紧凑动态绘本)
 
-一页做完一个动作，再翻页。递信、放飞纸鸟、接住、送礼、合书，保留低帧插画的节奏，去掉长时间空等。默认每页约3秒、实际6帧，可以做独立页面，也能串成一本故事。
+One action per page, then turn the page. Deliver a letter, release a paper bird, catch, gift, close the book — keeping the low-fps illustration rhythm and cutting long dead waits. Defaults: about 3 seconds per page at a real 6fps; pages can stand alone or string into one story.
 
-网页动图循环预览，正式动作只做一遍。《风送来的茶会》是 **54秒、12页的真实书本版**，横屏、竖屏各自排版，均带正文快速书写、沙沙声和配乐。
+The web preview loops; the real action plays only once. *The Tea Party Brought by the Wind* is a **54-second, 12-page real-book edition**; landscape and portrait are laid out separately, both with fast body-text writing, a paper rustle and music.
 
-**新版可以做成真实书本**：横屏左字右图，正俯拍能看见薄纸、书脊和桌面质感；竖屏图上字下，露出白框，方便手机看。先定静态质感，再放回原动画，配乐按故事选择。正文可在落页后快速写出，配轻微沙沙声，写完停留阅读。
+**The new edition can be made as a real book**: landscape puts text left and image right, shot top-down so the thin paper, spine and desk texture show; portrait puts image above text with a white border showing for phone reading. Settle the static texture first, then put the original animation back; music is chosen per story. Body text can be quickly written out as each page lands, with a light paper rustle, then held for reading.
 
-配乐可由 **Suno、Gemini 这类工具单独制作**，导出音频后再加入视频；本案例使用用户通过 Gemini 一侧提供的《Candle at Dusk》，不是 Skill 自带生成的音乐。
+Music can be made **separately with tools like Suno or Gemini**, exported as audio and added to the video; this case uses *Candle at Dusk*, provided by the user on the Gemini side — not music generated by the Skill itself.
 
 <table>
 <tr>
-<td align="center" valign="top"><strong>横屏 · 左字右图</strong><br><a href="examples/storybooks/tea-party/realbook-writing.mp4"><img src="examples/storybooks/tea-party/realbook-writing-preview.gif" alt="横屏真实书本与正文书写预览" width="440"></a></td>
-<td align="center" valign="top"><strong>竖屏 · 手机阅读优化</strong><br><a href="examples/storybooks/tea-party/portrait-writing.mp4"><img src="examples/storybooks/tea-party/portrait-writing-preview.gif" alt="竖屏白框书页与正文书写预览" width="200"></a></td>
+<td align="center" valign="top"><strong>Landscape · text left, image right</strong><br><a href="examples/storybooks/tea-party/realbook-writing.mp4"><img src="examples/storybooks/tea-party/realbook-writing-preview.gif" alt="Landscape real-book and body-text writing preview" width="440"></a></td>
+<td align="center" valign="top"><strong>Portrait · optimized for phone reading</strong><br><a href="examples/storybooks/tea-party/portrait-writing.mp4"><img src="examples/storybooks/tea-party/portrait-writing-preview.gif" alt="Portrait white-bordered book page and body-text writing preview" width="200"></a></td>
 </tr>
 </table>
 
-[看完整故事和12页动作](examples/storybooks/tea-party/README.md) · [什么图适合做](styles/compact-storybook/STYLE.md) · [稳定版 Skill](skills/compact-storybook/SKILL.md)
+[See the full story and its 12 pages](examples/storybooks/tea-party/README.md) · [Which images suit it](styles/compact-storybook/STYLE.md) · [Stable Skill](skills/compact-storybook/SKILL.md)
 
-可以直接说：
+You can say directly:
 
-> 使用 $pixel-gif-sticker-pack，选“紧凑动态绘本”，把这个故事做成6帧固定画面小动画，先给一页看看。
+> Use $pixel-gif-sticker-pack, choose “Compact Storybook”, and turn this story into a 6fps fixed-frame micro-animation; give me one page first.
 
-## 制作说明
+## Production notes
 
-外观、动作和用途分别选择：像素可以做轻动效，也可以做完整动作；光栅是变画方法，漫画印刷是设计语言。风格入口把可用组合整理给你，不表示所有素材和动作都已验证。
+Appearance, movement and purpose are chosen separately: pixel can do light motion or full actions; lenticular is a transformation method, comic print is a design language. The style entries gather the available combinations for you; they do not mean every asset and action has been validated.
 
-每次交付核对实际 GIF、数量、循环时长和画面；“高清”“帧数够了”不能替代人物稳定与审美检查。已认可、待确认和弃用的版本分开保留。
+Every deliverable is checked against the actual GIFs, count, loop duration and visuals; “HD” or “enough frames” cannot replace character stability and aesthetic review. Accepted, pending and abandoned versions are kept apart.
 
-## 开源许可
+## Open-source license
 
-制作脚本与 Skill 文档采用 [MIT](LICENSE)。动态海报的角色与参考设计语言不随代码转授商业权利，见[案例说明](examples/dynamic-posters/p5-integrated/README.md)。电子光栅卡中的角色 IP、网络照片与他人插画不随代码一并授予 MIT 权利，出处及使用边界见[案例来源说明](examples/lenticular-cards/README.md)。
+Production scripts and Skill docs are [MIT](LICENSE). The characters and referenced design language of the dynamic posters do not carry commercial rights with the code — see [the case notes](examples/dynamic-posters/p5-integrated/README.md). Character IP, internet photos and third-party illustrations in the lenticular cards do not carry MIT rights either; see [the case sourcing notes](examples/lenticular-cards/README.md) for provenance and usage boundaries.
 
-第三方配乐和字体按各自许可使用；面包店案例的来源与署名见 [CREDITS](examples/brand-films/manman-bakery/CREDITS.md)。
+Third-party music and fonts are used under their own licenses; sources and credits for the bakery case are in [CREDITS](examples/brand-films/manman-bakery/CREDITS.md).
 

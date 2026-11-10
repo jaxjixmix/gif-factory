@@ -1,33 +1,33 @@
-# 慢慢面包店：把角色动作拍成品牌短片
+# Manman Bakery: turning character acting into a brand film
 
-这是一个虚构面包店的15秒样片，使用者已经认可这版效果并要求发布。它把本项目的角色动作方法与纸片组装叙事结合起来。
+This is a 15-second pilot for a fictional bakery; the user accepted this version and requested publication. It combines this repository's character-acting method with paper-assembly storytelling.
 
-<img src="preview.gif" alt="慢慢面包店15秒融合短片动态预览" width="720">
+<img src="preview.gif" alt="Animated preview of the Manman Bakery 15-second fusion film" width="720">
 
-[播放 / 下载完整 MP4](https://raw.githubusercontent.com/WoYun520/gif-factory/main/examples/brand-films/manman-bakery/film.mp4) · [下载可编辑工程 ZIP](editable-project.zip) · [直接看工程文件](project/) · [下载角色 GIF](../../clay-bakery/clay-bakery-4-gifs.zip)
+[Play / download the full MP4](https://raw.githubusercontent.com/jaxjixmix/gif-factory/main/examples/brand-films/manman-bakery/film.mp4) · [Download the editable project ZIP](editable-project.zip) · [View the project files](project/) · [Download the character GIFs](../../clay-bakery/clay-bakery-4-gifs.zip)
 
-## 这一条讲什么
+## What this film is about
 
-| 时间 | 角色和物件发生什么 | 观众看到什么 |
+| Time | What happens to characters and props | What the viewer sees |
 | --- | --- | --- |
-| 0–5秒 | 可颂抓住纸条、后仰拉动，店铺逐折展开 | 把今天，慢慢打开 |
-| 5–10秒 | 炉门打开，面包沿弧线落到手托的唯一盘子上，再抛向下一镜 | 把热乎，送到你手边 |
-| 10–15秒 | 面包进入外带袋，吐司和咖啡从袋口露头 | 把好心情一起打包，记住袋上的店名 |
+| 0–5s | The croissant grabs the paper strip and pulls, leaning back; the shop unfolds fold by fold | Open today, slowly |
+| 5–10s | The oven door opens; the bread arcs onto the one saucer held in hand, then is tossed to the next shot | Warmth, delivered to your hand |
+| 10–15s | The bread drops into the takeaway bag; toast and coffee peek out of the bag mouth | Good mood, packed to go; note the shop name on the bag |
 
-<img src="contact-sheet.jpg" alt="从实际导出视频抽取的六张画面" width="900">
+<img src="contact-sheet.jpg" alt="Six frames pulled from the actual exported video" width="900">
 
-## 怎么接到自己的品牌
+## How to adapt it to your own brand
 
-先保留角色身份，再替换真实的产品、包装和品牌文字。让角色完成一件跟产品有关的事，最后把品牌落在招牌、杯套或包装上。新动作先出小样，确认以后再展开。
+Keep the character identity first, then swap in your real product, packaging and brand copy. Have the character do one thing related to the product, and land the brand on the sign, cup sleeve or packaging. Pilot new actions first and expand after they are confirmed.
 
-这版增加了可颂拉纸条的16个连续姿态，其余沿用已认可的店员动作。采用黏土质感姿态序列加可编辑分层合成，非真实三维骨骼动画。拉条接触为近似对齐；面包跨镜头使用拟人化抛接。
+This version adds 16 consecutive poses of the croissant pulling the paper strip; the rest reuses the accepted shopkeeper actions. It is clay-look pose sequences plus editable layered compositing, not true 3D skeletal animation. The pull-tab contact is approximate alignment; the bread crosses shots with a playful anthropomorphic toss.
 
-本片为1920×1080、30fps、15秒，有配乐；上方动图只是640×360的无声预览。工程里可以分别改角色、纸片、道具、文字和声音，运行方法见[工程说明](project/DELIVERY.md)。
+The film is 1920×1080, 30fps and 15 seconds, with music; the GIF above is only a 640×360 silent preview. In the project, characters, paper pieces, props, text and sound can each be edited separately; see the [project guide](project/DELIVERY.md) for how to run it.
 
-## 检查和来源
+## Checks and provenance
 
-已经检查实际导出画面、关键动作、转场和手机尺寸预览，并修正重复盘子、纸袋遮挡边界等问题。音轨和音量经过测量，未做人耳听审。技术记录见 [production.json](production.json)。
+The actual exported frames, key actions, transitions and phone-size preview were checked, correcting issues such as a duplicate saucer and paper-bag occlusion edges. The soundtrack and levels were measured, not reviewed by ear. Technical record: [production.json](production.json).
 
-构思和组装方法参考 [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll)，角色动作沿用本仓库方法。没有使用参考视频的画面或声音，也没有调用对方的Gemini视频脚本。[通用制作规则](../../../references/brand-film.md)。
+The concept and assembly method draw on [gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll); character acting follows this repository's method. No frames or audio from the reference videos were used, and its Gemini video scripts were not invoked. [General production rules](../../../references/brand-film.md).
 
-发布有配乐的视频时，保留[CREDITS里的音乐署名](CREDITS.md)。字体附带自身许可文件；代码的MIT许可不替代第三方素材许可。
+When publishing the scored video, keep the [music attribution in CREDITS](CREDITS.md). The font ships with its own license file; the code's MIT license does not replace third-party asset licenses.

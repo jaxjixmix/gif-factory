@@ -1,197 +1,197 @@
-# GIF 工厂 · 使用与制作指南
+# GIF Factory · Usage & Production Guide
 
-[返回首页](README.md) · [风格库](styles/README.md) · [完整作品库](GALLERY.md)
+[Back to home](README.md) · [Style index](styles/README.md) · [Full gallery](GALLERY.md)
 
-## 怎么用
+## How to use
 
-需要在能生成图片、运行脚本的 Codex 里使用。
+Needs to be used in a Codex that can generate images and run scripts.
 
-**1. 先安装。** 把这句话发给 Codex：
+**1. Install first.** Send this line to Codex:
 
-> 帮我安装GIF 工厂 Skill：https://github.com/WoYun520/gif-factory
+> Install the GIF Factory Skill for me: https://github.com/jaxjixmix/gif-factory
 
-Skill 就是给 Codex 用的做事指南，装好后它会按这套方法制作。
+A Skill is a how-to guide for Codex; once installed, it produces by this method.
 
-**2. 发一张图，说清楚想做多少张、写什么字、想怎么动。**
+**2. Send one image and spell out how many, what text, and how they should move.**
 
-> 使用 $pixel-gif-sticker-pack，拿这张图里的角色做 25 张中文表情包。我要像素风、轻动效，包含“收到”“好耶”“抱抱”“晚安”。每张表情和姿势都要有区别，做好后打包，再给我一张动态预览。
+> Use $pixel-gif-sticker-pack; make 25 Chinese-language stickers from the character in this image. I want pixel art, light motion, including “收到”, “好耶”, “抱抱” and “晚安”. Every expression and pose must differ; package them when done and give me one animated preview.
 
-**3. 不确定就先看小样。** 可以说“先做一张给我看看”。满意后说“照这个做 25 张”，就沿用刚才的画风和动作方式，不用重新描述一遍。
+**3. When unsure, look at a sample first.** You can say “just make one to show me”. Once satisfied, say “make 25 like this” and the art style and motion method carry over — no need to describe them again.
 
-## 先选：想长什么样
+## First: what it should look like
 
-| 画风 | 看起来是什么感觉 | 适合什么图 |
+| Art style | What it feels like | Good for which images |
 | --- | --- | --- |
-| 像素风 | 像小游戏里的角色，能看见一格格小像素 | 鲸鱼娘、像素小秘书、像素吉祥物 |
-| 高清插画风 | 像动漫、Q 版人物或插画，线条和服装细节更清楚 | 二次元角色、吉祥物、照片转动漫 |
-| 真人风 | 保留照片里的人物样子和真实质感 | 人物照片、写实宠物照片 |
+| Pixel | Characters like those in a small game, blocky pixels you can see | Whale Maid (鲸鱼娘), pixel Little Secretary (小秘书), pixel mascots |
+| HD illustration | Anime, chibi or illustration look; linework and clothing detail clearer | Anime characters, mascots, photo-to-anime |
+| Photographic | Keeps the person's look and real texture from the photo | People photos, realistic pet photos |
 
-照片也可以转成像素或插画，不一定非做真人风。把你想保留的感觉说清楚就行。
+Photos can also be converted to pixel or illustration; photographic is not the only option. Just describe clearly the feel you want to keep.
 
-黏土吉祥物也可以做，会保留它的材质、体积和光线，走高清连续姿态合成。它看起来像黏土动画，不等于已经做了真实三维模型。纸片拼贴是场景的做法，不需要把角色也变成纸片。
+A Clay Mascot (黏土吉祥物) can be made too: its material, volume and lighting are preserved, via HD consecutive-pose compositing. It looks like clay animation, but that does not mean a real 3D model was made. Paper collage is the treatment for scenes; the character does not need to become paper too.
 
-## 再选：想怎么动
+## Next: how it should move
 
-**轻动效：每张画一个表情和姿势，再让它小幅动起来。**
+**Light motion: one expression and pose per sticker, then a small, light animation.**
 
-比如点点头、弹一下、左右晃晃，旁边飘几个小爱心。适合日常聊天、一次做一大套。每张仍然会画不同的表情和姿势，不是拿同一张图只换字。
+For example a nod, a bounce, a small sway, with a few little hearts drifting by. Good for everyday chat and making a big set at once. Each sticker still gets a different expression and pose — not one image with only the caption swapped.
 
-**完整动作：让人物连续做完一个动作。**
+**Full action: the character performs one action continuously.**
 
-比如先低头、提起裙边、行礼，再站直；或者先蓄力，再举拳欢呼。头、身体和手会一起配合，头发和衣服也跟着动。
+For example: lower the head, lift the skirt hem, curtsy, then stand upright; or wind up, then throw a fist up in cheer. Head, body and hands coordinate, and hair and clothing follow along.
 
-像素风也能做完整动作，[作品库里的四角色像素动作](GALLERY.md#表情包展厅)就是例子。鲸鱼娘、小秘书那种小幅弹跳摇摆，仍然归在“像素风＋轻动效”。
+Pixel art can do full actions too — the [four-character pixel actions in the gallery](GALLERY.md#表情包展厅) are the example. Whale Maid and Little Secretary's small bounces and sways still count as “pixel + light motion”.
 
-画风和动作可以分开选。**“更高清”和“动作更完整”也是两回事**：图片更大，不代表动起来就一定更自然。完整动作更容易出现变脸、手指变形，建议先看一张再决定要不要批量做。
+Art style and movement are chosen separately. **“More HD” and “more complete action” are two different things**: a bigger image does not mean more natural motion. Full actions are more prone to face swaps and distorted fingers; look at one before deciding whether to batch.
 
-## 最后选：聊天、光栅卡、动态海报、动态绘本，还是宣传片
+## Finally: chat, lenticular cards, dynamic posters, storybooks or brand films
 
-聊天用，就做一张张独立表情包 GIF。想做收藏卡、人物双身份或产品两状态，就做电子光栅卡；它也交付独立 GIF，尺寸和节奏单独设置。品牌宣传用，就把角色、产品、包装和动作串成短片：谁动手、碰到什么、发生什么变化，最后让观众记住品牌。
+For chat, make one standalone sticker GIF per entry. For collectible cards, dual identities or two product states, make a Lenticular Card (电子光栅卡); it also delivers standalone GIFs, with its own size and rhythm. For brand promo, string the character, product, packaging and actions into a short film: who acts, what they touch, what changes, and finally the brand sticks in the viewer's mind.
 
-目前已做过的是[面包店融合短片](examples/brand-films/manman-bakery/README.md)。咖啡店或独立品牌也可以沿这个方法尝试，新角色、新动作先看小样，不把还没做过的效果当成成功案例。
+What exists so far is the [bakery fusion film](examples/brand-films/manman-bakery/README.md). Coffee shops or independent brands can try the same method; pilot new characters and actions first, and don't treat an unproven effect as a success case.
 
-### 动态绘本
+### Compact Storybook (紧凑动态绘本)
 
-让一张插画做完一个小动作，短暂停留再翻页。默认实际6帧、每页约3秒，角色和道具接着上一页的结果往下演，不靠长时间静止凑时长。可保留原画风，不要求转成像素。
+One illustration performs one small action, holds briefly, then the page turns. Defaults: a real 6fps, about 3 seconds per page; characters and props continue from the previous page's result instead of padding time with long stills. The original art style can be kept; no conversion to pixel required.
 
-> 使用 $pixel-gif-sticker-pack，选“紧凑动态绘本”，先做一页固定画面、单次动作的小样。
+> Use $pixel-gif-sticker-pack, choose “Compact Storybook”, and first make one page: fixed framing, a single action, just a sample.
 
-[完整例子](examples/storybooks/tea-party/README.md) · [适合什么图](styles/compact-storybook/STYLE.md) · [独立Skill](skills/compact-storybook/SKILL.md)
+[Full example](examples/storybooks/tea-party/README.md) · [Which images suit it](styles/compact-storybook/STYLE.md) · [Standalone Skill](skills/compact-storybook/SKILL.md)
 
-### 动态海报又分两种
+### Dynamic posters come in two kinds
 
-- **保留原画，文字一起动：** 适合已经满意的照片或插画。人物状态与字的大小、字距、角度一起变。
-- **人物、背景、文字整体融合：** 想要明显的漫画、印刷或其他设计语言，就把整张图一起重绘。这次九角色用的是这条路。
+- **Keep the original artwork, animate the type:** for photos or illustrations you're already happy with. The character's state changes together with the type's size, letter spacing and angle.
+- **Integrated character, background and type:** when you want a strong comic, print or other design language, redraw the whole image as one. The nine-character set took this route.
 
-两种都可以用于演出预告、角色宣传和产品展示。游戏人物 UI 也是应用场景，但 GIF 只展示效果，不等于做出了能点的界面。
+Both suit show promos, character marketing and product showcases. Game-character UI is an application scenario too, but a GIF only shows the effect — it is not a clickable interface.
 
-不要只把同一套大字贴在不同人物上。衣服变了还不够时，继续设计表情、姿态、发丝和灯光；脸、眼睛和重要道具要看清。详细制作方式见[动态海报分类](references/dynamic-posters.md)。
+Don't just paste the same display lettering onto different characters. When a change of clothes isn't enough, keep designing expression, pose, hair strands and lighting; face, eyes and key props must stay legible. Production details in [dynamic posters](references/dynamic-posters.md).
 
-## 电子光栅卡：什么图能做
+## Lenticular cards: what images work
 
-**最好用的是两张已经配得上的图。** 同一个角度、差不多的姿势，眼睛和下巴能对上，切换才像同一个人变了状态。真人、动漫、插画、像素画和产品图都可以先试。
+**Best results come from two images that already match.** Same angle, similar pose, eyes and chins lining up — only then does the flip look like the same figure changing state. Photographic, anime, illustration, pixel art and product shots can all be tried.
 
-| 你手里的图 | 能不能做、怎么开始 |
+| What you have | Whether it works, and how to start |
 | --- | --- |
-| 同角度的两张人脸／面罩图 | 最适合，先把眼睛、鼻子和下巴对齐 |
-| 一张左右拼脸图 | 可以分别取两侧，必要时镜像；要检查取出来是否完整 |
-| 一张完整人物图 | 可以尝试，但还要生成或找第二种状态，不能保证一张图直接变出任何角色 |
-| 产品的两个配色、角色的两种表情 | 可以试，物体位置、轮廓和光线最好一致 |
-| 一张正脸搭一张明显侧脸 | 先换配对；把眼睛强行移到一起，鼻子和下巴还是会跳 |
-| 下巴被截掉、脸很小很糊、轮廓缺失 | 先换更完整清楚的图，或先重做静态图；不会靠拉宽脸、加黑边冒充修好了 |
+| Two face/mask images at the same angle | Best case; first align eyes, nose and chin |
+| One left-right split-face image | Take each side separately, mirroring if needed; check each half is complete |
+| One complete figure image | Can be tried, but a second state still has to be generated or found; one image cannot guarantee any character flips directly |
+| Two colorways of a product, two expressions of a character | Worth trying; object position, outline and lighting should match |
+| One frontal face with a clear profile | Swap the pairing first; forcing the eyes together still leaves the nose and chin jumping |
+| Chin cut off, face tiny and blurry, outline missing | Switch to a fuller, clearer image first, or redo the stills; stretching the face or adding a black border will not pass as fixed |
 
-这套参考是 **480×720 的半脸近景**。想露下巴，就得有完整下巴；想铺满画面，就先把人物和背景重新安排好。不会为了凑尺寸把脸拉变形、把画幅突然变窄，也不拿明显拼接的城市或一条模糊色带补右侧。
+This reference is **480×720 half-face close-up**. Want the chin showing? There has to be a complete chin; want to fill the frame? Re-arrange the figure and background first. Faces will not be stretched out of shape to fit the size, the frame never suddenly narrows, and an obviously pasted-in city scene or a blurry color band is not used to fill the right side.
 
-新构图先看两张静态稿，合适后再动。图里的人物、画风和角度是否匹配，比角色叫什么更影响效果。热门角色可能被生图服务拦截；有现成可用素材可以换条路线，但不能保证每个 IP 都能生成，也不能把一次失败说成永久不能做。
+For a new composition, look at the two stills first and animate only when they fit. Whether the figure, art style and angle match affects the result more than the character's name. Popular characters may be blocked by image-generation services; with ready usable material you can switch route, but not every IP can be guaranteed to generate, and one failure does not mean it can never be done.
 
-[电子光栅卡详细流程](references/lenticular.md) · [九张案例和来源](examples/lenticular-cards/README.md)
+[Detailed lenticular workflow](references/lenticular.md) · [Nine cases and their sources](examples/lenticular-cards/README.md)
 
-## 可以直接这样说
+## You can say it directly
 
-想要之前鲸鱼娘那种效果：
+For the earlier Whale Maid look:
 
-> 做 25 张像素风轻动效表情包。人物可爱一点，每张换不同的表情和姿势，加轻轻弹跳、摇摆和小符号。
+> Make 25 pixel-art light-motion stickers. Keep the character cute; a different expression and pose on each, with gentle bounces, sways and small icons.
 
-想要这次四角色这种像素动作：
+For this batch's four-character pixel actions:
 
-> 做像素风完整动作表情包，每个角色 5 张。分别画挥手、点赞、感谢、思考和欢呼，身体、头和手一起动，保留像素边缘，下面的字固定。
+> Make pixel-art full-action stickers, 5 per character. Draw waving, thumbs-up, thanks, thinking and cheering; body, head and hands move together, keep the pixel edges, and the text below stays fixed.
 
-想保留手里这张插画：
+To keep this illustration you have:
 
-> 保留这张图的画风，做 25 张轻动效。角色轻轻点头、回弹、摇摆，下面的字不要跟着晃。
+> Keep this image's art style and make 25 light-motion stickers. The character nods gently, bounces back, sways; the text below must not wobble along.
 
-想让人物做完整动作：
+To have the character do a full action:
 
-> 做 4 张高清插画风的完整动作 GIF，分别是挥手、比心、打气、行礼。头、身体和手要一起动，先检查有没有变脸或变形。
+> Make 4 HD-illustration full-action GIFs: waving, finger heart, pumping up and a bow. Head, body and hands must move together; first check for face swaps or distortion.
 
-想试真人照片：
+To try a photographic portrait:
 
-> 用这张人物照片，先做一张真人风的“收到”表情包，轻动效。保留人物长相和衣服，不要自动加美颜。
+> With this portrait photo, first make one photographic “收到” sticker, light motion. Keep the person's likeness and clothing; do not add beauty filters automatically.
 
-想做电子光栅卡：
+To make a lenticular card:
 
-> 用这两张图做一张电子光栅卡，480×720，6 秒循环，画面和标题固定。先检查角度、眼睛和下巴能不能对上。缺少的部分先调整静态图，不要只裁剪或补一条黑边。
+> Use these two images to make one lenticular card, 480×720, 6-second loop, fixed artwork and title. First check whether the angles, eyes and chins line up. For missing parts, adjust the static images first — don't just crop or patch in a black bar.
 
-想要这次整体融合的效果：
+For this integrated-fusion look:
 
-> 做一张人物、背景、文字一起设计的动态海报。用限定色、漫画墨线和网点，人物从安静切到爆发，大字一起撑开。头发、手臂和标题有前后层次，眼睛和招牌道具不要挡住。6 秒循环，日期场地固定，保留 GIF 的顿挫感。
+> Make a dynamic poster with character, background and type designed together. Limited palette, comic ink lines and halftone dots; the character cuts from calm to burst, the display lettering expanding with it. Hair, arms and title layered front to back; don't cover the eyes or the signature prop. 6-second loop, fixed date and venue, keep the GIF's staccato feel.
 
-想拿吉祥物做品牌短片：
+To make a brand film with a mascot:
 
-> 用已经确认的这套吉祥物，做一条 15 秒品牌宣传片。角色动手触发纸片机关，让产品最后进入印有店名的包装里。给我成片和能继续修改的工程。
+> Use this approved mascot set to make a 15-second brand film. The character acts to trigger the paper mechanism, and the product ends up inside packaging printed with the shop name. Give me the finished film and the editable project.
 
-也可以只说“做一套上班用的”“用我自己的台词”。已经确认过的要求会继续沿用；有关键地方没说清楚，Codex 再问你。
+You can also just say “a set for use at work” or “use my own captions”. Confirmed requests carry forward; if a key point is unclear, Codex will ask you.
 
-## 怎么减少抽帧感
+## How to reduce choppiness
 
-这里说的抽帧感，就是看起来像少了中间画面，动作一格一格往前跳，或者突然停一下。
+“Choppiness” here means motion that looks like it is missing in-between frames — jumping forward step by step, or suddenly pausing.
 
-会先检查前后姿势能不能自然接上、每张画面停留多久，以及最后怎么接回开头。缺了过渡就补动作；人物位置突然跳动，就检查裁切和对齐。不会只把播放速度调快，就说动作已经顺了。脸、手指、衣服和裁切也会一起检查。
+It first checks whether consecutive poses connect naturally, how long each frame holds, and how the end links back to the start. Missing transitions get filled with new poses; if the character's position suddenly jumps, the crop and alignment get checked. It won't just speed up playback and declare the motion smooth. Faces, fingers, clothing and cropping are checked too.
 
-发现问题会先修，再看实际播放。不会只因为文件能打开、帧数够了，就说这张已经做好。
+Problems are fixed first, then actual playback is reviewed. A file that opens with enough frames is not automatically called done.
 
-展厅里的样例也会分清楚：
+Gallery samples are marked clearly:
 
-- **已认可**：使用者看过效果，确认可以作为参考。
-- **待确认**：刚做好的测试稿或修正版，还在等使用者看实际播放。
-- **弃用**：效果没达到要求，不再当作推荐范例。某张不行，不代表这个角色或整种画风都不能做。
+- **Accepted**: the user has seen the result and confirmed it as a reference.
+- **Pending**: a freshly made test or repaired version, still waiting for the user to view actual playback.
+- **Abandoned**: didn't meet the bar, no longer used as a recommended example. One bad output does not mean the character or the whole art style is impossible.
 
-这些检查能减少问题，最后仍然要看实际效果。试过的东西不会自动变成“成功案例”。
+These checks reduce problems; the final call still rests on the actual result. Something tried does not automatically become a “success case”.
 
-## 做完会拿到什么
+## What you get when it's done
 
-- 一张张独立的 GIF，可以单独保存和使用。
-- 整套 ZIP 压缩包，方便一次下载。
-- 动态预览或预览视频，方便一起看效果。
-- 完整动作还会附上逐张检查图，方便放大看细节。
+- Individual GIFs, each saved and used on its own.
+- The whole set as a ZIP, for one-time download.
+- An animated preview or preview video, to see the results together.
+- Full actions also come with a per-GIF review sheet, for zooming into details.
 
-像素风默认是 320 × 320，插画和真人风默认是 512 × 512。通常使用透明背景；有明确的尺寸、文件大小或背景要求，可以直接提。
+Pixel defaults to 320 × 320; illustration and photographic default to 512 × 512. Transparent background is the norm; if you have specific size, file-size or background requirements, just say so.
 
-电子光栅卡交付独立循环 GIF，批量时再给动态总览、压缩包和素材来源；不需要额外做成带片头片尾的视频。
+Lenticular cards deliver standalone looping GIFs; in batch, also an animated overview, a ZIP and material sources — no separate video with intro and outro needed.
 
-动态海报交付独立循环 GIF 和合集预览。当前案例是两张完整海报关键状态切换；需要逐字修改文案时，另做分层文字。
+Dynamic posters deliver standalone looping GIFs plus a compilation preview. The current case flips between two complete poster key states; for word-by-word copy edits, layered type is made separately.
 
-品牌短片另外交付视频、可编辑工程和必要的素材署名，尺寸、时长按用途来定。不会因为做了广告，就自动再生成一整套表情包。
+Brand films separately deliver the video, an editable project and necessary asset credits; size and duration follow the use. Making an ad does not automatically regenerate a whole sticker pack.
 
-## 人物有点糊怎么办
+## The character looks blurry — what now
 
-可以直接说：
+You can say directly:
 
-> 人物有点糊，先看看是原图不清楚，还是导出时弄糊了。保留原图细节，再给我同样大小的前后对比。
+> The character looks a bit blurry; first check whether the original image is unclear or the export blurred it. Keep the original detail, then give me a before-and-after at the same size.
 
-插画和真人风会默认保留原图细节来合成。原图本身没有的细节，单纯放大也补不回来。像素风则会保留一格格的像素边缘，不会为了“变清楚”把它磨平。
+Illustration and photographic composite from the original detail by default. Detail the original doesn't have cannot be recovered by simply enlarging. Pixel art keeps its blocky pixel edges — they are not smoothed away to “become clear”.
 
 <details>
-<summary>想自己运行脚本？点这里</summary>
+<summary>Want to run the scripts yourself? Click here</summary>
 
-需要 Python 3 和 Pillow；预览视频还需要带 libx264 的 FFmpeg。先准备素材和清单，选择支持中文的字体。
+Python 3 and Pillow required; preview videos also need FFmpeg with libx264. Prepare the assets and manifest first, and choose a font that supports Chinese.
 
-轻动效的清单和动作选项见[清单说明](references/manifest.md)，制作方法见[轻动效流程](references/light-motion.md)：
+Manifest and motion options for light motion: [manifest guide](references/manifest.md); production method: [light-motion workflow](references/light-motion.md):
 
 ```sh
 python3 scripts/export_pack.py manifest.json build --font /path/to/font.ttf --preview
 ```
 
-像素风在命令中加 `--render-style pixel`。插画和真人风默认使用 HD 合成。画风选择见[画风说明](references/appearance.md)。
+For pixel art add `--render-style pixel` to the command. Illustration and photographic use HD compositing by default. Appearance choices: [appearance reference](references/appearance.md).
 
-插画和真人的完整动作使用[连续姿势流程](references/keyframes.md)和独立脚本：
+Full actions for illustration and photographic use [the consecutive-pose workflow](references/keyframes.md) and its own script:
 
 ```sh
 python3 scripts/export_keyframes.py actions.json build-actions --font /path/to/font.ttf --preview
 ```
 
-像素风完整动作走单独的[像素动作流程](references/pixel-actions.md)，使用保留方格边缘的导出脚本：
+Pixel full actions take the separate [pixel action workflow](references/pixel-actions.md), using the exporter that preserves the blocky edges:
 
 ```sh
 python3 scripts/export_pixel_actions.py examples/pixel-actions/action-example.json build-pixel-actions --font /path/to/font.ttf
 ```
 
-上面两个完整动作脚本各自负责对应画风；新角色仍然先出一张小样，确认后再批量做。
+The two action scripts each cover their own art style; new characters still get one pilot first, then the batch once confirmed.
 
-[画面稳定性检查](references/stability.md)说明了逐帧检查、坏帧修补和重新检查的方法。[清晰度说明](references/clarity.md)负责处理模糊问题。检查记录与具体 GIF 版本绑定，修改后需要重查。
+[Visual stability checks](references/stability.md) explain per-frame inspection, bad-frame repair and re-checking. [The clarity guide](references/clarity.md) handles blur problems. Review records are tied to the exact GIF version; after an edit they must be re-checked.
 
-完整规则见 [Skill](SKILL.md)。预览由最终 GIF 生成；自动检查负责数量、时长、透明背景、裁切和压缩包等，不能自动判断画面是否好看。
+Full rules in the [Skill](SKILL.md). Previews are generated from the final GIFs; automated checks cover count, duration, transparent background, cropping and the ZIP — they cannot automatically judge whether the visuals look good.
 
-品牌短片的制作规则见[品牌宣传片流程](references/brand-film.md)，现成的可编辑示例见[面包店工程](examples/brand-films/manman-bakery/project/DELIVERY.md)。表情包导出脚本负责角色素材，广告需要另外的可编辑时间线。
+Brand-film rules: [brand-film workflow](references/brand-film.md); a ready editable example: [the bakery project](examples/brand-films/manman-bakery/project/DELIVERY.md). Sticker export scripts cover character assets; an ad needs a separate editable timeline.
 
 </details>

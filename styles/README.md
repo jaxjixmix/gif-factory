@@ -1,58 +1,58 @@
-# GIF 工厂 · 风格库
+# GIF Factory · Style Index
 
-先看效果，选一种做法，再换成你自己的角色或主题。这里有 **6 个浏览分类、10 个已有样例的 GIF 风格入口、75 个动态案例**；分类帮助找效果，实际制作仍分开记录外观、动作和用途。[返回首页](../README.md) · [完整作品库](../GALLERY.md)
+See how it looks first, pick an approach, then swap in your own character or theme. This index has **6 browse categories, 10 GIF style entries with samples, 75 animated cases**; categories help you find a look, while production still records appearance, motion and use separately. [Back to home](../README.md) · [Full gallery](../GALLERY.md)
 
-## 像素与游戏
+## Pixel & Games
 
-| 风格 | 动态案例 | 适合做什么 | 制作说明 |
+| Style | Animated Cases | Best For | Guide |
 | --- | --- | --- | --- |
-| 像素轻动效 | 6 张 | 聊天表情包、头像小动画 | [打开风格](pixel-light/STYLE.md) |
-| 像素完整动作 | 8 张 | 游戏感角色、动作表情包 | [打开风格](pixel-actions/STYLE.md) |
+| Pixel Light Motion (像素轻动效) | 6 | Sticker packs, small avatar animations | [Open style](pixel-light/STYLE.md) |
+| Pixel Full Actions (像素完整动作) | 8 | Game-style characters, action sticker packs | [Open style](pixel-actions/STYLE.md) |
 
-## 插画与二次元
+## Illustration & Anime
 
-| 风格 | 动态案例 | 适合做什么 | 制作说明 |
+| Style | Animated Cases | Best For | Guide |
 | --- | --- | --- | --- |
-| 插画角色动作 | 4 张 | 动漫角色、角色动作表情 | [打开风格](illustrated-actions/STYLE.md) |
+| Illustrated Character Actions (插画角色动作) | 4 | Anime characters, character action stickers | [Open style](illustrated-actions/STYLE.md) |
 
-## 真人与宠物
+## People & Pets
 
-| 风格 | 动态案例 | 适合做什么 | 制作说明 |
+| Style | Animated Cases | Best For | Guide |
 | --- | --- | --- | --- |
-| 真人轻动效 | 4 张 | 人物反应、个人聊天表情 | [打开风格](photo-people/STYLE.md) |
-| 宠物拟人 | 8 张 | 宠物聊天表情、趣味反应 | [打开风格](photo-pets/STYLE.md) |
+| Photographic People (真人风) | 4 | People reactions, personal chat stickers | [Open style](photo-people/STYLE.md) |
+| Photographic Pets (宠物写实) | 8 | Pet chat stickers, playful reactions | [Open style](photo-pets/STYLE.md) |
 
-## 材质与吉祥物
+## Materials & Mascots
 
-| 风格 | 动态案例 | 适合做什么 | 制作说明 |
+| Style | Animated Cases | Best For | Guide |
 | --- | --- | --- | --- |
-| 粘土吉祥物 | 4 张 | 虚构店铺、品牌 IP、产品搭档 | [打开风格](clay-mascot/STYLE.md) |
+| Clay Mascot (黏土吉祥物) | 4 | Fictional shops, brand IP, product sidekicks | [Open style](clay-mascot/STYLE.md) |
 
-## 卡片与变画
+## Cards & Transformations
 
-| 风格 | 动态案例 | 适合做什么 | 制作说明 |
+| Style | Animated Cases | Best For | Guide |
 | --- | --- | --- | --- |
-| 双状态光栅卡 | 9 张 | 收藏卡、人物双身份、产品两配色 | [打开风格](lenticular/STYLE.md) |
+| Lenticular Card (电子光栅卡) | 9 | Collectible cards, dual identities, product colorways | [Open style](lenticular/STYLE.md) |
 
-## 海报与文字
+## Posters & Type
 
-| 风格 | 动态案例 | 适合做什么 | 制作说明 |
+| Style | Animated Cases | Best For | Guide |
 | --- | --- | --- | --- |
-| 人物与字体联动 | 4 张 | 演出预告、人物宣传、换装展示 | [打开风格](type-linked/STYLE.md) |
-| 漫画印刷整体融合 | 9 张 | 角色宣传、活动主视觉、演出海报 | [打开风格](comic-fusion/STYLE.md) |
-| 动态艺术签名 | 19 款 | 名字、物体与渐变融合的两笔书写签名 | [打开风格](dynamic-signatures/STYLE.md) |
+| Type-Linked (文字联动) | 4 | Show teasers, character promotion, outfit showcases | [Open style](type-linked/STYLE.md) |
+| Comic Fusion (漫画印刷融合) | 9 | Character promotion, event key visuals, show posters | [Open style](comic-fusion/STYLE.md) |
+| Dynamic Art Signature (动态艺术签名) | 19 | Two-stroke writing signatures where name, object and gradient merge | [Open style](dynamic-signatures/STYLE.md) |
 
-## 扩展应用：品牌短片
+## Extension: Brand Films
 
-吉祥物也能与产品、包装和纸片场景组合成品牌短片。它交付视频和可编辑工程，单独放在扩展区，不计入上面的 GIF 风格数。[面包店案例](../examples/brand-films/manman-bakery/README.md) · [品牌短片制作流程](../references/brand-film.md)
+Mascots can also combine with products, packaging and paper-cutout scenes into brand films. These deliver video plus an editable project, live alone in the extensions area, and don't count toward the GIF style totals above. [Bakery case](../examples/brand-films/manman-bakery/README.md) · [Brand film workflow](../references/brand-film.md)
 
-## 扩展应用：紧凑动态绘本
+## Extension: Compact Storybook (紧凑动态绘本)
 
-固定画面、一次做完动作、短暂停留再翻页。默认每页约3秒、实际6fps，输出独立页面或翻书合集；单独归为叙事扩展，不计入循环GIF数量。
+Fixed framing, one action completed in a single pass, a short hold, then the page turns. Default about 3 seconds per page at effectively 6fps; output as standalone pages or a flip-through collection. Listed separately as a narrative extension, not counted in looping-GIF totals.
 
-[风格与适用素材](compact-storybook/STYLE.md) · [完整绘本案例](../examples/storybooks/tea-party/README.md) · [稳定版Skill](../skills/compact-storybook/SKILL.md)
+[Style and suitable assets](compact-storybook/STYLE.md) · [Full storybook case](../examples/storybooks/tea-party/README.md) · [Stable skill](../skills/compact-storybook/SKILL.md)
 
-## 新风格怎么加入
+## Adding a New Style
 
-先完成一个可看的小样，再给它独立的 `STYLE.md`：外观、动作、适用素材、提示词、制作流程、案例与限制。循环GIF入口登记到 `catalog.json`，放进对应分类；动态绘本、品牌短片这类叙事扩展单独列出，不放进循环GIF预览脚本；只有设想、被弃用或待确认的修正版留在作品库说明中，不靠换角色名字增加风格数量。
+Finish a viewable sample first, then give it its own `STYLE.md`: appearance, motion, suitable assets, prompts, production workflow, cases and limits. Register looping-GIF entries in `catalog.json` under the matching category; narrative extensions like storybooks and brand films are listed separately and stay out of the looping-GIF preview script; keep only ideas, discarded or unconfirmed revisions in the gallery notes, and don't grow the style count by swapping character names.
 

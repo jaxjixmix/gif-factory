@@ -113,7 +113,7 @@
   },
   {
     "style": "illustrated-actions",
-    "source": "examples/mixed-actions/02-二次元/005.gif",
+    "source": "examples/mixed-actions/02-anime/005.gif",
     "preview": "docs/previews/illustrated-actions.gif",
     "duration_ms": 1120,
     "frames": 6,
@@ -121,7 +121,7 @@
   },
   {
     "style": "illustrated-actions",
-    "source": "examples/mixed-actions/02-二次元/004.gif",
+    "source": "examples/mixed-actions/02-anime/004.gif",
     "preview": "docs/previews/illustrated-actions-02.gif",
     "duration_ms": 1120,
     "frames": 6,

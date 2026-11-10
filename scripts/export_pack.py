@@ -304,7 +304,7 @@ def gallery(title, groups, folder, render_style='hd'):
             items.append(f'<a href="{src}"><img loading="lazy" alt="{caption}" data-src="{src}" width="160" height="160"><span>{caption}</span></a>')
         content.append(f'<section id="s{n}" hidden><h2>{name}</h2><div class="grid">{"".join(items)}</div></section>')
     page=f"""<!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{text}</title>
 <style>
@@ -313,7 +313,7 @@ h1{{font-size:clamp(24px,5vw,43px);margin:0}}p{{color:#5d4b70}}nav{{display:flex
 button{{font:inherit;border:1px solid #cbbcd7;border-radius:10px;padding:9px 12px;background:#fff9f4;color:inherit;cursor:pointer}}button[aria-pressed="true"]{{background:#372946;color:white}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(135px,1fr));gap:12px}}a{{display:grid;justify-items:center;background:#fffaf6;border:1px solid #dccde4;border-radius:12px;padding:8px;text-decoration:none;color:inherit}}img{{width:100%;height:auto;max-width:180px;image-rendering:{image_rendering}}}span{{padding-bottom:4px;font-size:13px}}
 </style>
-<header><h1>{text}</h1><p>选择分类播放 GIF。点击任意一张可单独打开。</p></header>
+<header><h1>{text}</h1><p>Pick a group to play its GIFs. Click any tile to open it on its own.</p></header>
 <nav>{"".join(tabs)}</nav>{"".join(content)}
 <script>
 function show(i) {{
@@ -327,7 +327,7 @@ document.querySelectorAll('button').forEach((b,n)=>b.addEventListener('click',()
 show(0);
 </script>
 </html>"""
-    (folder/'动图浏览.html').write_text(page,encoding='utf-8')
+    (folder/'gallery.html').write_text(page,encoding='utf-8')
 
 def decoded_frames(path, scale):
     items=[]
@@ -424,7 +424,7 @@ def export(args):
     all_text=set()
     seen_cells=set()
     args.output.mkdir(parents=True,exist_ok=True)
-    folder=args.output/'GIF合集'
+    folder=args.output/'gif-collection'
     folder.mkdir()
     for idx,group in enumerate(manifest['groups'],1):
         group_dir=folder/f'{idx:02d}-{clean_filename(group["name"])}'
@@ -451,9 +451,9 @@ def export(args):
     assert len(set(item[1] for item in results))==count,'Duplicate visual poses'
     visible_groups=[(group,paths[span]) for group,span in groups]
     gallery(manifest['title'],visible_groups,folder,style)
-    bundle=args.output/f'{clean_filename(manifest["title"])}-{count}张GIF.zip'
+    bundle=args.output/f'{clean_filename(manifest["title"])}-{count}-gifs.zip'
     with ZipFile(bundle,'w',ZIP_DEFLATED) as z:
-        for path in [*paths,folder/'动图浏览.html']:
+        for path in [*paths,folder/'gallery.html']:
             z.write(path,path.relative_to(folder).as_posix())
     with ZipFile(bundle) as z:
         assert z.testzip() is None
@@ -463,9 +463,9 @@ def export(args):
     if args.preview:
         layout=args.preview_layout or ('clean' if style=='hd' else 'chapters')
         if layout=='clean':
-            clean_preview(visible_groups,args.output/'动态预览.mp4')
+            clean_preview(visible_groups,args.output/'preview.mp4')
         else:
-            preview(manifest['title'],visible_groups,args.output/'动态预览.mp4',args.font,args.font_index)
+            preview(manifest['title'],visible_groups,args.output/'preview.mp4',args.font,args.font_index)
     print(json.dumps({'gif_count':count,'unique_art':count,'unique_frame_min':min(r[2] for r in results),
                       'render_style':style,'size':512 if style=='hd' else 320,
                       'zip':str(bundle),'preview':args.preview},ensure_ascii=False))

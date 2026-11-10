@@ -1,45 +1,45 @@
-# 风送来的茶会 · 紧凑动态绘本
+# A Tea Party Brought by the Wind (风送来的茶会) · Compact Storybook (紧凑动态绘本)
 
-[返回首页](../../../README.md) · [风格说明](../../../styles/compact-storybook/STYLE.md) · [完整 Skill](../../../skills/compact-storybook/SKILL.md)
+[Back to home](../../../README.md) · [Style guide](../../../styles/compact-storybook/STYLE.md) · [Full Skill](../../../skills/compact-storybook/SKILL.md)
 
-小熊备好三只杯子，请女孩把邀请折成纸鸟。狐狸收到信，带一片秋天来做客，最后大家把这一天夹进故事书。
+The little bear sets out three cups and asks the girl to fold the invitation into a paper bird. The fox receives the letter and comes to visit bringing a piece of autumn; in the end everyone presses the day into the storybook.
 
-## 真实书本与书写版
+## Real-book and handwriting editions
 
 <table>
 <tr>
-<td align="center" valign="top"><strong>横屏 · 左字右图</strong><br><a href="realbook-writing.mp4"><img src="realbook-writing-preview.gif" alt="横屏真实书本与正文书写预览" width="440"></a></td>
-<td align="center" valign="top"><strong>竖屏 · 图上字下</strong><br><a href="portrait-writing.mp4"><img src="portrait-writing-preview.gif" alt="竖屏白框书页与正文书写预览" width="200"></a></td>
+<td align="center" valign="top"><strong>Landscape · text left, image right</strong><br><a href="realbook-writing.mp4"><img src="realbook-writing-preview.gif" alt="Landscape preview of the real book with body text being written" width="440"></a></td>
+<td align="center" valign="top"><strong>Portrait · image top, text bottom</strong><br><a href="portrait-writing.mp4"><img src="portrait-writing-preview.gif" alt="Portrait preview of the white-framed book page with body text being written" width="200"></a></td>
 </tr>
 </table>
 
-[横屏观看 / 下载](realbook-writing.mp4) · [竖屏观看 / 下载](portrait-writing.mp4)。两版均54秒、12页、6fps，含15组正文书写与相同配乐。
+[Watch / download landscape](realbook-writing.mp4) · [Watch / download portrait](portrait-writing.mp4). Both editions are 54 seconds, 12 pages, 6fps, with the same 15 body-text writing sequences and music.
 
-横屏：1920×1080、实际6fps、324帧、12页；正俯拍薄纸书本，原插画动画，15组正文落页后快速写出，配轻微沙沙声。标题和页码静态。版式与书写三页样片已获认可；完整版已逐组检查完成文字及声音间隔。
+Landscape: 1920×1080, effectively 6fps, 324 frames, 12 pages; a straight top-down shot of a thin-paper book with the original illustration animation. The 15 body-text sequences are written out quickly as each page lands, with a light rustling sound. Title and page numbers are static. The layout and the three-page writing sample have been accepted; the full version has been checked sequence by sequence for text and sound timing.
 
-竖屏采用**手机阅读优化版：1080×1920、54秒、324帧**，单页图上字下、两行手写居中。插画放大至912px、正文78px，减少侧边桌面留白，并为右侧互动栏和底部标题留出空间；保留白框、真实纸纹和木面。以横屏底板为材质参考单独制作竖屏空白单页，并重排原动画；没有将横屏整本缩小或裁切。15组正文完成状态、翻页及音轨已检查，详见 [竖屏规格检查](portrait-verification.json)。
+Portrait uses the **mobile reading optimised edition: 1080×1920, 54 seconds, 324 frames**, with each page image on top and two centred lines of handwriting below. Illustrations are enlarged to 912px and body text to 78px, reducing the side desk margins and leaving room for the right-hand interaction column and the bottom title; the white frame, real paper texture and wooden surface are kept. A separate blank portrait page was made with the landscape base plate as the material reference, and the original animation was re-arranged; the landscape book was not scaled down or cropped. The 15 body-text completion states, page turns and audio track have been checked — see [portrait specification check](portrait-verification.json).
 
-**音乐制作说明**：配乐可用 Suno、Gemini 这类工具单独制作，再导出音频交给本流程混音。本案例使用用户通过 Gemini 一侧制作并提供的《Candle at Dusk》，选取开头54秒，降低音量、首尾淡入淡出；不声称本案例用了 Suno，也不猜测底层模型。书写音效另取自 [SFXMint](https://sfxmint.com/sounds/pencil-writing-01)，来源标注 CC0 和 AI 生成。音乐、音效与代码的许可分别处理；音乐不随仓库代码自动转授 MIT 权利。
+**Music production note**: the soundtrack can be made separately with tools like Suno or Gemini, then exported and handed to this pipeline for mixing. This case uses "Candle at Dusk", produced and supplied by the user through Gemini; the first 54 seconds are used, lowered in volume with fades at both ends. No claim is made that Suno was used for this case, and the underlying model is not guessed. The writing sound effect comes from [SFXMint](https://sfxmint.com/sounds/pencil-writing-01), credited as CC0 and AI-generated. Music, sound effects and code are licensed separately; the music does not automatically carry the repository's MIT rights.
 
-真实材质底板由已认可书本图编辑去除文字和插画，再叠回原字体与角色动画。标准笔顺中线近似映射手写字形，不声称恢复了字体真实书写轨迹；未打包系统字体、原始曲目或整份笔顺数据。
+The real-material base plate was made by editing the accepted book image to remove text and illustrations, then compositing the original font and character animation back on. Standard stroke-order centre lines approximate the handwritten glyphs; no claim is made that the font's real writing trajectory was recovered. No system fonts, the original track or the full stroke-order data are bundled.
 
-## 12页独立动作素材
+## 12 standalone page action clips
 
-[打包下载独立动作](pages.zip)。以下是不带书框的原始单页素材，适合参考动作或继续编排。
+[Download all standalone actions](pages.zip). Below are the raw single-page assets without the book frame, useful for referencing the motion or continuing your own edit.
 
-| 页 | 动作 | 页 | 动作 |
+| Page | Action | Page | Action |
 | --- | --- | --- | --- |
-| 01 | [水快开了](pages/01.mp4) | 07 | [原来是邀请](pages/07.mp4) |
-| 02 | [三只杯子](pages/02.mp4) | 08 | [带一片秋天](pages/08.mp4) |
-| 03 | [帮我送封信](pages/03.mp4) | 09 | [前面的暖光](pages/09.mp4) |
-| 04 | [折一只纸鸟](pages/04.mp4) | 10 | [终于等到你](pages/10.mp4) |
-| 05 | [跟着风走](pages/05.mp4) | 11 | [一起吹一吹](pages/11.mp4) |
-| 06 | [落在鼻尖前](pages/06.mp4) | 12 | [把今天留下](pages/12.mp4) |
+| 01 | [The water's nearly boiling](pages/01.mp4) | 07 | [So it's an invitation](pages/07.mp4) |
+| 02 | [Three cups](pages/02.mp4) | 08 | [Bringing a piece of autumn](pages/08.mp4) |
+| 03 | [Send this letter for me](pages/03.mp4) | 09 | [Warm light ahead](pages/09.mp4) |
+| 04 | [Fold a paper bird](pages/04.mp4) | 10 | [Finally, you're here](pages/10.mp4) |
+| 05 | [Follow the wind](pages/05.mp4) | 11 | [Blowing on it together](pages/11.mp4) |
+| 06 | [Lands at the nose tip](pages/06.mp4) | 12 | [Keeping today](pages/12.mp4) |
 
-## 方法与检查
+## Method and checks
 
-角色参考参与图像生成；透明关键姿态与固定背景逐帧组合，纸鸟使用轨迹与手心锚点衔接，翻页单独制作。没有使用连续生成视频或插帧。
+Character references were used in image generation; transparent key poses are composited frame by frame over a fixed background, the paper bird is joined using trajectory and palm anchor points, and page turns were made separately. No continuously generated video or frame interpolation was used.
 
-已核对实际导出帧率、时长、帧数，检查首中末帧及道具交接；修正过纸鸟落点和杯子桌面位置。真实书本与书写样片已获认可，54秒成片已完成逐页与声音检查。规格记录见 [verification.json](verification.json)，规格检查不代表所有新故事都能自动稳定。
+The actual export frame rate, duration and frame count were verified, and the first, middle and last frames plus prop hand-offs were checked; the paper bird's landing point and the cups' desk position were corrected. The real-book and writing samples have been accepted, and the 54-second film has passed page-by-page and audio checks. Specification records are in [verification.json](verification.json); a specification check does not mean every new story will automatically be stable.
 
-本目录发布当前成片、独立动作素材及预览。可复用的制作规则和检查脚本在独立 Skill 中；此处不包含系统字体和私人原图，也不承诺案例资产的独占商用权。
+This directory publishes the current film, the standalone action clips and previews. Reusable production rules and check scripts live in the standalone Skill; no system fonts or private source images are included here, and no exclusive commercial rights to the case assets are promised.
